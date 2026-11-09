@@ -1,0 +1,47 @@
+# Configurable alert rules. Types:
+#   price_above / price_below : close crosses an absolute threshold (quote currency)
+#   pct_move                  : |daily simple return| >= threshold (fraction)
+#   volume_spike              : volume >= threshold x trailing 30-day median volume
+#   stale_data                : latest observation older than threshold hours
+# asset_id = "*" applies the rule to every asset in the universe.
+# channels: "dashboard" (always on) and "log" (appends to logs/alerts.log).
+
+[[rule]]
+rule_id = "R001"
+name = "Large daily move"
+type = "pct_move"
+asset_id = "*"
+threshold = 0.15
+channels = ["dashboard", "log"]
+
+[[rule]]
+rule_id = "R002"
+name = "Volume spike"
+type = "volume_spike"
+asset_id = "*"
+threshold = 3.0
+channels = ["dashboard"]
+
+[[rule]]
+rule_id = "R003"
+name = "Aurora above 45k"
+type = "price_above"
+asset_id = "demo-aurora"
+threshold = 45000
+channels = ["dashboard"]
+
+[[rule]]
+rule_id = "R004"
+name = "Borealis below 1.5k"
+type = "price_below"
+asset_id = "demo-borealis"
+threshold = 1500
+channels = ["dashboard"]
+
+[[rule]]
+rule_id = "R005"
+name = "Stale market data"
+type = "stale_data"
+asset_id = "*"
+threshold = 36
+channels = ["dashboard", "log"]

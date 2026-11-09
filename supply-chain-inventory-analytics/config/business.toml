@@ -1,0 +1,42 @@
+# Business parameters for the supply chain analytics model.
+# All values are configurable assumptions for the synthetic demo; agree real values with finance/planning.
+
+[currency]
+base = "USD"
+# Static demo FX rates (1 unit of currency = x USD). Production: daily rates from finance's FX table.
+fx_to_usd = { USD = 1.0, EUR = 1.08, GBP = 1.27 }
+
+[uom]
+# Base unit of measure is EA (each). CS (case) converts using dim_product.case_pack.
+base = "EA"
+fixed_factors = { EA = 1, DZ = 12 }
+product_factor_uoms = ["CS"]
+
+[service_level]
+default = 0.95
+by_abc = { A = 0.98, B = 0.95, C = 0.90 }
+
+[classification]
+abc_a_share = 0.80          # cumulative share of annual consumption value
+abc_b_share = 0.95
+xyz_x_cv = 0.5              # coefficient of variation of weekly demand
+xyz_y_cv = 1.0
+lookback_weeks = 52
+
+[inventory]
+demand_lookback_days = 90   # window for average daily demand / variability
+review_period_days = 7      # periodic review cycle used in target stock
+carrying_cost_rate = 0.25   # annual holding cost as share of inventory value
+slow_moving_days = 90       # no outbound movement for this many days => no-movement stock
+slow_cover_days = 180       # cover above this => slow-moving
+snapshot_max_age_hours = 36 # freshness tolerance for location snapshots
+
+[procurement]
+in_full_tolerance = 0.0     # share of ordered qty that may be short and still count as in-full
+transit_days = 3            # dispatch-to-receipt assumption used for in-transit stock
+
+[forecast]
+horizon_weeks = 8
+backtest_origins = 4
+backtest_horizon_weeks = 4
+interval_z = 1.28           # ~80% prediction interval from backtest RMSE

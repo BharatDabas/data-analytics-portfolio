@@ -1,0 +1,9 @@
+supplier_id,supplier_name,region,country,currency,payment_terms_days,approved_status,category,nominal_lead_time_days
+SUP-001,Northwind Electrical Supply,Europe,DE,EUR,60,Approved,Electrical,14
+SUP-002,Brightline Components,Asia,CN,USD,45,Approved,Electrical,35
+SUP-003,Ironclad Fixings Ltd,Europe,GB,GBP,30,Approved,Fasteners,10
+SUP-004,Pacific Fastener Co,Asia,TW,USD,60,Conditional,Fasteners,28
+SUP-005,Corrugate Packaging Group,Europe,NL,EUR,30,Approved,Packaging,7
+SUP-006,SafeHands Workwear,Europe,GB,GBP,45,Approved,Safety,12
+SUP-007,Atlas Hydraulics Inc,North America,US,USD,30,Approved,Hydraulics,18
+SUP-008,Meridian Industrial Trading,Asia,IN,USD,60,Under review,Hydraulics,32

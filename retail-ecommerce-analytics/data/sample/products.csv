@@ -1,0 +1,121 @@
+product_id,sku,product_name,category,brand,list_price_gbp,unit_cost_gbp,lifecycle_status,launch_date
+P0001, APP-0001 ,Elmstead Hoodie,Apparel,Elmstead,73.99,30.77,active,2026-04-27
+P0002, APP-0002 ,Brightline Knit Dress,Apparel,Brightline,74.99,27.69,active,2023-11-19
+P0003, APP-0003 ,Duneworks Overshirt,Apparel,Duneworks,76.99,32.07,discontinued,2025-12-26
+P0004, APP-0004 ,Duneworks Knit Dress,Apparel,Duneworks,72.99,29.43,new,2026-08-08
+P0005, APP-0005 ,Brightline Knit Dress,Apparel,Brightline,31.99,13.44,active,2024-11-26
+P0006, APP-0006 ,Duneworks Merino Crew,Apparel,Duneworks,40.99,16.62,active,2024-06-07
+P0007, APP-0007 ,Fenwick Studio Linen Shirt,Apparel,Fenwick Studio,33.99,15.31,active,2025-10-28
+P0008, APP-0008 ,Elmstead Merino Crew,Apparel,Elmstead,75.99,31.01,active,2025-06-18
+P0009, APP-0009 ,Elmstead Hoodie,Apparel,Elmstead,18.99,8.89,active,2025-01-30
+P0010, APP-0010 ,Fenwick Studio Hoodie,Apparel,Fenwick Studio,27.99,10.28,active,2025-02-10
+P0011, APP-0011 ,Corvo Chino,Apparel,Corvo,63.99,27.71,discontinued,2024-04-24
+P0012, APP-0012 ,Fenwick Studio Chino,Apparel,Fenwick Studio,46.99,22.46,discontinued,2025-03-02
+P0013, APP-0013 ,Elmstead Rain Jacket,Apparel,Elmstead,65.99,28.61,active,2023-11-01
+P0014, APP-0014 ,Fenwick Studio Merino Crew,Apparel,Fenwick Studio,19.99,7.27,active,2024-04-07
+P0015, APP-0015 ,Corvo Tee,Apparel,Corvo,28.99,13.17,active,2025-10-23
+P0016, APP-0016 ,Corvo Knit Dress,Apparel,Corvo,23.99,8.82,new,2026-07-12
+P0017, APP-0017 ,Fenwick Studio Tee,Apparel,Fenwick Studio,36.99,18.32,active,2025-08-01
+P0018, APP-0018 ,Fenwick Studio Hoodie,Apparel,Fenwick Studio,82.99,34.72,active,2025-07-23
+P0019, APP-0019 ,Duneworks Merino Crew,Apparel,Duneworks,79.99,37.1,active,2024-08-16
+P0020, APP-0020 ,Brightline Chino,Apparel,Brightline,23.99,9.89,active,2024-10-24
+P0021, APP-0021 ,Greyhaven Rain Jacket,Apparel,Greyhaven,24.99,10.95,active,2025-06-29
+P0022, APP-0022 ,Alder & Co Linen Shirt,Apparel,Alder & Co,19.99,9.87,active,2025-05-19
+P0023, APP-0023 ,Duneworks Knit Dress,Apparel,Duneworks,52.99,26.0,active,2024-11-30
+P0024, APP-0024 ,Duneworks Merino Crew,Apparel,Duneworks,49.99,17.66,active,2025-06-01
+P0025, APP-0025 ,Elmstead Knit Dress,Apparel,Elmstead,25.99,11.72,active,2025-08-16
+P0026, APP-0026 ,Duneworks Chino,Apparel,Duneworks,83.99,32.3,active,2024-05-17
+P0027, APP-0027 ,Corvo Hoodie,Apparel,Corvo,75.99,30.21,new,2026-07-12
+P0028, APP-0028 ,Greyhaven Knit Dress,Apparel,Greyhaven,84.99,31.85,active,2024-12-23
+P0029, APP-0029 ,Duneworks Linen Shirt,Apparel,Duneworks,71.99,34.82,active,2026-05-01
+P0030, APP-0030 ,Alder & Co Knit Dress,Apparel,Alder & Co,44.99,16.38,active,2024-05-14
+P0031, FOO-0031 ,Brightline Canvas Sneaker,Footwear,Brightline,56.99,29.9,active,2024-06-05
+P0032, FOO-0032 ,Duneworks Trail Shoe,Footwear,Duneworks,73.99,38.22,new,2026-08-15
+P0033, FOO-0033 ,Elmstead Chelsea Boot,Footwear,Elmstead,45.99,19.98,active,2026-03-01
+P0034, FOO-0034 ,Alder & Co Canvas Sneaker,Footwear,Alder & Co,99.99,42.99,active,2024-12-31
+P0035, FOO-0035 ,Corvo Trail Shoe,Footwear,Corvo,56.99,30.73,active,2023-11-21
+P0036, FOO-0036 ,Brightline Trail Shoe,Footwear,Brightline,71.99,38.78,active,2024-08-17
+P0037, FOO-0037 ,Elmstead Chelsea Boot,Footwear,Elmstead,57.99,26.84,new,2026-05-08
+P0038, FOO-0038 ,Corvo Canvas Sneaker,Footwear,Corvo,88.99,46.07,active,2023-12-26
+P0039, FOO-0039 ,Greyhaven Chelsea Boot,Footwear,Greyhaven,66.99,32.13,active,2023-12-26
+P0040, FOO-0040 ,Brightline Loafer,Footwear,Brightline,84.99,42.31,new,2026-06-11
+P0041, FOO-0041 ,Alder & Co Loafer,Footwear,Alder & Co,66.99,34.29,discontinued,2023-12-03
+P0042, FOO-0042 ,Elmstead Runner,Footwear,Elmstead,122.99,54.92,active,2024-10-15
+P0043, FOO-0043 ,Alder & Co Canvas Sneaker,Footwear,Alder & Co,59.99,25.04,active,2024-07-08
+P0044, FOO-0044 ,Fenwick Studio Sandal,Footwear,Fenwick Studio,109.99,50.49,active,2026-01-29
+P0045, FOO-0045 ,Brightline Sandal,Footwear,Brightline,48.99,,active,2025-08-30
+P0046, FOO-0046 ,Alder & Co Runner,Footwear,Alder & Co,79.99,38.28,active,2025-03-19
+P0047, FOO-0047 ,Greyhaven Chelsea Boot,Footwear,Greyhaven,53.99,28.43,new,2026-05-18
+P0048, FOO-0048 ,Corvo Trail Shoe,Footwear,Corvo,105.99,54.78,active,2024-04-18
+P0049, ACC-0049 ,Brightline Leather Belt,Accessories,Brightline,38.99,13.95,active,2025-08-11
+P0050, ACC-0050 ,Duneworks Leather Belt,Accessories,Duneworks,24.99,8.87,active,2025-01-25
+P0051, ACC-0051 ,Duneworks Card Wallet,Accessories,Duneworks,28.99,12.82,new,2026-08-12
+P0052, ACC-0052 ,Fenwick Studio Cap,Accessories,Fenwick Studio,60.99,24.27,active,2025-06-04
+P0053, ACC-0053 ,Greyhaven Sunglasses,Accessories,Greyhaven,54.99,18.17,active,2025-01-03
+P0054, ACC-0054 ,Fenwick Studio Tote Bag,Accessories,Fenwick Studio,53.99,16.88,new,2026-07-10
+P0055, ACC-0055 ,Fenwick Studio Tote Bag,Accessories,Fenwick Studio,57.99,22.56,active,2023-10-31
+P0056, ACC-0056 ,Alder & Co Cap,Accessories,Alder & Co,17.99,7.06,active,2025-08-08
+P0057, ACC-0057 ,Duneworks Tote Bag,Accessories,Duneworks,41.99,17.41,active,2024-12-21
+P0058, ACC-0058 ,Greyhaven Card Wallet,Accessories,Greyhaven,18.99,5.95,active,2023-12-27
+P0059, ACC-0059 ,Brightline Cap,Accessories,Brightline,30.99,13.47,active,2024-09-10
+P0060, ACC-0060 ,Alder & Co Card Wallet,Accessories,Alder & Co,20.99,9.24,active,2025-06-16
+P0061, ACC-0061 ,Corvo Tote Bag,Accessories,Corvo,65.99,27.52,active,2025-11-15
+P0062, ACC-0062 ,Duneworks Cap,Accessories,Duneworks,18.99,8.12,active,2024-06-30
+P0063, ACC-0063 ,Corvo Wool Scarf,Accessories,Corvo,12.99,4.78,active,2025-03-06
+P0064, ACC-0064 ,Alder & Co Sunglasses,Accessories,Alder & Co,64.99,27.11,active,2025-02-25
+P0065, ACC-0065 ,Elmstead Cap,Accessories,Elmstead,60.99,19.27,active,2026-04-18
+P0066, ACC-0066 ,Fenwick Studio Wool Scarf,Accessories,Fenwick Studio,13.99,4.7,active,2025-12-28
+P0067, ACC-0067 ,Alder & Co Sunglasses,Accessories,Alder & Co,49.99,15.27,active,2025-10-31
+P0068, ACC-0068 ,Alder & Co Card Wallet,Accessories,Alder & Co,60.99,18.82,active,2024-04-18
+P0069, HOM-0069 ,Alder & Co Linen Cushion,Home,Alder & Co,136.99,62.47,active,2025-12-08
+P0070, HOM-0070 ,Alder & Co Ceramic Mug Set,Home,Alder & Co,137.99,65.31,active,2024-06-06
+P0071, HOM-0071 ,Elmstead Ceramic Mug Set,Home,Elmstead,156.99,85.05,discontinued,2026-01-14
+P0072, HOM-0072 ,Elmstead Table Lamp,Home,Elmstead,39.99,18.55,active,2024-02-06
+P0073, HOM-0073 ,Greyhaven Table Lamp,Home,Greyhaven,106.99,57.33,active,2025-08-12
+P0074, HOM-0074 ,Elmstead Table Lamp,Home,Elmstead,108.99,64.42,active,2024-10-30
+P0075, HOM-0075 ,Corvo Glass Carafe,Home,Corvo,31.99,15.04,active,2025-12-25
+P0076, HOM-0076 ,Elmstead Ceramic Mug Set,Home,Elmstead,74.99,,active,2024-10-01
+P0077, HOM-0077 ,Elmstead Linen Cushion,Home,Elmstead,75.99,39.6,active,2025-12-24
+P0078, HOM-0078 ,Brightline Table Lamp,Home,Brightline,109.99,54.71,active,2024-07-14
+P0079, HOM-0079 ,Greyhaven Planter,Home,Greyhaven,66.99,35.3,active,2024-11-16
+P0080, HOM-0080 ,Alder & Co Throw Blanket,Home,Alder & Co,130.99,65.12,active,2025-01-02
+P0081, HOM-0081 ,Corvo Glass Carafe,Home,Corvo,136.99,62.79,active,2024-11-10
+P0082, HOM-0082 ,Corvo Table Lamp,Home,Corvo,16.99,9.75,new,2026-05-28
+P0083, HOM-0083 ,Greyhaven Table Lamp,Home,Greyhaven,101.99,47.73,active,2025-01-04
+P0084, HOM-0084 ,Corvo Throw Blanket,Home,Corvo,114.99,63.91,active,2024-05-14
+P0085, HOM-0085 ,Fenwick Studio Planter,Home,Fenwick Studio,90.99,43.18,active,2025-03-18
+P0086, HOM-0086 ,Corvo Throw Blanket,Home,Corvo,158.99,74.92,active,2024-11-18
+P0087, HOM-0087 ,Brightline Planter,Home,Brightline,77.99,40.59,active,2025-06-23
+P0088, HOM-0088 ,Alder & Co Throw Blanket,Home,Alder & Co,56.99,29.84,active,2026-02-06
+P0089, HOM-0089 ,Elmstead Linen Cushion,Home,Elmstead,136.99,74.75,active,2025-03-28
+P0090, HOM-0090 ,Duneworks Glass Carafe,Home,Duneworks,92.99,46.57,active,2026-01-25
+P0091, BEA-0091 ,Fenwick Studio Lip Balm,Beauty,Fenwick Studio,26.99,10.43,active,2025-12-02
+P0092, BEA-0092 ,Elmstead Lip Balm,Beauty,Elmstead,11.99,3.71,new,2026-06-23
+P0093, BEA-0093 ,Greyhaven Body Wash,Beauty,Greyhaven,20.99,5.85,active,2024-10-04
+P0094, BEA-0094 ,Elmstead Candle,Beauty,Elmstead,7.99,2.33,active,2025-06-22
+P0095, BEA-0095 ,Fenwick Studio Hand Cream,Beauty,Fenwick Studio,25.99,9.47,new,2026-06-26
+P0096, BEA-0096 ,Elmstead Lip Balm,Beauty,Elmstead,39.99,10.68,active,2023-11-30
+P0097, BEA-0097 ,Fenwick Studio Lip Balm,Beauty,Fenwick Studio,43.99,17.49,active,2024-04-01
+P0098, BEA-0098 ,Greyhaven Body Wash,Beauty,Greyhaven,9.99,3.66,active,2025-05-19
+P0099, BEA-0099 ,Duneworks Hand Cream,Beauty,Duneworks,22.99,8.48,active,2025-09-04
+P0100, BEA-0100 ,Greyhaven Shampoo Bar,Beauty,Greyhaven,8.99,2.75,active,2024-01-02
+P0101, BEA-0101 ,Fenwick Studio Candle,Beauty,Fenwick Studio,36.99,14.05,discontinued,2025-04-08
+P0102, BEA-0102 ,Duneworks Face Serum,Beauty,Duneworks,39.99,10.02,active,2025-08-24
+P0103, BEA-0103 ,Fenwick Studio Shampoo Bar,Beauty,Fenwick Studio,40.99,14.38,active,2025-03-20
+P0104, BEA-0104 ,Greyhaven Hand Cream,Beauty,Greyhaven,29.99,9.28,active,2024-03-04
+P0105, BEA-0105 ,Greyhaven Shampoo Bar,Beauty,Greyhaven,20.99,7.51,active,2024-12-07
+P0106, BEA-0106 ,Alder & Co Body Wash,Beauty,Alder & Co,28.99,11.59,active,2025-03-27
+P0107, BEA-0107 ,Alder & Co Lip Balm,Beauty,Alder & Co,25.99,7.02,active,2026-01-04
+P0108, BEA-0108 ,Greyhaven Shampoo Bar,Beauty,Greyhaven,30.99,9.34,active,2026-03-01
+P0109, ELE-0109 ,Corvo Desk Speaker,Electronics,Corvo,92.99,68.31,active,2024-11-14
+P0110, ELE-0110 ,Corvo Desk Speaker,Electronics,Corvo,159.99,111.68,active,2024-12-11
+P0111, ELE-0111 ,Fenwick Studio Smart Plug,Electronics,Fenwick Studio,221.99,142.63,active,2025-08-10
+P0112, ELE-0112 ,Brightline Smart Plug,Electronics,Brightline,248.99,174.59,active,2025-02-28
+P0113, ELE-0113 ,Greyhaven Charging Dock,Electronics,Greyhaven,153.99,,active,2025-06-12
+P0114, ELE-0114 ,Elmstead Wireless Earbuds,Electronics,Elmstead,240.99,148.32,active,2025-03-05
+P0115, ELE-0115 ,Alder & Co Smart Plug,Electronics,Alder & Co,143.99,93.15,active,2024-03-05
+P0116, ELE-0116 ,Brightline Wireless Earbuds,Electronics,Brightline,75.99,49.04,active,2026-01-23
+P0117, ELE-0117 ,Duneworks Power Bank,Electronics,Duneworks,219.99,132.03,active,2025-07-20
+P0118, ELE-0118 ,Greyhaven Power Bank,Electronics,Greyhaven,214.99,137.39,active,2025-03-06
+P0119, ELE-0119 ,Alder & Co Power Bank,Electronics,Alder & Co,79.99,51.96,new,2026-06-21
+P0120, ELE-0120 ,Alder & Co Wireless Earbuds,Electronics,Alder & Co,62.99,38.24,active,2025-02-09

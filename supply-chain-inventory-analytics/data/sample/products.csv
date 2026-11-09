@@ -1,0 +1,16 @@
+sku,product_name,category,base_uom,case_pack,unit_cost_usd,primary_supplier_id,moq_units,lifecycle_status,launch_date
+SKU-1001,Cable Tie 300mm,Electrical,EA,6,4.76,SUP-001,24,Active,2025-05-09
+SKU-1002,Hex Bolt M10,Fasteners,EA,50,28.52,SUP-004,100,Active,2025-05-09
+SKU-1003,Carton 400x300,Packaging,EA,6,1.91,SUP-005,6,Active,2025-05-09
+SKU-1004,Nitrile Gloves L,Safety,EA,24,3.66,SUP-006,96,Active,2025-05-09
+SKU-1005,Hydraulic Hose 1/2,Hydraulics,EA,24,9.81,SUP-007,48,Active,2025-05-09
+SKU-1006,Junction Box IP65,Electrical,EA,50,13.24,SUP-002,100,Active,2025-05-09
+SKU-1007,Wood Screw 4x40,Fasteners,EA,50,32.44,SUP-003,100,Active,2025-05-09
+SKU-1008,Stretch Wrap 23mu,Packaging,EA,12,29.31,SUP-005,24,Active,2025-05-09
+SKU-1009,Safety Glasses Clear,Safety,EA,50,41.56,SUP-006,50,Active,2025-05-09
+SKU-1010,Quick Coupler 3/8,Hydraulics,EA,24,21.49,SUP-008,48,Active,2025-05-09
+SKU-1011,LED Panel 600x600,Electrical,EA,12,19.47,SUP-001,48,Active,2025-05-09
+SKU-1012,Anchor Plug 8mm,Fasteners,EA,6,5.16,SUP-004,6,Active,2025-05-09
+SKU-1013,Packing Tape 48mm,Packaging,EA,50,12.81,SUP-005,100,Active,2025-05-09
+SKU-1014,Hi-Vis Vest XL,Safety,EA,50,11.19,SUP-006,50,Active,2025-05-09
+SKU-1015,O-Ring Kit,Hydraulics,EA,24,45.72,SUP-007,48,Active,2025-05-09

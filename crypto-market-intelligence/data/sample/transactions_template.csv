@@ -1,0 +1,7 @@
+transaction_id,portfolio_id,asset_id,txn_type,quantity,unit_price,fee,quote_currency,executed_at,reference
+IMP-0001,my-portfolio,demo-aurora,BUY,0.25,41000,12.5,usd,2026-01-05T10:00:00Z,exchange order 1001
+IMP-0002,my-portfolio,demo-borealis,BUY,3,2300,6.9,usd,2026-01-06T11:30:00Z,exchange order 1002
+IMP-0003,my-portfolio,demo-aurora,TRANSFER_IN,0.05,30000,2.0,usd,2026-02-01T09:00:00Z,from cold wallet (carried cost basis)
+IMP-0004,my-portfolio,demo-borealis,SELL,1,2600,2.6,usd,2026-03-01T15:00:00Z,exchange order 1003
+IMP-0005,my-portfolio,demo-aurora,TRANSFER_OUT,0.1,,1.5,usd,2026-03-15T08:00:00Z,to hardware wallet
+IMP-0006,my-portfolio,demo-aurora,FEE,0,,10,usd,2026-03-31T00:00:00Z,quarterly custody fee

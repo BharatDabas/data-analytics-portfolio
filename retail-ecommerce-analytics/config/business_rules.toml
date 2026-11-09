@@ -1,0 +1,55 @@
+# Business rules for the Retail Commercial Intelligence platform.
+# Every KPI on the dashboard is driven by these documented settings.
+
+[currency]
+reporting_currency = "GBP"
+# shortcut: static average FX rates for the synthetic dataset; replace with a dated
+# FX table (one rate per currency per day) when connecting real finance data.
+fx_to_gbp = { GBP = 1.0, EUR = 0.86, USD = 0.79 }
+
+[revenue]
+# Gross sales      = quantity x unit selling price (before discounts), excl. tax and shipping.
+# Net revenue      = gross sales - line discounts - refunds.
+# Tax              = excluded from all revenue KPIs (collected on behalf of tax authorities).
+# Shipping income  = excluded from revenue KPIs; reported separately.
+# Cancelled orders = excluded from every sales KPI (no goods shipped, no revenue recognised).
+# Refunds          = attributed back to the ORIGINAL ORDER DATE so product/period margin is consistent.
+include_tax = false
+include_shipping = false
+refund_attribution = "order_date"
+
+[margin]
+# Gross profit is only calculated for order lines whose product has a reliable unit cost.
+# Returned units are assumed restocked, so their cost is reversed from COGS.
+returned_units_restocked = true
+
+[attribution]
+model = "last_click"
+# An order is attributed to a campaign only if the last paid/owned click happened
+# within this many days before the order. Orders outside the window are "unattributed".
+window_days = 7
+
+[rfm]
+# Quintile scoring (1 = worst, 5 = best). Recency is measured from the as-of date.
+bins = 5
+
+[cohort]
+period = "month"
+max_periods = 12
+
+[clv]
+# Modelled CLV = monthly value per retained customer x gross margin % x
+#                sum over horizon of survival(t) / (1 + monthly_discount_rate)^t
+horizon_months = 12
+annual_discount_rate = 0.10
+
+[forecast]
+grain = "week"
+holdout_weeks = 12
+horizon_weeks = 12
+interval_z = 1.96
+wape_exception_threshold = 0.20
+
+[quality]
+freshness_max_age_hours = 48
+reconciliation_tolerance = 0.005

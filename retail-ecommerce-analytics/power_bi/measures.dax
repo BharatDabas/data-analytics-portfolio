@@ -1,0 +1,123 @@
+// Retail Commercial Intelligence - DAX measure definitions (specification; not validated in a .pbix)
+// Mirrors database/views.sql and analytics/kpis.py. Cancelled orders excluded; tax & shipping excluded;
+// refunds attributed to the original order date; gross profit only on products with reliable cost.
+
+// ---------- base ----------
+Gross Sales =
+CALCULATE ( SUM ( 'Order Line'[gross_sales_gbp] ), 'Order Line'[is_cancelled] = FALSE () )
+
+Discounts =
+CALCULATE ( SUM ( 'Order Line'[discount_gbp] ), 'Order Line'[is_cancelled] = FALSE () )
+
+Refunds =
+CALCULATE ( SUM ( 'Order Line'[refund_gbp] ), 'Order Line'[is_cancelled] = FALSE () )
+
+Net Revenue =
+[Gross Sales] - [Discounts] - [Refunds]
+
+Orders =
+CALCULATE ( COUNTROWS ( 'Order' ), 'Order'[is_cancelled] = FALSE () )
+
+Units Sold =
+CALCULATE ( SUM ( 'Order Line'[quantity] ), 'Order Line'[is_cancelled] = FALSE () )
+
+Average Order Value =
+DIVIDE ( [Net Revenue], [Orders] )
+
+// ---------- margin (cost-gated) ----------
+Net Revenue (Costed) =
+CALCULATE (
+    SUM ( 'Order Line'[net_revenue_costed_gbp] ),
+    'Order Line'[is_cancelled] = FALSE (),
+    'Order Line'[has_reliable_cost] = TRUE ()
+)
+
+COGS =
+CALCULATE (
+    SUM ( 'Order Line'[cogs_gbp] ),
+    'Order Line'[is_cancelled] = FALSE (),
+    'Order Line'[has_reliable_cost] = TRUE ()
+)
+
+Gross Profit =
+IF ( NOT ISBLANK ( [Net Revenue (Costed)] ), [Net Revenue (Costed)] - [COGS] )
+
+Gross Margin % =
+VAR d = [Net Revenue (Costed)]
+RETURN IF ( d > 0, DIVIDE ( [Gross Profit], d ) )      // blank for zero / negative denominators
+
+Cost Coverage % =
+DIVIDE ( [Net Revenue (Costed)], [Net Revenue] )
+
+// ---------- returns & cancellations ----------
+Returned Units =
+CALCULATE ( SUM ( 'Order Line'[returned_quantity] ), 'Order Line'[is_cancelled] = FALSE () )
+
+Return Rate (Units) =
+DIVIDE ( [Returned Units], [Units Sold] )
+
+Cancellation Rate =
+DIVIDE ( CALCULATE ( COUNTROWS ( 'Order' ), 'Order'[is_cancelled] = TRUE () ), COUNTROWS ( 'Order' ) )
+
+Discount Rate =
+DIVIDE ( [Discounts], [Gross Sales] )
+
+// ---------- customers ----------
+Active Customers =
+CALCULATE ( DISTINCTCOUNT ( 'Order'[customer_id] ), 'Order'[is_cancelled] = FALSE () )
+
+Repeat Purchase Rate =
+VAR c =
+    ADDCOLUMNS (
+        CALCULATETABLE ( VALUES ( 'Order'[customer_id] ), 'Order'[is_cancelled] = FALSE () ),
+        "@orders", CALCULATE ( COUNTROWS ( 'Order' ), 'Order'[is_cancelled] = FALSE () )
+    )
+RETURN DIVIDE ( COUNTROWS ( FILTER ( c, [@orders] >= 2 ) ), COUNTROWS ( c ) )
+
+New Customers =
+CALCULATE ( COUNTROWS ( 'Order' ), 'Order'[is_new_customer_order] = TRUE () )
+
+// ---------- marketing (no relationship between spend and orders) ----------
+Marketing Spend =
+SUM ( 'Marketing Spend'[spend_gbp] )
+
+Acquisition Spend =
+CALCULATE ( [Marketing Spend], Campaign[objective] = "acquisition" )
+
+Attributed Net Revenue =
+SUMX ( Attribution, Attribution[weight] * RELATED ( 'Order Value'[net_revenue_gbp] ) )
+
+Attributed Orders =
+SUM ( Attribution[weight] )
+
+Attributed New Customers =
+CALCULATE ( SUM ( Attribution[weight] ), Attribution[is_new_customer] = TRUE () )
+
+ROAS =
+DIVIDE ( [Attributed Net Revenue], [Marketing Spend] )
+
+CAC (Attributed) =
+CALCULATE ( DIVIDE ( [Acquisition Spend], [Attributed New Customers] ), Campaign[objective] = "acquisition" )
+
+CAC (Blended) =
+DIVIDE ( [Acquisition Spend], [New Customers] )
+
+CTR =
+DIVIDE ( SUM ( 'Marketing Spend'[clicks] ), SUM ( 'Marketing Spend'[impressions] ) )
+
+Conversion Rate =
+DIVIDE ( [Attributed Orders], SUM ( 'Marketing Spend'[clicks] ) )
+
+// ---------- period comparison ----------
+Net Revenue PP =
+VAR s = MIN ( 'Date'[date_key] )
+VAR e = MAX ( 'Date'[date_key] )
+VAR n = DATEDIFF ( s, e, DAY ) + 1
+RETURN CALCULATE ( [Net Revenue], DATESBETWEEN ( 'Date'[date_key], s - n, s - 1 ) )
+
+Net Revenue vs PP % =
+DIVIDE ( [Net Revenue] - [Net Revenue PP], ABS ( [Net Revenue PP] ) )
+
+Net Revenue YoY % =
+VAR py = CALCULATE ( [Net Revenue], SAMEPERIODLASTYEAR ( 'Date'[date_key] ) )
+RETURN DIVIDE ( [Net Revenue] - py, ABS ( py ) )

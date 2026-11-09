@@ -1,0 +1,40 @@
+# Business and analytical parameters for the Crypto Market Intelligence platform.
+# Changing a value here changes the calculation everywhere (dashboard, pipeline, tests use defaults).
+
+[general]
+quote_currency = "usd"
+valuation_currency = "USD"
+history_days = 730              # synthetic demo history length
+
+[analytics]
+annualisation_factor = 365      # crypto trades 24/7: daily returns x sqrt(365)
+risk_free_rate_annual = 0.0     # default; user can override on the Risk page
+rolling_window_days = 30
+moving_averages = [20, 50, 200]
+correlation_min_overlap = 60    # minimum aligned observations for a correlation pair
+
+[valuation]
+# Permitted valuation fallback when a day's close is missing: use the most recent
+# observed close no older than this many days, and FLAG the snapshot as stale.
+# Beyond this, the position is valued as missing (never silently forward-filled).
+max_price_staleness_days = 3
+
+[freshness]
+max_age_hours = 36              # daily data older than this raises a stale-data alert
+
+[accounting]
+cost_basis_method = "FIFO"      # only FIFO is implemented; documented in docs/kpi_catalogue.md
+
+[provider.coingecko]
+base_url = "https://api.coingecko.com/api/v3"
+pro_base_url = "https://pro-api.coingecko.com/api/v3"
+requests_per_minute = 25        # stay under the public tier limit
+max_retries = 5
+backoff_base_seconds = 2.0
+timeout_seconds = 20
+page_size = 100
+
+[benchmarks]
+# Benchmarks used on the Performance page. "EW_INDEX" is the equal-weight index of
+# the non-stablecoin universe, built from observed returns.
+default = ["demo-aurora", "EW_INDEX"]

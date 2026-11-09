@@ -1,0 +1,36 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: ${{ matrix.project }} (py${{ matrix.python }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [crypto-market-intelligence, retail-ecommerce-analytics, supply-chain-inventory-analytics]
+        python: ["3.11", "3.12"]
+    defaults:
+      run:
+        working-directory: ${{ matrix.project }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+          cache-dependency-path: ${{ matrix.project }}/requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Build demo database (offline, synthetic data)
+        run: python pipeline.py
+      - name: Run tests (unit, integration, data quality, app smoke)
+        run: pytest -o addopts="" -q

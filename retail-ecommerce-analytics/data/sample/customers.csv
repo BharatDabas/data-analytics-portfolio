@@ -1,0 +1,27 @@
+customer_id,signup_date,country,acquisition_channel
+C000001,2026-09-10,United Kingdom,Paid Search
+C000002,2026-04-11,France,Paid Social
+C000003,2026-07-16,United Kingdom,Affiliate
+C000004,2026-09-28,United States,Paid Social
+C000005,2026-08-11,United Kingdom,Paid Social
+C000006,2026-07-09,United Kingdom,Display
+C000007,2026-10-10,United Kingdom,Display
+C000008,2026-09-26,United Kingdom,Direct
+C000009,2026-06-11,United Kingdom,Affiliate
+C000010,2026-08-03,United Kingdom,Paid Search
+C000011,2026-07-28,United States,Paid Social
+C000012,2026-08-16,United Kingdom,Paid Social
+C000013,2026-06-21,United Kingdom,Organic
+C000014,2026-05-27,United Kingdom,Paid Social
+C000015,2026-10-08,United Kingdom,Organic
+C000016,2026-10-02,Ireland,Paid Social
+C000017,2026-10-06,United Kingdom,Organic
+C000018,2026-10-28,Germany,Paid Social
+C000019,2026-09-19,United Kingdom,Paid Social
+C000020,2026-09-12,United States,Paid Search
+C000021,2026-09-09,United Kingdom,Paid Search
+C000022,2026-07-30,United States,Direct
+C000023,2026-07-26,United Kingdom,Paid Social
+C000024,2026-05-26,United Kingdom,Paid Search
+C000025,2026-08-18,Netherlands,Affiliate
+C000026,2026-06-10,Germany,Organic

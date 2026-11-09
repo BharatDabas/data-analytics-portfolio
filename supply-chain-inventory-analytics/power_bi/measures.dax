@@ -1,0 +1,130 @@
+// Supply Chain & Inventory Analytics - DAX measures
+// Mirrors the SQL/Python KPI definitions in docs/kpi_catalogue.md. Table names follow semantic_model.md.
+
+// ---------- Inventory (semi-additive: latest snapshot in the filter context) ----------
+Latest Snapshot Date =
+    CALCULATE ( MAX ( 'Inventory Snapshot'[snapshot_date] ), ALLSELECTED ( 'Date' ) )
+
+On Hand Qty =
+    VAR _last = MAX ( 'Inventory Snapshot'[snapshot_date] )
+    RETURN
+        CALCULATE (
+            SUMX ( 'Inventory Snapshot', MAX ( 'Inventory Snapshot'[on_hand_qty], 0 ) ),
+            'Date'[date_key] = _last
+        )
+
+Available Qty =
+    VAR _last = MAX ( 'Inventory Snapshot'[snapshot_date] )
+    RETURN CALCULATE ( SUM ( 'Inventory Snapshot'[available_qty] ), 'Date'[date_key] = _last )
+
+In Transit Qty =
+    VAR _last = MAX ( 'Inventory Snapshot'[snapshot_date] )
+    RETURN CALCULATE ( SUM ( 'Inventory Snapshot'[in_transit_qty] ), 'Date'[date_key] = _last )
+
+// Valued at standard cost; negative on-hand records valued at zero (flagged separately).
+Inventory Value =
+    VAR _last = MAX ( 'Inventory Snapshot'[snapshot_date] )
+    RETURN
+        CALCULATE (
+            SUMX (
+                'Inventory Snapshot',
+                MAX ( 'Inventory Snapshot'[on_hand_qty], 0 ) * RELATED ( Product[unit_cost_usd] )
+            ),
+            'Date'[date_key] = _last
+        )
+
+Negative On Hand Records =
+    CALCULATE ( COUNTROWS ( 'Inventory Snapshot' ), 'Inventory Snapshot'[is_negative_on_hand] = TRUE () )
+
+// ---------- Demand and service ----------
+Requested Qty = SUM ( Demand[requested_qty] )
+Fulfilled Qty = SUM ( Demand[fulfilled_qty] )
+Backordered Qty = SUM ( Demand[backordered_qty] )
+
+Fill Rate = DIVIDE ( [Fulfilled Qty], [Requested Qty] )
+
+Eligible SKU Days = CALCULATE ( COUNTROWS ( Demand ), Demand[requested_qty] > 0 )
+Stockout SKU Days = CALCULATE ( COUNTROWS ( Demand ), Demand[backordered_qty] > 0 )
+Stockout Rate = DIVIDE ( [Stockout SKU Days], [Eligible SKU Days] )
+
+COGS = SUMX ( Demand, Demand[fulfilled_qty] * RELATED ( Product[unit_cost_usd] ) )
+Unfilled Demand Value = SUMX ( Demand, Demand[backordered_qty] * RELATED ( Product[unit_cost_usd] ) )
+
+Avg Daily Demand (90d) =
+    VAR _end = [Latest Snapshot Date]
+    RETURN
+        DIVIDE (
+            CALCULATE ( [Requested Qty], DATESINPERIOD ( 'Date'[date_key], _end, -90, DAY ) ),
+            90
+        )
+
+Days of Cover =
+    VAR _d = [Avg Daily Demand (90d)]
+    RETURN IF ( _d > 0, DIVIDE ( MAX ( [Available Qty], 0 ), _d ) )   // blank = no demand (undefined)
+
+Average Inventory Value (365d) =
+    VAR _end = [Latest Snapshot Date]
+    RETURN
+        AVERAGEX (
+            DATESINPERIOD ( 'Date'[date_key], _end, -365, DAY ),
+            CALCULATE (
+                SUMX ( 'Inventory Snapshot', MAX ( 'Inventory Snapshot'[on_hand_qty], 0 ) * RELATED ( Product[unit_cost_usd] ) )
+            )
+        )
+
+Inventory Turnover =
+    VAR _end = [Latest Snapshot Date]
+    RETURN
+        DIVIDE (
+            CALCULATE ( [COGS], DATESINPERIOD ( 'Date'[date_key], _end, -365, DAY ) ),
+            [Average Inventory Value (365d)]
+        )
+
+Carrying Cost (annual est.) = [Inventory Value] * 0.25
+
+// ---------- Supplier delivery (PO Line = v_po_line_status) ----------
+Due PO Lines = CALCULATE ( COUNTROWS ( 'PO Line' ), 'PO Line'[is_due] = TRUE () )
+OTD % = DIVIDE ( CALCULATE ( [Due PO Lines], 'PO Line'[on_time] = TRUE () ), [Due PO Lines] )
+OTIF % = DIVIDE ( CALCULATE ( [Due PO Lines], 'PO Line'[otif] = TRUE () ), [Due PO Lines] )
+In Full % = DIVIDE ( CALCULATE ( [Due PO Lines], 'PO Line'[in_full] = TRUE () ), [Due PO Lines] )
+
+Supplier Fill Rate =
+    DIVIDE (
+        CALCULATE ( SUM ( 'PO Line'[accepted_qty] ), 'PO Line'[is_due] = TRUE () ),
+        CALCULATE ( SUM ( 'PO Line'[ordered_qty] ), 'PO Line'[is_due] = TRUE () )
+    )
+
+Defect Rate = DIVIDE ( SUM ( Receipt[rejected_qty] ), SUM ( Receipt[received_qty] ) )
+
+Lead Time Mean (days) = AVERAGE ( 'PO Line'[lead_time_days] )
+Lead Time Std (days) = STDEV.S ( 'PO Line'[lead_time_days] )
+Lead Time P90 (days) = PERCENTILE.INC ( 'PO Line'[lead_time_days], 0.9 )
+
+Open PO Qty = SUM ( 'PO Line'[open_qty] )
+Open PO Value = SUMX ( 'PO Line', 'PO Line'[open_qty] * 'PO Line'[unit_cost_usd] )
+Overdue PO Lines = CALCULATE ( COUNTROWS ( 'PO Line' ), 'PO Line'[is_overdue] = TRUE () )
+
+Supplier Spend =
+    CALCULATE (
+        SUM ( 'PO Line'[line_value_usd] ),
+        'PO Line'[status] <> "Cancelled",
+        USERELATIONSHIP ( 'Date'[date_key], 'PO Line'[order_date] )
+    )
+
+Supplier Score =
+    100 * ( 0.5 * [OTIF %] + 0.25 * [Supplier Fill Rate] + 0.25 * ( 1 - MIN ( 10 * [Defect Rate], 1 ) ) )
+
+// ---------- Forecast accuracy (backtest rows of the selected method) ----------
+Backtest Abs Error =
+    CALCULATE ( SUMX ( Forecast, ABS ( Forecast[predicted_qty] - Forecast[actual_qty] ) ), Forecast[run_type] = "backtest" )
+Backtest Actual = CALCULATE ( SUM ( Forecast[actual_qty] ), Forecast[run_type] = "backtest" )
+Backtest Forecast = CALCULATE ( SUM ( Forecast[predicted_qty] ), Forecast[run_type] = "backtest" )
+WAPE = DIVIDE ( [Backtest Abs Error], [Backtest Actual] )                 // blank when actual = 0
+Forecast Bias = DIVIDE ( [Backtest Forecast] - [Backtest Actual], [Backtest Actual] )
+Production Forecast Qty = CALCULATE ( SUM ( Forecast[predicted_qty] ), Forecast[run_type] = "production" )
+
+// ---------- Replenishment ----------
+Suggested Order Qty = SUM ( Replenishment[suggested_order_qty] )
+Suggested Order Value = SUMX ( Replenishment, Replenishment[suggested_order_qty] * Replenishment[unit_cost_usd] )
+Excess Inventory Value = SUM ( Replenishment[excess_value_usd] )
+Critical SKU Locations = CALCULATE ( COUNTROWS ( Replenishment ), Replenishment[urgency] = "Critical" )

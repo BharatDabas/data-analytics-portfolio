@@ -1,0 +1,101 @@
+// =====================================================================
+// Crypto Market Intelligence - DAX measures (design reference)
+// Tables: Asset, Date, 'Market Price', Transactions, Disposals,
+//         'Portfolio Snapshot', 'Alert Events', 'Ingestion Runs'
+// =====================================================================
+
+// ---------- Market --------------------------------------------------
+Latest Price Date =
+    CALCULATE ( MAX ( 'Market Price'[price_date] ), REMOVEFILTERS ( 'Date' ) )
+
+Latest Close =
+VAR d = [Latest Price Date]
+RETURN CALCULATE ( MAX ( 'Market Price'[close] ), 'Market Price'[price_date] = d, REMOVEFILTERS ( 'Date' ) )
+
+Tracked Market Cap =
+VAR d = [Latest Price Date]
+RETURN CALCULATE ( SUM ( 'Market Price'[market_cap] ), 'Market Price'[price_date] = d, REMOVEFILTERS ( 'Date' ) )
+
+Change 1D =
+// daily_return is NULL when the previous calendar day is missing (no gap-spanning)
+VAR d = [Latest Price Date]
+RETURN CALCULATE ( MAX ( 'Market Price'[daily_return] ), 'Market Price'[price_date] = d, REMOVEFILTERS ( 'Date' ) )
+
+Cumulative Return =
+    PRODUCTX ( FILTER ( 'Market Price', NOT ISBLANK ( 'Market Price'[daily_return] ) ), 1 + 'Market Price'[daily_return] ) - 1
+
+Annualised Volatility =
+VAR n = COUNTROWS ( FILTER ( 'Market Price', NOT ISBLANK ( 'Market Price'[daily_return] ) ) )
+RETURN IF ( n >= 2, STDEVX.S ( FILTER ( 'Market Price', NOT ISBLANK ( 'Market Price'[daily_return] ) ),
+                               'Market Price'[daily_return] ) * SQRT ( 365 ) )
+
+Max Drawdown =
+// Largest decline from running peak of close within the current filter context (single asset)
+MINX (
+    VALUES ( 'Market Price'[price_date] ),
+    VAR d = 'Market Price'[price_date]
+    VAR c = CALCULATE ( MAX ( 'Market Price'[close] ) )
+    VAR peak = CALCULATE ( MAX ( 'Market Price'[close] ), 'Market Price'[price_date] <= d,
+                           REMOVEFILTERS ( 'Market Price'[price_date] ) )
+    RETURN DIVIDE ( c, peak ) - 1
+)
+
+Sharpe Ratio =
+// Only meaningful with >= 30 observations; risk-free from what-if parameter RiskFree[Rate]
+VAR r = FILTER ( 'Market Price', NOT ISBLANK ( 'Market Price'[daily_return] ) )
+VAR n = COUNTROWS ( r )
+VAR rf = SELECTEDVALUE ( RiskFree[Rate], 0 )
+VAR sd = STDEVX.S ( r, 'Market Price'[daily_return] )
+RETURN IF ( n >= 30 && sd > 0, ( AVERAGEX ( r, 'Market Price'[daily_return] ) - rf / 365 ) / sd * SQRT ( 365 ) )
+
+// ---------- Portfolio -----------------------------------------------
+Snapshot Date Latest =
+    CALCULATE ( MAX ( 'Portfolio Snapshot'[snapshot_date] ), REMOVEFILTERS ( 'Date' ) )
+
+Portfolio Value =
+VAR d = MAX ( 'Portfolio Snapshot'[snapshot_date] )
+RETURN CALCULATE ( SUM ( 'Portfolio Snapshot'[market_value] ), 'Portfolio Snapshot'[snapshot_date] = d )
+
+Open Cost Basis =
+VAR d = MAX ( 'Portfolio Snapshot'[snapshot_date] )
+RETURN CALCULATE ( SUM ( 'Portfolio Snapshot'[cost_basis] ), 'Portfolio Snapshot'[snapshot_date] = d,
+                   'Portfolio Snapshot'[units_held] > 0 )
+
+Unrealised P&L = [Portfolio Value] - [Open Cost Basis]
+
+Unrealised P&L % = DIVIDE ( [Unrealised P&L], [Open Cost Basis] )
+
+Realised P&L = SUM ( Disposals[realised_pnl] )
+
+Allocation % =
+    DIVIDE ( [Portfolio Value], CALCULATE ( [Portfolio Value], REMOVEFILTERS ( Asset ) ) )
+
+Fees Paid = SUM ( Transactions[fee] )
+
+Buy Fees (capitalised) = CALCULATE ( [Fees Paid], Transactions[txn_type] = "BUY" )
+Sell Fees = CALCULATE ( [Fees Paid], Transactions[txn_type] = "SELL" )
+Other Fees = CALCULATE ( [Fees Paid], Transactions[txn_type] IN { "TRANSFER_IN", "TRANSFER_OUT", "FEE" } )
+
+Stale Valuations =
+VAR d = MAX ( 'Portfolio Snapshot'[snapshot_date] )
+RETURN CALCULATE ( COUNTROWS ( 'Portfolio Snapshot' ), 'Portfolio Snapshot'[snapshot_date] = d,
+                   'Portfolio Snapshot'[price_is_stale] = TRUE () )
+
+Concentration HHI =
+VAR total = CALCULATE ( [Portfolio Value], REMOVEFILTERS ( Asset ) )
+RETURN SUMX ( VALUES ( Asset[asset_id] ), POWER ( DIVIDE ( [Portfolio Value], total ), 2 ) )
+
+TWR Index =
+// Requires a calculated column 'Portfolio Daily'[twr_ratio] = MV / (prev MV + flow), from v_portfolio_daily
+100 * PRODUCTX ( FILTER ( ALL ( 'Date' ), 'Date'[date_key] <= MAX ( 'Date'[date_key] ) ),
+                 COALESCE ( CALCULATE ( MAX ( 'Portfolio Daily'[twr_ratio] ) ), 1 ) )
+
+// ---------- Operations ----------------------------------------------
+Alerts = COUNTROWS ( 'Alert Events' )
+
+Failed Ingestion Runs = CALCULATE ( COUNTROWS ( 'Ingestion Runs' ), 'Ingestion Runs'[status] = "failed" )
+
+Data Age (hours) =
+    DATEDIFF ( CALCULATE ( MAX ( 'Market Price'[observed_at] ), REMOVEFILTERS ( 'Date' ) ), UTCNOW (), HOUR )
+
+Is Synthetic = IF ( SELECTEDVALUE ( Source[data_kind] ) = "synthetic", "Synthetic demo data", "Provider data" )

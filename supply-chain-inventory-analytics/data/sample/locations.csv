@@ -1,0 +1,5 @@
+location_id,location_name,region,location_type,capacity_units
+DC-NTH,Northern Distribution Centre,North,Distribution centre,120000
+DC-STH,Southern Distribution Centre,South,Distribution centre,100000
+DC-WST,Western Distribution Centre,West,Distribution centre,70000
+HUB-EST,Eastern Cross-Dock Hub,East,Regional hub,40000

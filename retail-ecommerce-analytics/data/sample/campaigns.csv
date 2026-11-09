@@ -1,0 +1,14 @@
+campaign_id,campaign_name,channel,objective,start_date,end_date
+CMP001,Paid Search – Always-on 1,Paid Search,acquisition,2026-04-15,2026-10-18
+CMP002,Paid Search – Seasonal 2,Paid Search,acquisition,2026-06-11,2026-10-31
+CMP003,Paid Search – Brand 3,Paid Search,acquisition,2026-08-07,2026-10-31
+CMP004,Paid Social – Always-on 1,Paid Social,acquisition,2026-04-15,2026-10-18
+CMP005,Paid Social – Seasonal 2,Paid Social,acquisition,2026-06-11,2026-10-31
+CMP006,Paid Social – Brand 3,Paid Social,acquisition,2026-08-07,2026-10-31
+CMP007,Display – Always-on 1,Display,acquisition,2026-04-15,2026-10-31
+CMP008,Display – Seasonal 2,Display,acquisition,2026-07-04,2026-10-31
+CMP009,Affiliate – Always-on 1,Affiliate,acquisition,2026-04-15,2026-10-31
+CMP010,Affiliate – Seasonal 2,Affiliate,acquisition,2026-07-04,2026-10-31
+CMP011,Email – Always-on 1,Email,retention,2026-04-15,2026-10-18
+CMP012,Email – Seasonal 2,Email,retention,2026-06-11,2026-10-31
+CMP013,Email – Brand 3,Email,retention,2026-08-07,2026-10-31

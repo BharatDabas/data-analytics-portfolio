@@ -1,0 +1,2 @@
+return_id,order_item_id,return_date,quantity,reason,refund_amount,currency
+R000001,OI0000005,2026-09-20,1,Not as described,40.99,GBP

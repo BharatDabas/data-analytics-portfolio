@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Secrets and local configuration - never commit
+.env
+.streamlit/secrets.toml
+
+# Generated data (rebuilt deterministically by each project's pipeline.py)
+*/data/raw/*
+*/data/processed/*
+!*/data/raw/.gitkeep
+!*/data/processed/.gitkeep
+*.duckdb
+*.duckdb.wal
+*/logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
