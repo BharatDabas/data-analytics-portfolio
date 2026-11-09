@@ -1,0 +1,159 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "travel_priority_table",
+  "position": {
+    "x": 35,
+    "y": 540,
+    "z": 0,
+    "width": 1850,
+    "height": 380,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "travel_priority_providers"
+                    }
+                  },
+                  "Property": "insurance_type"
+                }
+              },
+              "queryRef": "travel_priority_providers.insurance_type",
+              "displayName": "insurance_type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "travel_priority_providers"
+                    }
+                  },
+                  "Property": "provider_name"
+                }
+              },
+              "queryRef": "travel_priority_providers.provider_name",
+              "displayName": "provider_name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "travel_priority_providers"
+                    }
+                  },
+                  "Property": "provider_priority"
+                }
+              },
+              "queryRef": "travel_priority_providers.provider_priority",
+              "displayName": "provider_priority"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "travel_priority_providers"
+                    }
+                  },
+                  "Property": "provider_quote_records"
+                }
+              },
+              "queryRef": "travel_priority_providers.provider_quote_records",
+              "displayName": "provider_quote_records"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "travel_priority_providers"
+                    }
+                  },
+                  "Property": "quotes_returned"
+                }
+              },
+              "queryRef": "travel_priority_providers.quotes_returned",
+              "displayName": "quotes_returned"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "travel_priority_providers"
+                    }
+                  },
+                  "Property": "average_returned_premium_eur"
+                }
+              },
+              "queryRef": "travel_priority_providers.average_returned_premium_eur",
+              "displayName": "average_returned_premium_eur"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "travel_priority_providers"
+                    }
+                  },
+                  "Property": "confirmed_purchases"
+                }
+              },
+              "queryRef": "travel_priority_providers.confirmed_purchases",
+              "displayName": "confirmed_purchases"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "travel_priority_providers"
+                    }
+                  },
+                  "Property": "gross_premium_eur"
+                }
+              },
+              "queryRef": "travel_priority_providers.gross_premium_eur",
+              "displayName": "gross_premium_eur"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {},
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Priority Travel Provider Detail'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,65 @@
+-- Create these measures after loading the corresponding model tables.
+Customers = DISTINCTCOUNT(DimCustomer[customer_id])
+
+Quote Requests = DISTINCTCOUNT(FactQuoteRequest[quote_request_id])
+
+Submitted Quote Requests =
+CALCULATE(
+    DISTINCTCOUNT(FactQuoteRequest[quote_request_id]),
+    FactQuoteRequest[quote_submitted] = TRUE()
+)
+
+Provider Quotes Returned =
+CALCULATE(
+    DISTINCTCOUNT(FactProviderQuote[provider_quote_id]),
+    FactProviderQuote[quote_status] = "Returned"
+)
+
+Confirmed Purchases =
+CALCULATE(
+    DISTINCTCOUNT(FactPurchase[purchase_id]),
+    FactPurchase[purchase_status] = "Confirmed"
+)
+
+Gross Premium EUR =
+CALCULATE(
+    SUM(FactPurchase[annual_premium_eur]),
+    FactPurchase[purchase_status] = "Confirmed"
+)
+
+Earned Commission EUR =
+CALCULATE(
+    SUM(FactCommission[commission_amount_eur]),
+    FactCommission[commission_status] = "Earned"
+)
+
+Quote Submission Rate =
+DIVIDE([Submitted Quote Requests], [Quote Requests])
+
+Confirmed Quote Requests =
+CALCULATE(
+    DISTINCTCOUNT(FactPurchase[quote_request_id]),
+    FactPurchase[purchase_status] = "Confirmed"
+)
+
+Submitted-to-Purchase Rate =
+DIVIDE([Confirmed Quote Requests], [Submitted Quote Requests])
+
+Average Premium EUR =
+DIVIDE([Gross Premium EUR], [Confirmed Purchases])
+
+Average Commission per Purchase EUR =
+DIVIDE([Earned Commission EUR], [Confirmed Purchases])
+
+Travel Priority Provider Quotes =
+CALCULATE(
+    [Provider Quotes Returned],
+    FactProviderQuote[insurance_type] = "Travel",
+    FactProviderQuote[provider_name] IN {"ATI","Multitrip","Switched On"}
+)
+
+Marketing Spend EUR = SUM(FactMarketingSpend[spend_eur])
+
+-- Only publish CAC after attribution rules and spend coverage are confirmed.
+Customer Acquisition Cost EUR =
+DIVIDE([Marketing Spend EUR], [Attributed New Customers])

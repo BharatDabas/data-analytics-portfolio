@@ -1,0 +1,15 @@
+{
+  "name": "JAD Ucompare Corporate",
+  "dataColors": [
+    "#0B3A5B",
+    "#2F80A8",
+    "#78B7C9",
+    "#E0A526",
+    "#3B8C70",
+    "#8B6F9E",
+    "#D46A5C"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#183247",
+  "tableAccent": "#0B3A5B"
+}

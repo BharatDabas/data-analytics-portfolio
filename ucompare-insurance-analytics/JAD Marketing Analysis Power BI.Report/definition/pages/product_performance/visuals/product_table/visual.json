@@ -1,0 +1,131 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "product_table",
+  "position": {
+    "x": 965,
+    "y": 530,
+    "z": 0,
+    "width": 920,
+    "height": 390,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "product_performance"
+                    }
+                  },
+                  "Property": "insurance_type"
+                }
+              },
+              "queryRef": "product_performance.insurance_type",
+              "displayName": "insurance_type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "product_performance"
+                    }
+                  },
+                  "Property": "quote_requests"
+                }
+              },
+              "queryRef": "product_performance.quote_requests",
+              "displayName": "quote_requests"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "product_performance"
+                    }
+                  },
+                  "Property": "submitted_requests"
+                }
+              },
+              "queryRef": "product_performance.submitted_requests",
+              "displayName": "submitted_requests"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "product_performance"
+                    }
+                  },
+                  "Property": "confirmed_purchases"
+                }
+              },
+              "queryRef": "product_performance.confirmed_purchases",
+              "displayName": "confirmed_purchases"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "product_performance"
+                    }
+                  },
+                  "Property": "gross_premium_eur"
+                }
+              },
+              "queryRef": "product_performance.gross_premium_eur",
+              "displayName": "gross_premium_eur"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "product_performance"
+                    }
+                  },
+                  "Property": "earned_commission_eur"
+                }
+              },
+              "queryRef": "product_performance.earned_commission_eur",
+              "displayName": "earned_commission_eur"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {},
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Product Performance Detail'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

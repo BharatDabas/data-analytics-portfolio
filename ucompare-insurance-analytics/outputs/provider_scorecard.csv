@@ -1,0 +1,13 @@
+insurance_type,provider_name,provider_priority,provider_quote_rows,quotes_returned,avg_annual_premium_eur,purchases,premium_eur
+Bike,Bikmo,False,554,458,189.3228384279476,86,15318.789999999999
+Life,Aviva,False,372,320,259.31709375,47,12834.84
+Life,Irish Life,False,358,307,259.5404885993485,29,6903.99
+Life,New Ireland,False,345,296,253.6774662162162,39,10529.93
+Life,Royal London,False,363,311,248.5456270096463,44,12313.09
+Life,Zurich,False,340,292,256.27294520547946,30,7465.08
+Travel,AA Travel Insurance,False,480,415,98.56277108433736,64,6441.43
+Travel,ATI,True,478,403,100.79625310173697,53,5428.77
+Travel,Cover for You,False,518,452,98.90632743362832,70,6693.76
+Travel,Ireland Go,False,492,425,97.64112941176471,53,5136.71
+Travel,Multitrip,True,490,443,101.66939051918736,81,8148.34
+Travel,Switched On,True,471,403,93.57111662531018,63,6000.34

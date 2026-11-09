@@ -1,0 +1,81 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "travel_priority_purchases",
+  "position": {
+    "x": 965,
+    "y": 100,
+    "z": 0,
+    "width": 920,
+    "height": 400,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "travel_priority_providers"
+                    }
+                  },
+                  "Property": "provider_name"
+                }
+              },
+              "queryRef": "travel_priority_providers.provider_name",
+              "displayName": "provider_name",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "travel_priority_providers"
+                    }
+                  },
+                  "Property": "confirmed_purchases"
+                }
+              },
+              "queryRef": "travel_priority_providers.confirmed_purchases",
+              "displayName": "confirmed_purchases",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {},
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Confirmed Purchases — Priority Travel Providers'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

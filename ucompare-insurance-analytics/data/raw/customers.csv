@@ -1,0 +1,1801 @@
+customer_id,created_date,age_band,county,acquisition_channel,consent_status
+C000001,2025-02-02,35-44,Kildare,Organic Search,Granted
+C000002,2025-10-10,25-34,Galway,Paid Search,Granted
+C000003,2025-08-27,18-24,Cork,Direct,Granted
+C000004,2025-06-10,35-44,Other,Paid Search,Granted
+C000005,2025-06-08,65+,Kildare,Organic Search,Granted
+C000006,2025-11-10,45-54,Galway,Paid Search,Granted
+C000007,2025-02-01,35-44,Other,Paid Search,Granted
+C000008,2025-09-12,25-34,Dublin,Organic Search,Granted
+C000009,2025-03-15,25-34,Dublin,Affiliate,Granted
+C000010,2025-02-04,25-34,Kildare,Paid Search,Granted
+C000011,2025-07-12,45-54,Other,Direct,Granted
+C000012,2025-12-23,55-64,Dublin,Paid Search,Granted
+C000013,2025-09-26,55-64,Dublin,Referral,Not Recorded
+C000014,2025-10-05,65+,Dublin,Organic Search,Granted
+C000015,2025-09-19,65+,Other,Organic Search,Granted
+C000016,2025-10-14,65+,Dublin,Paid Search,Granted
+C000017,2025-07-07,18-24,Galway,Paid Search,Granted
+C000018,2025-02-16,25-34,Other,Paid Search,Granted
+C000019,2025-11-03,25-34,Dublin,Affiliate,Granted
+C000020,2025-06-14,35-44,Limerick,Organic Search,Granted
+C000021,2025-07-02,18-24,Galway,Organic Search,Granted
+C000022,2025-05-16,55-64,Other,Paid Search,Granted
+C000023,2025-03-08,35-44,Cork,Affiliate,Granted
+C000024,2025-12-05,35-44,Cork,Referral,Granted
+C000025,2025-10-13,25-34,Dublin,Affiliate,Granted
+C000026,2025-08-24,25-34,Wicklow,Direct,Granted
+C000027,2025-05-27,25-34,Other,Affiliate,Granted
+C000028,2025-10-28,55-64,Dublin,Affiliate,Granted
+C000029,2025-07-19,35-44,Cork,Organic Search,Granted
+C000030,2025-06-11,45-54,Other,Direct,Granted
+C000031,2025-06-14,25-34,Dublin,Affiliate,Granted
+C000032,2025-03-24,25-34,Dublin,Paid Search,Not Recorded
+C000033,2025-02-03,35-44,Limerick,Direct,Granted
+C000034,2025-07-22,45-54,Cork,Paid Search,Granted
+C000035,2025-11-21,45-54,Dublin,Paid Search,Granted
+C000036,2025-01-24,25-34,Galway,Organic Search,Granted
+C000037,2025-11-10,65+,Dublin,Direct,Granted
+C000038,2025-10-30,25-34,Galway,Referral,Granted
+C000039,2025-04-12,55-64,Kildare,Organic Search,Granted
+C000040,2025-08-19,25-34,Limerick,Paid Search,Granted
+C000041,2025-03-02,25-34,Dublin,Organic Search,Granted
+C000042,2025-10-04,55-64,Other,Organic Search,Granted
+C000043,2025-09-13,25-34,Dublin,Email,Granted
+C000044,2025-05-10,35-44,Wicklow,Paid Search,Granted
+C000045,2025-01-25,35-44,Cork,Paid Search,Granted
+C000046,2025-12-21,25-34,Other,Organic Search,Granted
+C000047,2025-06-12,45-54,Dublin,Email,Not Recorded
+C000048,2025-11-22,55-64,Dublin,Organic Search,Granted
+C000049,2025-09-05,55-64,Galway,Affiliate,Granted
+C000050,2025-10-12,25-34,Dublin,Paid Search,Granted
+C000051,2025-10-05,35-44,Dublin,Organic Search,Granted
+C000052,2025-03-13,25-34,Wicklow,Affiliate,Granted
+C000053,2025-05-13,25-34,Other,Organic Search,Granted
+C000054,2025-06-20,25-34,Dublin,Direct,Granted
+C000055,2025-07-01,65+,Other,Organic Search,Granted
+C000056,2025-01-16,55-64,Other,Affiliate,Granted
+C000057,2025-07-19,45-54,Other,Affiliate,Granted
+C000058,2025-02-26,35-44,Kildare,Affiliate,Not Recorded
+C000059,2025-09-29,35-44,Kildare,Organic Search,Granted
+C000060,2025-09-07,35-44,Galway,Affiliate,Granted
+C000061,2025-12-03,35-44,Kildare,Email,Granted
+C000062,2025-09-29,35-44,Other,Organic Search,Granted
+C000063,2025-05-14,25-34,Dublin,Organic Search,Granted
+C000064,2025-12-20,25-34,Dublin,Affiliate,Granted
+C000065,2025-05-30,65+,Dublin,Organic Search,Granted
+C000066,2025-04-29,35-44,Other,Direct,Granted
+C000067,2025-11-27,65+,Cork,Affiliate,Granted
+C000068,2025-05-16,25-34,Kildare,Organic Search,Granted
+C000069,2025-01-28,35-44,Other,Direct,Granted
+C000070,2025-06-21,25-34,Other,Direct,Granted
+C000071,2025-10-18,25-34,Dublin,Paid Search,Granted
+C000072,2025-03-11,18-24,Other,Referral,Granted
+C000073,2025-06-18,25-34,Other,Organic Search,Not Recorded
+C000074,2025-02-17,55-64,Dublin,Paid Search,Granted
+C000075,2025-09-08,25-34,Wicklow,Affiliate,Granted
+C000076,2025-06-23,35-44,Cork,Organic Search,Granted
+C000077,2025-05-01,35-44,Kildare,Affiliate,Granted
+C000078,2025-03-24,35-44,Galway,Organic Search,Granted
+C000079,2025-07-26,35-44,Dublin,Paid Search,Granted
+C000080,2025-09-02,25-34,Dublin,Organic Search,Granted
+C000081,2025-12-10,65+,Dublin,Direct,Granted
+C000082,2025-06-09,55-64,Dublin,Affiliate,Granted
+C000083,2025-02-28,45-54,Kildare,Affiliate,Granted
+C000084,2025-10-31,35-44,Cork,Email,Granted
+C000085,2025-08-18,25-34,Dublin,Direct,Granted
+C000086,2025-09-13,55-64,Kildare,Affiliate,Granted
+C000087,2025-02-05,25-34,Kildare,Paid Search,Granted
+C000088,2025-04-25,18-24,Galway,Referral,Granted
+C000089,2025-10-08,25-34,Other,Direct,Not Recorded
+C000090,2025-10-31,45-54,Cork,Referral,Granted
+C000091,2025-06-08,35-44,Other,Organic Search,Granted
+C000092,2025-10-21,45-54,Dublin,Paid Search,Granted
+C000093,2025-11-04,45-54,Wicklow,Affiliate,Granted
+C000094,2025-05-22,25-34,Other,Organic Search,Granted
+C000095,2025-11-24,55-64,Other,Organic Search,Granted
+C000096,2025-04-16,35-44,Limerick,Email,Granted
+C000097,2025-03-29,45-54,Limerick,Paid Search,Granted
+C000098,2025-09-07,18-24,Cork,Organic Search,Granted
+C000099,2025-08-21,65+,Kildare,Paid Search,Granted
+C000100,2025-02-21,25-34,Other,Paid Search,Granted
+C000101,2025-10-31,18-24,Other,Direct,Granted
+C000102,2025-03-14,35-44,Galway,Referral,Granted
+C000103,2025-10-21,25-34,Dublin,Email,Granted
+C000104,2025-01-03,25-34,Limerick,Direct,Granted
+C000105,2025-10-18,45-54,Dublin,Affiliate,Granted
+C000106,2025-10-15,35-44,Dublin,Paid Search,Granted
+C000107,2025-10-12,55-64,Cork,Referral,Not Recorded
+C000108,2025-08-31,25-34,Wicklow,Organic Search,Granted
+C000109,2025-06-22,45-54,Dublin,Organic Search,Granted
+C000110,2025-09-15,35-44,Dublin,Email,Granted
+C000111,2025-04-12,45-54,Dublin,Referral,Granted
+C000112,2025-10-12,35-44,Other,Paid Search,Granted
+C000113,2025-07-22,35-44,Kildare,Direct,Granted
+C000114,2025-06-17,65+,Dublin,Paid Search,Not Recorded
+C000115,2025-07-04,25-34,Dublin,Paid Search,Granted
+C000116,2025-07-27,25-34,Limerick,Paid Search,Granted
+C000117,2025-01-14,45-54,Dublin,Organic Search,Granted
+C000118,2025-02-21,55-64,Limerick,Direct,Granted
+C000119,2025-03-31,18-24,Cork,Paid Search,Granted
+C000120,2025-02-11,35-44,Other,Paid Search,Granted
+C000121,2025-06-10,55-64,Dublin,Organic Search,Granted
+C000122,2025-09-01,45-54,Kildare,Email,Granted
+C000123,2025-08-27,65+,Dublin,Direct,Granted
+C000124,2025-06-21,35-44,Other,Referral,Granted
+C000125,2025-11-09,45-54,Other,Organic Search,Granted
+C000126,2025-07-26,25-34,Wicklow,Direct,Granted
+C000127,2025-01-29,65+,Galway,Affiliate,Granted
+C000128,2025-10-07,25-34,Dublin,Paid Search,Granted
+C000129,2025-07-29,45-54,Other,Organic Search,Granted
+C000130,2025-08-20,35-44,Wicklow,Organic Search,Granted
+C000131,2025-07-26,35-44,Dublin,Organic Search,Granted
+C000132,2025-07-22,45-54,Galway,Paid Search,Granted
+C000133,2025-02-03,35-44,Galway,Paid Search,Granted
+C000134,2025-07-24,55-64,Other,Organic Search,Granted
+C000135,2025-10-18,35-44,Kildare,Direct,Granted
+C000136,2025-04-21,45-54,Kildare,Organic Search,Granted
+C000137,2025-08-09,25-34,Kildare,Paid Search,Granted
+C000138,2025-01-12,35-44,Dublin,Affiliate,Granted
+C000139,2025-05-07,35-44,Cork,Organic Search,Granted
+C000140,2025-06-09,25-34,Dublin,Organic Search,Granted
+C000141,2025-12-25,18-24,Other,Organic Search,Granted
+C000142,2025-03-20,45-54,Cork,Organic Search,Granted
+C000143,2025-04-11,45-54,Cork,Paid Search,Granted
+C000144,2025-05-30,45-54,Dublin,Organic Search,Granted
+C000145,2025-12-29,18-24,Dublin,Organic Search,Granted
+C000146,2025-11-08,25-34,Limerick,Email,Granted
+C000147,2025-01-13,25-34,Dublin,Referral,Granted
+C000148,2025-03-27,45-54,Dublin,Organic Search,Granted
+C000149,2025-10-27,55-64,Wicklow,Paid Search,Granted
+C000150,2025-01-22,25-34,Cork,Paid Search,Granted
+C000151,2025-11-09,45-54,Cork,Affiliate,Granted
+C000152,2025-04-13,25-34,Cork,Affiliate,Granted
+C000153,2025-12-01,25-34,Other,Organic Search,Granted
+C000154,2025-04-18,25-34,Cork,Organic Search,Granted
+C000155,2025-06-08,25-34,Wicklow,Paid Search,Granted
+C000156,2025-08-30,45-54,Other,Referral,Granted
+C000157,2025-02-16,55-64,Kildare,Referral,Granted
+C000158,2025-07-23,25-34,Cork,Organic Search,Granted
+C000159,2025-07-04,35-44,Wicklow,Direct,Granted
+C000160,2025-10-14,45-54,Galway,Organic Search,Granted
+C000161,2025-12-30,65+,Cork,Affiliate,Granted
+C000162,2025-08-31,35-44,Galway,Referral,Granted
+C000163,2025-05-30,25-34,Dublin,Paid Search,Granted
+C000164,2025-05-29,35-44,Dublin,Organic Search,Granted
+C000165,2025-06-02,25-34,Cork,Direct,Granted
+C000166,2025-10-25,65+,Dublin,Paid Search,Granted
+C000167,2025-04-28,35-44,Cork,Affiliate,Granted
+C000168,2025-03-02,45-54,Limerick,Paid Search,Granted
+C000169,2025-05-03,18-24,Other,Referral,Not Recorded
+C000170,2025-01-09,35-44,Dublin,Organic Search,Granted
+C000171,2025-02-08,55-64,Limerick,Organic Search,Granted
+C000172,2025-02-02,35-44,Galway,Paid Search,Granted
+C000173,2025-10-09,35-44,Dublin,Organic Search,Not Recorded
+C000174,2025-09-21,65+,Dublin,Paid Search,Granted
+C000175,2025-09-12,55-64,Dublin,Direct,Granted
+C000176,2025-06-18,25-34,Dublin,Organic Search,Granted
+C000177,2025-09-19,35-44,Dublin,Organic Search,Granted
+C000178,2025-02-28,35-44,Cork,Organic Search,Granted
+C000179,2025-11-25,45-54,Galway,Organic Search,Granted
+C000180,2025-07-02,25-34,Dublin,Referral,Granted
+C000181,2025-12-09,25-34,Dublin,Email,Granted
+C000182,2025-02-25,55-64,Dublin,Organic Search,Granted
+C000183,2025-07-01,55-64,Galway,Affiliate,Granted
+C000184,2025-09-12,55-64,Cork,Affiliate,Granted
+C000185,2025-06-30,65+,Galway,Email,Not Recorded
+C000186,2025-06-12,45-54,Dublin,Paid Search,Granted
+C000187,2025-03-02,45-54,Dublin,Paid Search,Granted
+C000188,2025-05-20,45-54,Other,Paid Search,Granted
+C000189,2025-03-29,35-44,Dublin,Referral,Granted
+C000190,2025-04-21,35-44,Dublin,Affiliate,Not Recorded
+C000191,2025-09-07,25-34,Dublin,Paid Search,Granted
+C000192,2025-08-19,45-54,Other,Organic Search,Granted
+C000193,2025-08-10,25-34,Limerick,Affiliate,Granted
+C000194,2025-05-13,25-34,Limerick,Referral,Granted
+C000195,2025-12-17,35-44,Other,Paid Search,Granted
+C000196,2025-02-01,35-44,Dublin,Direct,Granted
+C000197,2025-05-06,25-34,Other,Paid Search,Granted
+C000198,2025-02-13,55-64,Dublin,Paid Search,Granted
+C000199,2025-05-04,55-64,Limerick,Direct,Granted
+C000200,2025-12-18,25-34,Cork,Affiliate,Granted
+C000201,2025-05-14,18-24,Cork,Email,Granted
+C000202,2025-11-28,25-34,Other,Paid Search,Granted
+C000203,2025-06-30,45-54,Dublin,Paid Search,Granted
+C000204,2025-09-13,55-64,Other,Paid Search,Granted
+C000205,2025-06-16,25-34,Cork,Organic Search,Granted
+C000206,2025-04-08,45-54,Kildare,Paid Search,Granted
+C000207,2025-10-06,25-34,Other,Organic Search,Not Recorded
+C000208,2025-12-20,35-44,Dublin,Paid Search,Granted
+C000209,2025-04-07,65+,Other,Organic Search,Granted
+C000210,2025-10-12,25-34,Limerick,Paid Search,Granted
+C000211,2025-04-06,25-34,Kildare,Affiliate,Granted
+C000212,2025-09-19,35-44,Dublin,Organic Search,Granted
+C000213,2025-10-15,35-44,Galway,Direct,Granted
+C000214,2025-06-14,65+,Kildare,Referral,Granted
+C000215,2025-09-26,65+,Galway,Direct,Granted
+C000216,2025-04-10,18-24,Dublin,Organic Search,Granted
+C000217,2025-01-29,25-34,Dublin,Paid Search,Granted
+C000218,2025-02-05,45-54,Other,Direct,Granted
+C000219,2025-06-13,25-34,Dublin,Paid Search,Granted
+C000220,2025-11-26,55-64,Kildare,Organic Search,Granted
+C000221,2025-02-16,45-54,Other,Paid Search,Not Recorded
+C000222,2025-06-16,25-34,Dublin,Direct,Granted
+C000223,2025-09-14,55-64,Dublin,Organic Search,Granted
+C000224,2025-03-15,25-34,Kildare,Direct,Granted
+C000225,2025-09-21,35-44,Dublin,Organic Search,Granted
+C000226,2025-04-22,35-44,Limerick,Paid Search,Not Recorded
+C000227,2025-10-23,35-44,Kildare,Affiliate,Granted
+C000228,2025-07-31,45-54,Limerick,Organic Search,Granted
+C000229,2025-07-19,45-54,Cork,Direct,Granted
+C000230,2025-03-06,65+,Kildare,Paid Search,Granted
+C000231,2025-06-19,65+,Limerick,Paid Search,Granted
+C000232,2025-11-09,35-44,Dublin,Referral,Not Recorded
+C000233,2025-01-08,18-24,Limerick,Paid Search,Granted
+C000234,2025-10-04,45-54,Other,Organic Search,Granted
+C000235,2025-06-29,65+,Kildare,Referral,Granted
+C000236,2025-09-20,25-34,Galway,Affiliate,Granted
+C000237,2025-08-31,35-44,Cork,Affiliate,Granted
+C000238,2025-06-07,35-44,Dublin,Organic Search,Granted
+C000239,2025-04-23,18-24,Dublin,Organic Search,Granted
+C000240,2025-08-17,45-54,Dublin,Direct,Granted
+C000241,2025-02-21,25-34,Other,Organic Search,Granted
+C000242,2025-08-02,45-54,Dublin,Organic Search,Granted
+C000243,2025-02-04,55-64,Other,Affiliate,Not Recorded
+C000244,2025-08-26,55-64,Dublin,Paid Search,Granted
+C000245,2025-08-18,35-44,Dublin,Organic Search,Granted
+C000246,2025-01-31,25-34,Cork,Organic Search,Granted
+C000247,2025-10-04,45-54,Cork,Paid Search,Granted
+C000248,2025-06-01,45-54,Other,Direct,Granted
+C000249,2025-10-15,35-44,Other,Referral,Granted
+C000250,2025-01-16,55-64,Other,Organic Search,Granted
+C000251,2025-03-07,25-34,Dublin,Organic Search,Granted
+C000252,2025-06-30,55-64,Other,Direct,Granted
+C000253,2025-03-10,18-24,Dublin,Paid Search,Granted
+C000254,2025-05-01,25-34,Other,Paid Search,Granted
+C000255,2025-08-30,35-44,Galway,Referral,Granted
+C000256,2025-02-22,18-24,Cork,Direct,Granted
+C000257,2025-09-05,18-24,Dublin,Paid Search,Granted
+C000258,2025-02-07,18-24,Dublin,Email,Granted
+C000259,2025-03-05,35-44,Dublin,Organic Search,Granted
+C000260,2025-08-03,45-54,Other,Email,Granted
+C000261,2025-10-17,18-24,Other,Paid Search,Granted
+C000262,2025-03-04,45-54,Other,Paid Search,Granted
+C000263,2025-04-20,55-64,Dublin,Referral,Granted
+C000264,2025-12-04,25-34,Limerick,Paid Search,Not Recorded
+C000265,2025-12-28,25-34,Dublin,Paid Search,Granted
+C000266,2025-08-01,55-64,Galway,Organic Search,Granted
+C000267,2025-06-13,55-64,Cork,Direct,Granted
+C000268,2025-05-07,35-44,Dublin,Direct,Granted
+C000269,2025-08-12,55-64,Limerick,Organic Search,Granted
+C000270,2025-08-04,18-24,Dublin,Affiliate,Granted
+C000271,2025-04-18,35-44,Galway,Direct,Granted
+C000272,2025-01-09,45-54,Kildare,Paid Search,Granted
+C000273,2025-02-25,25-34,Dublin,Organic Search,Granted
+C000274,2025-12-16,45-54,Other,Paid Search,Granted
+C000275,2025-06-02,35-44,Galway,Organic Search,Granted
+C000276,2025-06-26,45-54,Other,Organic Search,Granted
+C000277,2025-06-20,35-44,Kildare,Paid Search,Granted
+C000278,2025-10-13,25-34,Wicklow,Organic Search,Granted
+C000279,2025-01-24,25-34,Wicklow,Organic Search,Not Recorded
+C000280,2025-01-31,25-34,Other,Direct,Not Recorded
+C000281,2025-04-11,45-54,Limerick,Paid Search,Granted
+C000282,2025-06-27,25-34,Dublin,Email,Granted
+C000283,2025-09-02,18-24,Dublin,Referral,Granted
+C000284,2025-06-29,25-34,Limerick,Direct,Granted
+C000285,2025-06-11,25-34,Dublin,Email,Granted
+C000286,2025-12-09,55-64,Dublin,Referral,Granted
+C000287,2025-02-28,35-44,Dublin,Paid Search,Granted
+C000288,2025-07-28,65+,Galway,Affiliate,Not Recorded
+C000289,2025-07-17,25-34,Dublin,Organic Search,Granted
+C000290,2025-06-22,45-54,Limerick,Affiliate,Granted
+C000291,2025-10-22,35-44,Other,Paid Search,Granted
+C000292,2025-04-08,35-44,Other,Organic Search,Granted
+C000293,2025-12-15,55-64,Dublin,Organic Search,Granted
+C000294,2025-05-02,65+,Galway,Email,Granted
+C000295,2025-07-18,55-64,Limerick,Paid Search,Not Recorded
+C000296,2025-07-10,25-34,Galway,Organic Search,Granted
+C000297,2025-11-07,25-34,Kildare,Organic Search,Granted
+C000298,2025-06-10,45-54,Dublin,Paid Search,Granted
+C000299,2025-04-14,25-34,Other,Affiliate,Granted
+C000300,2025-01-08,45-54,Dublin,Affiliate,Granted
+C000301,2025-05-13,35-44,Other,Paid Search,Granted
+C000302,2025-10-29,35-44,Limerick,Organic Search,Granted
+C000303,2025-01-04,55-64,Dublin,Organic Search,Granted
+C000304,2025-11-24,45-54,Wicklow,Paid Search,Granted
+C000305,2025-07-18,18-24,Dublin,Affiliate,Granted
+C000306,2025-02-21,18-24,Other,Affiliate,Granted
+C000307,2025-04-21,35-44,Limerick,Paid Search,Granted
+C000308,2025-07-22,35-44,Dublin,Direct,Granted
+C000309,2025-04-26,25-34,Dublin,Paid Search,Granted
+C000310,2025-02-09,35-44,Wicklow,Direct,Granted
+C000311,2025-09-01,45-54,Dublin,Paid Search,Granted
+C000312,2025-09-03,55-64,Other,Affiliate,Granted
+C000313,2025-02-13,35-44,Wicklow,Paid Search,Granted
+C000314,2025-04-13,35-44,Kildare,Email,Granted
+C000315,2025-03-31,25-34,Dublin,Paid Search,Not Recorded
+C000316,2025-08-29,35-44,Kildare,Organic Search,Granted
+C000317,2025-09-24,25-34,Other,Organic Search,Granted
+C000318,2025-09-23,35-44,Dublin,Paid Search,Granted
+C000319,2025-12-09,45-54,Cork,Direct,Granted
+C000320,2025-10-08,18-24,Dublin,Direct,Granted
+C000321,2025-04-28,18-24,Cork,Affiliate,Granted
+C000322,2025-02-09,25-34,Wicklow,Organic Search,Granted
+C000323,2025-08-13,55-64,Galway,Direct,Granted
+C000324,2025-12-01,45-54,Limerick,Affiliate,Granted
+C000325,2025-12-22,25-34,Dublin,Paid Search,Granted
+C000326,2025-03-26,55-64,Dublin,Paid Search,Granted
+C000327,2025-03-28,35-44,Dublin,Organic Search,Granted
+C000328,2025-01-14,35-44,Other,Paid Search,Granted
+C000329,2025-02-21,65+,Limerick,Affiliate,Granted
+C000330,2025-07-22,18-24,Cork,Referral,Granted
+C000331,2025-07-19,25-34,Other,Direct,Granted
+C000332,2025-05-16,35-44,Dublin,Paid Search,Granted
+C000333,2025-04-24,25-34,Dublin,Affiliate,Granted
+C000334,2025-10-30,45-54,Dublin,Affiliate,Granted
+C000335,2025-06-17,25-34,Other,Paid Search,Granted
+C000336,2025-10-23,18-24,Kildare,Affiliate,Granted
+C000337,2025-12-18,25-34,Limerick,Organic Search,Granted
+C000338,2025-04-26,35-44,Dublin,Organic Search,Granted
+C000339,2025-03-15,25-34,Dublin,Organic Search,Granted
+C000340,2025-12-14,25-34,Kildare,Organic Search,Granted
+C000341,2025-08-20,55-64,Cork,Referral,Granted
+C000342,2025-04-17,25-34,Other,Paid Search,Granted
+C000343,2025-08-15,25-34,Wicklow,Organic Search,Granted
+C000344,2025-07-07,18-24,Cork,Paid Search,Granted
+C000345,2025-11-27,25-34,Wicklow,Paid Search,Granted
+C000346,2025-04-04,25-34,Other,Paid Search,Granted
+C000347,2025-12-28,35-44,Galway,Organic Search,Granted
+C000348,2025-12-08,25-34,Kildare,Direct,Granted
+C000349,2025-03-07,55-64,Other,Organic Search,Granted
+C000350,2025-03-02,55-64,Dublin,Affiliate,Granted
+C000351,2025-07-14,18-24,Other,Organic Search,Granted
+C000352,2025-01-17,25-34,Dublin,Affiliate,Not Recorded
+C000353,2025-04-20,25-34,Kildare,Affiliate,Granted
+C000354,2025-06-08,35-44,Other,Organic Search,Granted
+C000355,2025-12-20,25-34,Limerick,Organic Search,Granted
+C000356,2025-12-29,55-64,Galway,Email,Granted
+C000357,2025-02-25,45-54,Limerick,Paid Search,Granted
+C000358,2025-11-22,55-64,Dublin,Direct,Not Recorded
+C000359,2025-02-03,35-44,Dublin,Organic Search,Granted
+C000360,2025-10-01,65+,Dublin,Organic Search,Granted
+C000361,2025-11-05,18-24,Limerick,Paid Search,Granted
+C000362,2025-11-22,35-44,Cork,Referral,Granted
+C000363,2025-03-23,25-34,Dublin,Organic Search,Granted
+C000364,2025-11-23,65+,Other,Affiliate,Granted
+C000365,2025-02-12,35-44,Cork,Direct,Granted
+C000366,2025-07-09,45-54,Cork,Organic Search,Granted
+C000367,2025-06-21,25-34,Cork,Paid Search,Granted
+C000368,2025-04-26,65+,Dublin,Organic Search,Granted
+C000369,2025-01-09,35-44,Wicklow,Paid Search,Granted
+C000370,2025-10-09,35-44,Cork,Direct,Granted
+C000371,2025-05-03,65+,Dublin,Paid Search,Granted
+C000372,2025-08-30,35-44,Other,Organic Search,Granted
+C000373,2025-05-30,35-44,Other,Affiliate,Granted
+C000374,2025-05-17,35-44,Wicklow,Direct,Granted
+C000375,2025-11-20,25-34,Other,Paid Search,Granted
+C000376,2025-02-04,25-34,Other,Direct,Granted
+C000377,2025-09-26,25-34,Cork,Organic Search,Granted
+C000378,2025-09-30,25-34,Limerick,Affiliate,Granted
+C000379,2025-05-19,55-64,Limerick,Paid Search,Granted
+C000380,2025-04-06,35-44,Dublin,Paid Search,Granted
+C000381,2025-01-02,25-34,Dublin,Organic Search,Granted
+C000382,2025-12-08,35-44,Dublin,Direct,Granted
+C000383,2025-12-12,35-44,Kildare,Direct,Granted
+C000384,2025-03-29,45-54,Other,Paid Search,Granted
+C000385,2025-01-12,55-64,Wicklow,Referral,Granted
+C000386,2025-02-14,65+,Dublin,Affiliate,Granted
+C000387,2025-01-25,35-44,Dublin,Organic Search,Not Recorded
+C000388,2025-10-31,25-34,Galway,Affiliate,Granted
+C000389,2025-11-22,35-44,Galway,Paid Search,Granted
+C000390,2025-02-25,35-44,Other,Email,Granted
+C000391,2025-09-30,35-44,Other,Organic Search,Granted
+C000392,2025-03-07,45-54,Other,Paid Search,Granted
+C000393,2025-05-15,35-44,Other,Paid Search,Granted
+C000394,2025-08-07,25-34,Other,Organic Search,Granted
+C000395,2025-09-20,25-34,Galway,Affiliate,Granted
+C000396,2025-11-16,25-34,Dublin,Paid Search,Granted
+C000397,2025-01-17,18-24,Dublin,Organic Search,Granted
+C000398,2025-03-13,25-34,Cork,Paid Search,Granted
+C000399,2025-04-13,45-54,Dublin,Referral,Granted
+C000400,2025-04-24,35-44,Dublin,Affiliate,Granted
+C000401,2025-12-31,25-34,Other,Paid Search,Granted
+C000402,2025-10-11,35-44,Dublin,Paid Search,Granted
+C000403,2025-04-27,45-54,Other,Organic Search,Not Recorded
+C000404,2025-12-21,25-34,Wicklow,Referral,Granted
+C000405,2025-07-02,55-64,Kildare,Affiliate,Granted
+C000406,2025-07-02,55-64,Kildare,Direct,Granted
+C000407,2025-06-08,35-44,Cork,Referral,Granted
+C000408,2025-02-22,45-54,Kildare,Organic Search,Granted
+C000409,2025-12-08,18-24,Dublin,Affiliate,Granted
+C000410,2025-01-06,65+,Other,Organic Search,Granted
+C000411,2025-03-05,35-44,Dublin,Organic Search,Granted
+C000412,2025-03-25,55-64,Dublin,Paid Search,Granted
+C000413,2025-04-12,35-44,Wicklow,Paid Search,Granted
+C000414,2025-02-18,18-24,Kildare,Email,Granted
+C000415,2025-01-07,18-24,Galway,Paid Search,Granted
+C000416,2025-09-05,45-54,Kildare,Affiliate,Granted
+C000417,2025-12-20,35-44,Dublin,Affiliate,Granted
+C000418,2025-02-14,18-24,Kildare,Direct,Granted
+C000419,2025-04-19,45-54,Dublin,Referral,Granted
+C000420,2025-07-04,55-64,Dublin,Paid Search,Granted
+C000421,2025-12-05,35-44,Dublin,Paid Search,Granted
+C000422,2025-09-11,35-44,Cork,Organic Search,Granted
+C000423,2025-10-07,18-24,Cork,Organic Search,Granted
+C000424,2025-08-01,45-54,Galway,Referral,Granted
+C000425,2025-06-02,25-34,Dublin,Paid Search,Granted
+C000426,2025-03-14,55-64,Dublin,Paid Search,Granted
+C000427,2025-11-12,25-34,Galway,Organic Search,Granted
+C000428,2025-10-21,35-44,Dublin,Paid Search,Granted
+C000429,2025-01-10,25-34,Kildare,Affiliate,Granted
+C000430,2025-09-19,25-34,Other,Paid Search,Granted
+C000431,2025-01-31,45-54,Cork,Affiliate,Granted
+C000432,2025-09-27,35-44,Other,Direct,Granted
+C000433,2025-10-29,35-44,Dublin,Affiliate,Granted
+C000434,2025-02-17,65+,Dublin,Organic Search,Granted
+C000435,2025-06-08,65+,Wicklow,Direct,Granted
+C000436,2025-02-15,55-64,Wicklow,Organic Search,Not Recorded
+C000437,2025-07-27,25-34,Other,Paid Search,Granted
+C000438,2025-12-05,35-44,Dublin,Affiliate,Granted
+C000439,2025-01-30,55-64,Other,Direct,Granted
+C000440,2025-05-26,25-34,Cork,Organic Search,Granted
+C000441,2025-12-22,25-34,Dublin,Referral,Granted
+C000442,2025-04-20,55-64,Dublin,Organic Search,Granted
+C000443,2025-02-18,35-44,Other,Direct,Granted
+C000444,2025-06-28,35-44,Dublin,Email,Granted
+C000445,2025-07-05,65+,Other,Direct,Granted
+C000446,2025-08-30,35-44,Kildare,Affiliate,Granted
+C000447,2025-04-25,35-44,Wicklow,Direct,Granted
+C000448,2025-12-15,25-34,Wicklow,Affiliate,Granted
+C000449,2025-07-10,35-44,Other,Direct,Granted
+C000450,2025-04-15,25-34,Dublin,Affiliate,Granted
+C000451,2025-12-17,45-54,Dublin,Organic Search,Granted
+C000452,2025-12-04,55-64,Limerick,Affiliate,Granted
+C000453,2025-07-02,25-34,Cork,Organic Search,Granted
+C000454,2025-01-10,25-34,Dublin,Email,Granted
+C000455,2025-08-06,55-64,Dublin,Organic Search,Granted
+C000456,2025-07-22,18-24,Cork,Organic Search,Granted
+C000457,2025-02-24,35-44,Dublin,Referral,Granted
+C000458,2025-08-20,35-44,Dublin,Organic Search,Granted
+C000459,2025-11-03,45-54,Other,Paid Search,Granted
+C000460,2025-02-08,25-34,Dublin,Affiliate,Granted
+C000461,2025-09-22,45-54,Other,Organic Search,Granted
+C000462,2025-02-21,25-34,Other,Organic Search,Granted
+C000463,2025-10-01,35-44,Dublin,Paid Search,Granted
+C000464,2025-06-02,18-24,Wicklow,Organic Search,Granted
+C000465,2025-01-03,35-44,Limerick,Organic Search,Granted
+C000466,2025-12-19,35-44,Kildare,Organic Search,Granted
+C000467,2025-03-02,25-34,Dublin,Paid Search,Granted
+C000468,2025-08-06,25-34,Dublin,Paid Search,Granted
+C000469,2025-03-08,25-34,Dublin,Organic Search,Granted
+C000470,2025-12-07,25-34,Limerick,Direct,Granted
+C000471,2025-09-27,18-24,Other,Direct,Granted
+C000472,2025-10-21,65+,Kildare,Organic Search,Granted
+C000473,2025-06-07,35-44,Wicklow,Paid Search,Granted
+C000474,2025-06-20,45-54,Other,Referral,Not Recorded
+C000475,2025-08-20,65+,Kildare,Direct,Granted
+C000476,2025-10-14,18-24,Dublin,Paid Search,Granted
+C000477,2025-11-06,45-54,Other,Paid Search,Granted
+C000478,2025-01-07,55-64,Cork,Organic Search,Granted
+C000479,2025-08-31,45-54,Dublin,Affiliate,Granted
+C000480,2025-02-09,35-44,Galway,Referral,Granted
+C000481,2025-04-16,35-44,Other,Referral,Granted
+C000482,2025-10-30,18-24,Dublin,Organic Search,Granted
+C000483,2025-04-02,35-44,Galway,Paid Search,Granted
+C000484,2025-10-18,65+,Dublin,Organic Search,Granted
+C000485,2025-06-18,65+,Dublin,Paid Search,Granted
+C000486,2025-03-26,18-24,Dublin,Paid Search,Granted
+C000487,2025-05-02,45-54,Wicklow,Direct,Granted
+C000488,2025-07-13,25-34,Other,Organic Search,Granted
+C000489,2025-10-07,55-64,Dublin,Referral,Granted
+C000490,2025-08-10,18-24,Dublin,Organic Search,Granted
+C000491,2025-12-07,65+,Dublin,Organic Search,Granted
+C000492,2025-11-13,55-64,Dublin,Referral,Granted
+C000493,2025-10-02,25-34,Limerick,Affiliate,Granted
+C000494,2025-08-09,18-24,Kildare,Paid Search,Granted
+C000495,2025-04-16,55-64,Kildare,Direct,Granted
+C000496,2025-05-31,25-34,Cork,Organic Search,Granted
+C000497,2025-02-13,35-44,Limerick,Organic Search,Granted
+C000498,2025-05-17,55-64,Dublin,Paid Search,Granted
+C000499,2025-12-05,35-44,Dublin,Paid Search,Granted
+C000500,2025-06-05,35-44,Other,Direct,Granted
+C000501,2025-02-11,35-44,Wicklow,Organic Search,Granted
+C000502,2025-08-26,18-24,Other,Direct,Granted
+C000503,2025-12-18,65+,Other,Affiliate,Granted
+C000504,2025-11-13,25-34,Kildare,Organic Search,Granted
+C000505,2025-04-11,25-34,Other,Organic Search,Granted
+C000506,2025-06-15,25-34,Cork,Paid Search,Granted
+C000507,2025-07-13,65+,Dublin,Affiliate,Granted
+C000508,2025-04-01,18-24,Dublin,Direct,Not Recorded
+C000509,2025-04-09,55-64,Dublin,Affiliate,Granted
+C000510,2025-03-28,45-54,Dublin,Paid Search,Granted
+C000511,2025-12-30,55-64,Cork,Organic Search,Granted
+C000512,2025-09-30,65+,Kildare,Direct,Granted
+C000513,2025-11-03,55-64,Other,Organic Search,Granted
+C000514,2025-10-26,65+,Limerick,Affiliate,Granted
+C000515,2025-12-17,25-34,Dublin,Organic Search,Granted
+C000516,2025-02-08,45-54,Wicklow,Paid Search,Granted
+C000517,2025-11-18,35-44,Cork,Paid Search,Granted
+C000518,2025-01-25,35-44,Dublin,Paid Search,Granted
+C000519,2025-06-23,55-64,Dublin,Direct,Granted
+C000520,2025-08-05,65+,Cork,Paid Search,Not Recorded
+C000521,2025-05-11,45-54,Dublin,Referral,Granted
+C000522,2025-02-23,35-44,Other,Affiliate,Not Recorded
+C000523,2025-03-12,35-44,Wicklow,Referral,Granted
+C000524,2025-10-29,35-44,Kildare,Direct,Granted
+C000525,2025-04-27,25-34,Dublin,Direct,Granted
+C000526,2025-04-24,35-44,Other,Direct,Granted
+C000527,2025-12-04,18-24,Kildare,Paid Search,Granted
+C000528,2025-02-22,18-24,Dublin,Paid Search,Granted
+C000529,2025-12-01,45-54,Kildare,Direct,Granted
+C000530,2025-12-03,35-44,Galway,Organic Search,Granted
+C000531,2025-08-07,65+,Cork,Organic Search,Granted
+C000532,2025-03-02,35-44,Dublin,Referral,Granted
+C000533,2025-02-26,18-24,Galway,Organic Search,Granted
+C000534,2025-04-14,25-34,Dublin,Direct,Not Recorded
+C000535,2025-07-30,25-34,Dublin,Direct,Granted
+C000536,2025-02-26,65+,Dublin,Organic Search,Granted
+C000537,2025-06-16,25-34,Other,Referral,Granted
+C000538,2025-02-12,35-44,Dublin,Organic Search,Granted
+C000539,2025-07-17,65+,Cork,Referral,Not Recorded
+C000540,2025-01-08,65+,Cork,Affiliate,Granted
+C000541,2025-09-16,25-34,Other,Organic Search,Granted
+C000542,2025-01-21,18-24,Limerick,Organic Search,Not Recorded
+C000543,2025-03-13,25-34,Other,Paid Search,Granted
+C000544,2025-03-05,18-24,Dublin,Paid Search,Granted
+C000545,2025-10-31,25-34,Dublin,Organic Search,Granted
+C000546,2025-01-20,35-44,Limerick,Email,Granted
+C000547,2025-06-06,55-64,Cork,Organic Search,Granted
+C000548,2025-08-04,35-44,Other,Affiliate,Granted
+C000549,2025-07-08,35-44,Other,Organic Search,Granted
+C000550,2025-09-06,25-34,Galway,Email,Not Recorded
+C000551,2025-10-21,45-54,Other,Organic Search,Not Recorded
+C000552,2025-05-24,35-44,Limerick,Paid Search,Granted
+C000553,2025-10-30,55-64,Dublin,Direct,Granted
+C000554,2025-04-27,65+,Galway,Organic Search,Granted
+C000555,2025-12-26,25-34,Dublin,Affiliate,Granted
+C000556,2025-07-04,18-24,Other,Organic Search,Granted
+C000557,2025-09-26,25-34,Dublin,Direct,Granted
+C000558,2025-11-16,35-44,Dublin,Direct,Granted
+C000559,2025-10-17,65+,Limerick,Direct,Granted
+C000560,2025-11-07,25-34,Dublin,Organic Search,Granted
+C000561,2025-07-15,45-54,Dublin,Organic Search,Granted
+C000562,2025-01-16,35-44,Kildare,Organic Search,Granted
+C000563,2025-06-29,25-34,Dublin,Paid Search,Granted
+C000564,2025-03-08,25-34,Galway,Organic Search,Granted
+C000565,2025-11-21,45-54,Cork,Referral,Granted
+C000566,2025-03-28,45-54,Dublin,Paid Search,Granted
+C000567,2025-03-25,35-44,Dublin,Direct,Granted
+C000568,2025-04-02,25-34,Wicklow,Paid Search,Granted
+C000569,2025-08-23,45-54,Other,Organic Search,Granted
+C000570,2025-07-28,25-34,Dublin,Paid Search,Granted
+C000571,2025-12-13,65+,Other,Paid Search,Granted
+C000572,2025-06-01,25-34,Limerick,Paid Search,Granted
+C000573,2025-04-14,25-34,Kildare,Paid Search,Granted
+C000574,2025-01-18,35-44,Kildare,Paid Search,Granted
+C000575,2025-01-03,35-44,Kildare,Email,Granted
+C000576,2025-05-17,35-44,Other,Organic Search,Granted
+C000577,2025-12-04,35-44,Galway,Paid Search,Granted
+C000578,2025-07-11,65+,Galway,Organic Search,Granted
+C000579,2025-11-23,35-44,Cork,Paid Search,Granted
+C000580,2025-02-07,35-44,Dublin,Affiliate,Granted
+C000581,2025-02-04,35-44,Kildare,Organic Search,Granted
+C000582,2025-11-01,18-24,Dublin,Direct,Granted
+C000583,2025-02-08,35-44,Dublin,Paid Search,Granted
+C000584,2025-01-19,25-34,Dublin,Organic Search,Granted
+C000585,2025-05-28,45-54,Dublin,Email,Not Recorded
+C000586,2025-12-04,18-24,Kildare,Paid Search,Not Recorded
+C000587,2025-09-09,65+,Limerick,Affiliate,Granted
+C000588,2025-02-06,35-44,Cork,Paid Search,Granted
+C000589,2025-11-02,55-64,Dublin,Email,Granted
+C000590,2025-11-04,35-44,Cork,Paid Search,Granted
+C000591,2025-10-20,18-24,Cork,Paid Search,Granted
+C000592,2025-11-26,55-64,Wicklow,Affiliate,Granted
+C000593,2025-03-29,45-54,Limerick,Paid Search,Granted
+C000594,2025-12-24,45-54,Galway,Paid Search,Granted
+C000595,2025-04-28,35-44,Galway,Email,Granted
+C000596,2025-10-20,45-54,Other,Direct,Granted
+C000597,2025-07-31,55-64,Wicklow,Affiliate,Not Recorded
+C000598,2025-10-12,45-54,Galway,Direct,Granted
+C000599,2025-08-18,25-34,Galway,Affiliate,Granted
+C000600,2025-08-23,45-54,Dublin,Referral,Not Recorded
+C000601,2025-08-13,45-54,Other,Direct,Granted
+C000602,2025-10-12,65+,Dublin,Paid Search,Granted
+C000603,2025-09-27,25-34,Dublin,Organic Search,Granted
+C000604,2025-02-19,35-44,Other,Direct,Granted
+C000605,2025-10-29,55-64,Wicklow,Affiliate,Granted
+C000606,2025-07-15,35-44,Dublin,Paid Search,Granted
+C000607,2025-04-28,45-54,Dublin,Organic Search,Granted
+C000608,2025-07-07,35-44,Dublin,Paid Search,Granted
+C000609,2025-12-19,25-34,Limerick,Paid Search,Not Recorded
+C000610,2025-11-10,45-54,Dublin,Affiliate,Granted
+C000611,2025-11-01,25-34,Other,Organic Search,Granted
+C000612,2025-06-18,25-34,Other,Direct,Granted
+C000613,2025-10-14,35-44,Galway,Affiliate,Granted
+C000614,2025-05-21,45-54,Limerick,Email,Granted
+C000615,2025-09-08,55-64,Dublin,Organic Search,Granted
+C000616,2025-08-22,25-34,Dublin,Referral,Granted
+C000617,2025-04-02,25-34,Wicklow,Direct,Granted
+C000618,2025-04-08,65+,Dublin,Affiliate,Granted
+C000619,2025-01-23,25-34,Dublin,Organic Search,Granted
+C000620,2025-02-21,25-34,Dublin,Paid Search,Granted
+C000621,2025-06-08,25-34,Dublin,Direct,Granted
+C000622,2025-06-24,35-44,Cork,Paid Search,Granted
+C000623,2025-03-02,55-64,Kildare,Paid Search,Granted
+C000624,2025-06-02,45-54,Other,Direct,Granted
+C000625,2025-08-09,45-54,Limerick,Direct,Granted
+C000626,2025-03-26,25-34,Other,Organic Search,Granted
+C000627,2025-05-04,25-34,Cork,Paid Search,Granted
+C000628,2025-05-15,35-44,Other,Organic Search,Granted
+C000629,2025-07-04,25-34,Galway,Referral,Granted
+C000630,2025-05-14,25-34,Dublin,Email,Not Recorded
+C000631,2025-09-26,25-34,Other,Paid Search,Granted
+C000632,2025-04-30,25-34,Dublin,Organic Search,Granted
+C000633,2025-06-08,35-44,Dublin,Organic Search,Granted
+C000634,2025-05-19,45-54,Dublin,Paid Search,Granted
+C000635,2025-03-08,18-24,Cork,Referral,Granted
+C000636,2025-09-08,35-44,Cork,Paid Search,Granted
+C000637,2025-03-27,45-54,Galway,Organic Search,Granted
+C000638,2025-04-19,45-54,Other,Organic Search,Granted
+C000639,2025-10-17,55-64,Dublin,Organic Search,Granted
+C000640,2025-12-13,35-44,Galway,Affiliate,Granted
+C000641,2025-09-02,55-64,Cork,Direct,Granted
+C000642,2025-12-01,25-34,Other,Direct,Granted
+C000643,2025-11-08,25-34,Dublin,Paid Search,Granted
+C000644,2025-06-25,25-34,Dublin,Referral,Granted
+C000645,2025-10-09,35-44,Galway,Paid Search,Granted
+C000646,2025-04-30,35-44,Kildare,Affiliate,Granted
+C000647,2025-06-18,25-34,Other,Referral,Granted
+C000648,2025-07-15,45-54,Limerick,Paid Search,Granted
+C000649,2025-12-17,25-34,Other,Referral,Granted
+C000650,2025-11-06,25-34,Cork,Organic Search,Granted
+C000651,2025-06-28,25-34,Dublin,Direct,Granted
+C000652,2025-08-27,35-44,Dublin,Organic Search,Not Recorded
+C000653,2025-03-15,25-34,Dublin,Paid Search,Granted
+C000654,2025-10-21,25-34,Cork,Organic Search,Granted
+C000655,2025-07-21,25-34,Galway,Organic Search,Granted
+C000656,2025-07-14,45-54,Cork,Organic Search,Granted
+C000657,2025-10-07,65+,Limerick,Paid Search,Granted
+C000658,2025-08-20,35-44,Galway,Direct,Granted
+C000659,2025-01-27,45-54,Kildare,Paid Search,Granted
+C000660,2025-04-16,55-64,Kildare,Paid Search,Granted
+C000661,2025-03-06,65+,Dublin,Email,Granted
+C000662,2025-09-26,35-44,Cork,Email,Granted
+C000663,2025-01-13,55-64,Limerick,Organic Search,Granted
+C000664,2025-03-15,55-64,Limerick,Paid Search,Granted
+C000665,2025-08-07,45-54,Dublin,Direct,Granted
+C000666,2025-09-11,35-44,Cork,Affiliate,Granted
+C000667,2025-07-03,18-24,Kildare,Paid Search,Granted
+C000668,2025-11-11,18-24,Kildare,Affiliate,Granted
+C000669,2025-12-02,35-44,Dublin,Organic Search,Granted
+C000670,2025-02-18,35-44,Cork,Paid Search,Granted
+C000671,2025-12-14,35-44,Other,Affiliate,Granted
+C000672,2025-08-13,35-44,Dublin,Direct,Granted
+C000673,2025-08-21,35-44,Other,Affiliate,Granted
+C000674,2025-02-04,55-64,Dublin,Organic Search,Not Recorded
+C000675,2025-08-15,25-34,Galway,Organic Search,Granted
+C000676,2025-09-22,25-34,Cork,Organic Search,Granted
+C000677,2025-07-31,45-54,Dublin,Organic Search,Granted
+C000678,2025-01-31,55-64,Other,Organic Search,Granted
+C000679,2025-07-10,65+,Galway,Paid Search,Granted
+C000680,2025-12-08,55-64,Other,Direct,Granted
+C000681,2025-09-22,55-64,Dublin,Direct,Not Recorded
+C000682,2025-02-20,25-34,Other,Paid Search,Not Recorded
+C000683,2025-12-17,35-44,Other,Organic Search,Granted
+C000684,2025-12-16,25-34,Limerick,Direct,Granted
+C000685,2025-03-03,35-44,Dublin,Organic Search,Granted
+C000686,2025-10-20,65+,Kildare,Referral,Granted
+C000687,2025-05-29,25-34,Galway,Organic Search,Granted
+C000688,2025-08-05,35-44,Other,Direct,Granted
+C000689,2025-06-12,25-34,Cork,Referral,Granted
+C000690,2025-10-13,25-34,Dublin,Direct,Granted
+C000691,2025-12-30,25-34,Dublin,Direct,Granted
+C000692,2025-10-18,18-24,Kildare,Affiliate,Granted
+C000693,2025-12-06,65+,Other,Organic Search,Granted
+C000694,2025-12-12,35-44,Dublin,Direct,Granted
+C000695,2025-02-02,55-64,Wicklow,Referral,Granted
+C000696,2025-04-03,45-54,Other,Email,Granted
+C000697,2025-09-21,25-34,Dublin,Paid Search,Granted
+C000698,2025-08-04,25-34,Dublin,Paid Search,Granted
+C000699,2025-01-19,55-64,Kildare,Affiliate,Granted
+C000700,2025-02-04,25-34,Kildare,Direct,Granted
+C000701,2025-07-09,55-64,Dublin,Organic Search,Granted
+C000702,2025-08-13,25-34,Other,Organic Search,Granted
+C000703,2025-03-03,45-54,Galway,Organic Search,Granted
+C000704,2025-03-04,55-64,Other,Paid Search,Granted
+C000705,2025-02-17,25-34,Other,Organic Search,Granted
+C000706,2025-07-26,25-34,Other,Organic Search,Granted
+C000707,2025-01-03,65+,Galway,Organic Search,Granted
+C000708,2025-07-28,25-34,Dublin,Referral,Granted
+C000709,2025-06-23,35-44,Galway,Organic Search,Granted
+C000710,2025-06-20,35-44,Dublin,Organic Search,Granted
+C000711,2025-09-05,25-34,Kildare,Paid Search,Granted
+C000712,2025-07-10,45-54,Dublin,Organic Search,Not Recorded
+C000713,2025-09-23,45-54,Galway,Email,Granted
+C000714,2025-10-06,25-34,Dublin,Referral,Granted
+C000715,2025-12-02,55-64,Dublin,Paid Search,Granted
+C000716,2025-10-19,25-34,Dublin,Paid Search,Not Recorded
+C000717,2025-07-08,18-24,Limerick,Paid Search,Granted
+C000718,2025-06-29,35-44,Other,Organic Search,Granted
+C000719,2025-03-28,65+,Dublin,Paid Search,Granted
+C000720,2025-08-07,18-24,Other,Organic Search,Granted
+C000721,2025-02-20,25-34,Other,Organic Search,Not Recorded
+C000722,2025-12-06,35-44,Cork,Direct,Not Recorded
+C000723,2025-11-05,45-54,Kildare,Organic Search,Granted
+C000724,2025-02-13,18-24,Cork,Organic Search,Granted
+C000725,2025-10-14,35-44,Dublin,Paid Search,Granted
+C000726,2025-02-12,45-54,Galway,Paid Search,Granted
+C000727,2025-09-21,25-34,Dublin,Organic Search,Granted
+C000728,2025-02-02,25-34,Other,Organic Search,Granted
+C000729,2025-06-28,25-34,Other,Organic Search,Granted
+C000730,2025-08-29,35-44,Other,Organic Search,Granted
+C000731,2025-09-24,35-44,Limerick,Affiliate,Granted
+C000732,2025-06-02,55-64,Limerick,Referral,Granted
+C000733,2025-12-03,45-54,Other,Paid Search,Granted
+C000734,2025-10-10,45-54,Dublin,Paid Search,Granted
+C000735,2025-03-18,65+,Dublin,Affiliate,Granted
+C000736,2025-09-02,35-44,Limerick,Direct,Granted
+C000737,2025-09-24,35-44,Cork,Organic Search,Granted
+C000738,2025-05-02,55-64,Cork,Organic Search,Granted
+C000739,2025-09-27,25-34,Dublin,Paid Search,Granted
+C000740,2025-11-24,45-54,Limerick,Direct,Not Recorded
+C000741,2025-10-26,45-54,Dublin,Organic Search,Granted
+C000742,2025-10-06,18-24,Dublin,Paid Search,Granted
+C000743,2025-08-20,35-44,Dublin,Paid Search,Granted
+C000744,2025-04-09,25-34,Cork,Organic Search,Granted
+C000745,2025-10-18,25-34,Other,Paid Search,Not Recorded
+C000746,2025-05-13,35-44,Cork,Direct,Not Recorded
+C000747,2025-07-14,25-34,Kildare,Paid Search,Granted
+C000748,2025-04-25,45-54,Wicklow,Organic Search,Granted
+C000749,2025-04-25,55-64,Cork,Organic Search,Granted
+C000750,2025-02-27,45-54,Other,Affiliate,Granted
+C000751,2025-12-17,25-34,Kildare,Paid Search,Not Recorded
+C000752,2025-02-23,25-34,Limerick,Organic Search,Granted
+C000753,2025-02-01,25-34,Dublin,Organic Search,Granted
+C000754,2025-12-08,25-34,Dublin,Affiliate,Granted
+C000755,2025-07-22,65+,Other,Affiliate,Granted
+C000756,2025-06-09,35-44,Other,Referral,Granted
+C000757,2025-09-27,25-34,Other,Direct,Granted
+C000758,2025-05-20,55-64,Other,Paid Search,Granted
+C000759,2025-02-16,35-44,Dublin,Paid Search,Granted
+C000760,2025-09-24,18-24,Other,Organic Search,Granted
+C000761,2025-03-06,25-34,Galway,Direct,Granted
+C000762,2025-07-21,45-54,Other,Direct,Granted
+C000763,2025-12-13,45-54,Dublin,Organic Search,Granted
+C000764,2025-12-08,25-34,Dublin,Referral,Granted
+C000765,2025-05-12,55-64,Wicklow,Paid Search,Granted
+C000766,2025-10-12,55-64,Other,Organic Search,Granted
+C000767,2025-08-12,55-64,Limerick,Paid Search,Granted
+C000768,2025-06-24,25-34,Dublin,Referral,Not Recorded
+C000769,2025-02-21,18-24,Dublin,Referral,Granted
+C000770,2025-05-18,55-64,Other,Paid Search,Granted
+C000771,2025-08-26,25-34,Cork,Email,Granted
+C000772,2025-12-27,35-44,Cork,Referral,Granted
+C000773,2025-01-02,45-54,Limerick,Affiliate,Granted
+C000774,2025-09-19,25-34,Cork,Referral,Granted
+C000775,2025-11-05,45-54,Limerick,Paid Search,Granted
+C000776,2025-12-14,65+,Cork,Affiliate,Granted
+C000777,2025-06-04,45-54,Other,Direct,Granted
+C000778,2025-02-13,35-44,Other,Affiliate,Not Recorded
+C000779,2025-04-09,55-64,Other,Organic Search,Granted
+C000780,2025-11-07,35-44,Limerick,Affiliate,Not Recorded
+C000781,2025-11-17,45-54,Cork,Email,Granted
+C000782,2025-08-21,55-64,Kildare,Paid Search,Granted
+C000783,2025-02-14,45-54,Other,Email,Granted
+C000784,2025-02-14,25-34,Limerick,Paid Search,Granted
+C000785,2025-06-24,25-34,Kildare,Organic Search,Granted
+C000786,2025-08-03,25-34,Wicklow,Organic Search,Granted
+C000787,2025-01-12,35-44,Kildare,Affiliate,Granted
+C000788,2025-09-08,35-44,Wicklow,Direct,Granted
+C000789,2025-07-18,35-44,Dublin,Paid Search,Granted
+C000790,2025-01-05,35-44,Galway,Direct,Granted
+C000791,2025-02-04,45-54,Limerick,Paid Search,Granted
+C000792,2025-06-15,55-64,Dublin,Paid Search,Granted
+C000793,2025-09-21,25-34,Other,Referral,Granted
+C000794,2025-10-29,45-54,Limerick,Direct,Granted
+C000795,2025-06-07,45-54,Dublin,Affiliate,Granted
+C000796,2025-04-18,35-44,Other,Direct,Granted
+C000797,2025-12-20,25-34,Wicklow,Email,Granted
+C000798,2025-06-17,45-54,Wicklow,Organic Search,Granted
+C000799,2025-04-26,65+,Cork,Organic Search,Granted
+C000800,2025-06-11,45-54,Other,Organic Search,Granted
+C000801,2025-01-05,55-64,Cork,Direct,Granted
+C000802,2025-04-21,65+,Limerick,Direct,Granted
+C000803,2025-07-08,25-34,Dublin,Affiliate,Granted
+C000804,2025-12-02,45-54,Kildare,Paid Search,Granted
+C000805,2025-09-27,35-44,Wicklow,Organic Search,Granted
+C000806,2025-10-13,65+,Limerick,Direct,Granted
+C000807,2025-07-18,18-24,Galway,Email,Granted
+C000808,2025-02-10,35-44,Other,Paid Search,Granted
+C000809,2025-05-23,55-64,Kildare,Organic Search,Granted
+C000810,2025-12-30,25-34,Dublin,Paid Search,Granted
+C000811,2025-01-17,45-54,Other,Paid Search,Not Recorded
+C000812,2025-11-17,35-44,Kildare,Organic Search,Granted
+C000813,2025-09-07,65+,Other,Paid Search,Granted
+C000814,2025-04-14,55-64,Other,Direct,Granted
+C000815,2025-10-11,25-34,Other,Paid Search,Granted
+C000816,2025-11-02,45-54,Wicklow,Paid Search,Granted
+C000817,2025-01-16,25-34,Limerick,Organic Search,Granted
+C000818,2025-02-08,35-44,Dublin,Referral,Granted
+C000819,2025-08-31,45-54,Galway,Paid Search,Granted
+C000820,2025-12-31,55-64,Wicklow,Paid Search,Granted
+C000821,2025-01-09,18-24,Galway,Organic Search,Granted
+C000822,2025-08-31,25-34,Other,Direct,Granted
+C000823,2025-02-19,45-54,Dublin,Referral,Not Recorded
+C000824,2025-08-26,35-44,Cork,Organic Search,Granted
+C000825,2025-08-16,35-44,Galway,Organic Search,Granted
+C000826,2025-02-03,18-24,Cork,Organic Search,Not Recorded
+C000827,2025-09-06,25-34,Dublin,Direct,Granted
+C000828,2025-11-24,55-64,Dublin,Referral,Granted
+C000829,2025-11-12,18-24,Other,Paid Search,Granted
+C000830,2025-01-11,35-44,Galway,Paid Search,Granted
+C000831,2025-03-31,65+,Dublin,Affiliate,Granted
+C000832,2025-03-29,18-24,Dublin,Affiliate,Granted
+C000833,2025-06-15,45-54,Galway,Organic Search,Granted
+C000834,2025-02-22,25-34,Dublin,Organic Search,Granted
+C000835,2025-11-08,55-64,Kildare,Paid Search,Granted
+C000836,2025-10-11,45-54,Other,Affiliate,Granted
+C000837,2025-10-23,55-64,Dublin,Affiliate,Granted
+C000838,2025-03-14,25-34,Limerick,Direct,Granted
+C000839,2025-01-06,35-44,Dublin,Affiliate,Granted
+C000840,2025-11-29,45-54,Dublin,Organic Search,Granted
+C000841,2025-04-16,25-34,Other,Paid Search,Granted
+C000842,2025-08-28,25-34,Galway,Organic Search,Granted
+C000843,2025-11-28,18-24,Other,Referral,Granted
+C000844,2025-01-14,65+,Dublin,Direct,Granted
+C000845,2025-01-02,45-54,Cork,Paid Search,Granted
+C000846,2025-01-02,45-54,Galway,Organic Search,Granted
+C000847,2025-02-27,45-54,Galway,Affiliate,Granted
+C000848,2025-01-19,35-44,Other,Affiliate,Granted
+C000849,2025-10-27,35-44,Dublin,Direct,Granted
+C000850,2025-08-10,35-44,Other,Organic Search,Granted
+C000851,2025-12-24,45-54,Other,Referral,Granted
+C000852,2025-10-20,25-34,Limerick,Affiliate,Granted
+C000853,2025-12-18,55-64,Cork,Direct,Not Recorded
+C000854,2025-03-29,55-64,Galway,Direct,Granted
+C000855,2025-04-16,25-34,Dublin,Referral,Granted
+C000856,2025-11-07,35-44,Other,Referral,Granted
+C000857,2025-03-31,25-34,Galway,Direct,Granted
+C000858,2025-01-21,65+,Other,Paid Search,Not Recorded
+C000859,2025-09-02,55-64,Limerick,Paid Search,Granted
+C000860,2025-10-20,55-64,Galway,Affiliate,Granted
+C000861,2025-12-20,25-34,Wicklow,Direct,Granted
+C000862,2025-12-05,25-34,Galway,Organic Search,Granted
+C000863,2025-02-13,25-34,Other,Organic Search,Granted
+C000864,2025-10-09,18-24,Dublin,Referral,Granted
+C000865,2025-11-05,25-34,Other,Referral,Not Recorded
+C000866,2025-09-12,18-24,Other,Email,Granted
+C000867,2025-10-27,65+,Other,Paid Search,Granted
+C000868,2025-11-02,18-24,Galway,Affiliate,Granted
+C000869,2025-06-12,25-34,Other,Affiliate,Granted
+C000870,2025-01-15,55-64,Dublin,Paid Search,Granted
+C000871,2025-06-16,35-44,Wicklow,Organic Search,Granted
+C000872,2025-03-15,45-54,Dublin,Email,Granted
+C000873,2025-02-11,45-54,Dublin,Organic Search,Granted
+C000874,2025-02-15,55-64,Cork,Direct,Granted
+C000875,2025-09-12,45-54,Cork,Direct,Granted
+C000876,2025-07-04,35-44,Cork,Affiliate,Granted
+C000877,2025-07-17,45-54,Other,Organic Search,Granted
+C000878,2025-09-29,35-44,Dublin,Affiliate,Not Recorded
+C000879,2025-07-20,25-34,Wicklow,Organic Search,Not Recorded
+C000880,2025-08-18,35-44,Dublin,Affiliate,Granted
+C000881,2025-02-01,25-34,Wicklow,Organic Search,Granted
+C000882,2025-11-07,45-54,Other,Affiliate,Granted
+C000883,2025-06-13,25-34,Cork,Affiliate,Granted
+C000884,2025-02-26,25-34,Wicklow,Organic Search,Granted
+C000885,2025-10-24,25-34,Other,Organic Search,Granted
+C000886,2025-09-26,55-64,Other,Affiliate,Granted
+C000887,2025-01-20,25-34,Cork,Organic Search,Granted
+C000888,2025-03-12,45-54,Galway,Organic Search,Granted
+C000889,2025-01-06,55-64,Other,Paid Search,Granted
+C000890,2025-04-09,18-24,Dublin,Email,Granted
+C000891,2025-02-06,45-54,Other,Direct,Granted
+C000892,2025-09-17,25-34,Cork,Paid Search,Granted
+C000893,2025-07-10,25-34,Other,Email,Granted
+C000894,2025-12-24,45-54,Dublin,Paid Search,Granted
+C000895,2025-10-01,55-64,Dublin,Paid Search,Granted
+C000896,2025-08-12,25-34,Other,Paid Search,Not Recorded
+C000897,2025-07-05,35-44,Other,Paid Search,Granted
+C000898,2025-01-20,25-34,Other,Paid Search,Granted
+C000899,2025-01-26,35-44,Other,Affiliate,Granted
+C000900,2025-08-13,35-44,Cork,Organic Search,Granted
+C000901,2025-01-02,35-44,Dublin,Affiliate,Granted
+C000902,2025-01-16,35-44,Dublin,Organic Search,Granted
+C000903,2025-03-21,25-34,Galway,Paid Search,Granted
+C000904,2025-11-19,45-54,Dublin,Organic Search,Not Recorded
+C000905,2025-06-17,45-54,Other,Direct,Granted
+C000906,2025-09-16,45-54,Dublin,Affiliate,Granted
+C000907,2025-05-31,18-24,Dublin,Paid Search,Granted
+C000908,2025-03-05,35-44,Dublin,Organic Search,Granted
+C000909,2025-05-16,35-44,Dublin,Organic Search,Granted
+C000910,2025-02-03,18-24,Dublin,Affiliate,Granted
+C000911,2025-10-09,25-34,Kildare,Organic Search,Granted
+C000912,2025-03-08,35-44,Cork,Affiliate,Granted
+C000913,2025-05-18,45-54,Limerick,Paid Search,Granted
+C000914,2025-12-24,25-34,Other,Organic Search,Granted
+C000915,2025-08-05,55-64,Limerick,Affiliate,Granted
+C000916,2025-06-17,35-44,Kildare,Paid Search,Granted
+C000917,2025-07-18,45-54,Cork,Organic Search,Granted
+C000918,2025-10-14,35-44,Dublin,Email,Granted
+C000919,2025-04-03,35-44,Cork,Organic Search,Granted
+C000920,2025-08-21,35-44,Other,Paid Search,Granted
+C000921,2025-11-15,55-64,Limerick,Paid Search,Granted
+C000922,2025-07-28,35-44,Dublin,Paid Search,Granted
+C000923,2025-06-12,35-44,Galway,Affiliate,Granted
+C000924,2025-02-22,35-44,Other,Organic Search,Granted
+C000925,2025-04-01,45-54,Kildare,Email,Granted
+C000926,2025-12-12,18-24,Limerick,Direct,Granted
+C000927,2025-07-17,35-44,Other,Email,Granted
+C000928,2025-04-20,35-44,Kildare,Affiliate,Granted
+C000929,2025-06-02,55-64,Kildare,Referral,Granted
+C000930,2025-07-30,35-44,Dublin,Direct,Not Recorded
+C000931,2025-07-16,35-44,Dublin,Paid Search,Granted
+C000932,2025-09-13,65+,Other,Paid Search,Granted
+C000933,2025-04-04,35-44,Limerick,Direct,Granted
+C000934,2025-08-25,25-34,Cork,Paid Search,Granted
+C000935,2025-06-11,25-34,Limerick,Affiliate,Granted
+C000936,2025-12-10,18-24,Dublin,Organic Search,Granted
+C000937,2025-02-27,18-24,Other,Affiliate,Granted
+C000938,2025-02-24,35-44,Dublin,Organic Search,Granted
+C000939,2025-06-18,45-54,Other,Email,Granted
+C000940,2025-07-05,45-54,Galway,Organic Search,Granted
+C000941,2025-09-10,18-24,Dublin,Organic Search,Granted
+C000942,2025-05-28,35-44,Dublin,Affiliate,Granted
+C000943,2025-11-30,25-34,Other,Affiliate,Granted
+C000944,2025-06-23,65+,Dublin,Affiliate,Granted
+C000945,2025-02-17,25-34,Dublin,Email,Granted
+C000946,2025-02-13,35-44,Wicklow,Organic Search,Not Recorded
+C000947,2025-12-22,25-34,Cork,Affiliate,Granted
+C000948,2025-02-18,45-54,Cork,Paid Search,Granted
+C000949,2025-12-12,35-44,Dublin,Direct,Granted
+C000950,2025-04-12,45-54,Other,Paid Search,Granted
+C000951,2025-02-04,25-34,Dublin,Organic Search,Granted
+C000952,2025-04-22,55-64,Dublin,Direct,Granted
+C000953,2025-08-13,35-44,Dublin,Affiliate,Granted
+C000954,2025-06-06,45-54,Dublin,Organic Search,Granted
+C000955,2025-10-14,55-64,Dublin,Email,Granted
+C000956,2025-08-12,65+,Dublin,Direct,Granted
+C000957,2025-05-27,25-34,Dublin,Organic Search,Granted
+C000958,2025-08-20,25-34,Cork,Direct,Granted
+C000959,2025-12-21,25-34,Other,Organic Search,Granted
+C000960,2025-05-31,25-34,Dublin,Organic Search,Granted
+C000961,2025-02-26,35-44,Dublin,Affiliate,Granted
+C000962,2025-05-30,65+,Other,Organic Search,Granted
+C000963,2025-11-03,65+,Other,Organic Search,Granted
+C000964,2025-03-21,35-44,Kildare,Affiliate,Granted
+C000965,2025-12-13,45-54,Dublin,Organic Search,Granted
+C000966,2025-08-03,55-64,Cork,Affiliate,Granted
+C000967,2025-08-08,65+,Dublin,Affiliate,Granted
+C000968,2025-04-26,25-34,Dublin,Organic Search,Granted
+C000969,2025-12-02,35-44,Cork,Paid Search,Granted
+C000970,2025-01-14,55-64,Limerick,Organic Search,Granted
+C000971,2025-04-20,25-34,Cork,Direct,Granted
+C000972,2025-06-02,35-44,Limerick,Organic Search,Granted
+C000973,2025-06-24,65+,Dublin,Email,Granted
+C000974,2025-06-23,65+,Cork,Organic Search,Granted
+C000975,2025-02-23,55-64,Other,Affiliate,Granted
+C000976,2025-03-24,45-54,Other,Organic Search,Granted
+C000977,2025-02-04,25-34,Cork,Organic Search,Granted
+C000978,2025-07-28,25-34,Limerick,Paid Search,Granted
+C000979,2025-05-09,35-44,Dublin,Direct,Granted
+C000980,2025-07-26,35-44,Dublin,Email,Granted
+C000981,2025-08-04,35-44,Wicklow,Organic Search,Granted
+C000982,2025-09-14,45-54,Dublin,Organic Search,Granted
+C000983,2025-07-19,35-44,Cork,Paid Search,Granted
+C000984,2025-08-25,45-54,Galway,Paid Search,Granted
+C000985,2025-08-03,25-34,Dublin,Referral,Not Recorded
+C000986,2025-08-27,25-34,Dublin,Referral,Granted
+C000987,2025-08-14,25-34,Cork,Referral,Granted
+C000988,2025-04-26,25-34,Other,Organic Search,Granted
+C000989,2025-03-31,55-64,Limerick,Paid Search,Granted
+C000990,2025-10-15,35-44,Cork,Affiliate,Granted
+C000991,2025-05-06,25-34,Dublin,Paid Search,Granted
+C000992,2025-07-20,45-54,Limerick,Direct,Granted
+C000993,2025-03-13,35-44,Dublin,Organic Search,Granted
+C000994,2025-06-07,18-24,Galway,Paid Search,Granted
+C000995,2025-07-13,25-34,Wicklow,Referral,Granted
+C000996,2025-08-17,25-34,Cork,Organic Search,Not Recorded
+C000997,2025-07-12,45-54,Dublin,Email,Granted
+C000998,2025-05-12,25-34,Dublin,Paid Search,Granted
+C000999,2025-12-18,18-24,Dublin,Organic Search,Granted
+C001000,2025-07-07,18-24,Cork,Organic Search,Granted
+C001001,2025-10-23,35-44,Other,Organic Search,Granted
+C001002,2025-09-26,18-24,Dublin,Paid Search,Granted
+C001003,2025-07-23,55-64,Limerick,Organic Search,Granted
+C001004,2025-11-20,25-34,Kildare,Direct,Granted
+C001005,2025-02-16,35-44,Dublin,Referral,Granted
+C001006,2025-12-03,35-44,Dublin,Paid Search,Granted
+C001007,2025-11-07,35-44,Cork,Organic Search,Granted
+C001008,2025-07-03,18-24,Kildare,Paid Search,Granted
+C001009,2025-09-25,45-54,Cork,Affiliate,Granted
+C001010,2025-07-09,55-64,Wicklow,Direct,Granted
+C001011,2025-04-09,18-24,Other,Organic Search,Granted
+C001012,2025-10-19,25-34,Wicklow,Direct,Granted
+C001013,2025-03-31,55-64,Other,Paid Search,Granted
+C001014,2025-04-25,35-44,Wicklow,Paid Search,Granted
+C001015,2025-07-09,25-34,Other,Organic Search,Granted
+C001016,2025-11-02,25-34,Other,Email,Granted
+C001017,2025-05-21,45-54,Wicklow,Organic Search,Granted
+C001018,2025-06-30,45-54,Other,Organic Search,Not Recorded
+C001019,2025-01-16,35-44,Other,Organic Search,Granted
+C001020,2025-02-12,65+,Galway,Direct,Granted
+C001021,2025-01-21,35-44,Kildare,Paid Search,Granted
+C001022,2025-01-27,25-34,Galway,Organic Search,Granted
+C001023,2025-11-14,35-44,Other,Paid Search,Granted
+C001024,2025-11-04,25-34,Cork,Direct,Not Recorded
+C001025,2025-10-27,25-34,Other,Paid Search,Granted
+C001026,2025-01-21,18-24,Other,Referral,Granted
+C001027,2025-01-29,25-34,Other,Paid Search,Not Recorded
+C001028,2025-04-13,45-54,Dublin,Organic Search,Granted
+C001029,2025-07-26,18-24,Kildare,Email,Granted
+C001030,2025-05-02,35-44,Wicklow,Affiliate,Granted
+C001031,2025-06-27,45-54,Other,Paid Search,Granted
+C001032,2025-03-05,35-44,Other,Affiliate,Granted
+C001033,2025-09-24,45-54,Limerick,Paid Search,Granted
+C001034,2025-04-25,55-64,Limerick,Paid Search,Granted
+C001035,2025-01-25,45-54,Dublin,Affiliate,Granted
+C001036,2025-09-29,25-34,Other,Affiliate,Granted
+C001037,2025-11-26,35-44,Dublin,Paid Search,Granted
+C001038,2025-01-06,35-44,Wicklow,Direct,Granted
+C001039,2025-06-09,25-34,Other,Paid Search,Granted
+C001040,2025-10-29,18-24,Cork,Organic Search,Granted
+C001041,2025-09-15,25-34,Dublin,Email,Granted
+C001042,2025-11-09,35-44,Dublin,Direct,Granted
+C001043,2025-06-01,35-44,Other,Direct,Granted
+C001044,2025-05-16,25-34,Galway,Direct,Granted
+C001045,2025-09-16,55-64,Dublin,Direct,Granted
+C001046,2025-02-26,55-64,Wicklow,Paid Search,Granted
+C001047,2025-03-29,25-34,Dublin,Email,Granted
+C001048,2025-08-08,55-64,Other,Direct,Granted
+C001049,2025-09-01,18-24,Dublin,Direct,Granted
+C001050,2025-02-13,55-64,Dublin,Paid Search,Granted
+C001051,2025-07-05,65+,Dublin,Paid Search,Granted
+C001052,2025-05-14,18-24,Galway,Organic Search,Granted
+C001053,2025-07-03,45-54,Galway,Paid Search,Not Recorded
+C001054,2025-12-16,65+,Wicklow,Organic Search,Granted
+C001055,2025-01-28,55-64,Galway,Direct,Granted
+C001056,2025-12-30,65+,Cork,Referral,Granted
+C001057,2025-06-14,35-44,Dublin,Paid Search,Granted
+C001058,2025-10-09,18-24,Dublin,Paid Search,Granted
+C001059,2025-06-04,55-64,Other,Direct,Granted
+C001060,2025-04-24,35-44,Dublin,Organic Search,Granted
+C001061,2025-10-09,35-44,Other,Referral,Granted
+C001062,2025-09-08,35-44,Cork,Paid Search,Granted
+C001063,2025-02-22,35-44,Dublin,Organic Search,Granted
+C001064,2025-09-15,25-34,Dublin,Organic Search,Granted
+C001065,2025-10-02,45-54,Dublin,Email,Granted
+C001066,2025-05-22,18-24,Other,Organic Search,Granted
+C001067,2025-12-04,45-54,Galway,Direct,Granted
+C001068,2025-08-22,55-64,Cork,Organic Search,Granted
+C001069,2025-05-02,35-44,Kildare,Organic Search,Granted
+C001070,2025-01-04,35-44,Kildare,Referral,Not Recorded
+C001071,2025-09-04,25-34,Other,Organic Search,Granted
+C001072,2025-03-18,65+,Other,Organic Search,Granted
+C001073,2025-10-04,45-54,Kildare,Paid Search,Granted
+C001074,2025-07-11,25-34,Other,Referral,Granted
+C001075,2025-06-20,25-34,Other,Paid Search,Granted
+C001076,2025-03-01,25-34,Galway,Organic Search,Granted
+C001077,2025-09-17,35-44,Kildare,Email,Granted
+C001078,2025-03-02,65+,Dublin,Direct,Not Recorded
+C001079,2025-06-02,45-54,Wicklow,Referral,Granted
+C001080,2025-11-02,25-34,Other,Affiliate,Granted
+C001081,2025-12-02,55-64,Dublin,Affiliate,Granted
+C001082,2025-12-28,25-34,Other,Paid Search,Granted
+C001083,2025-12-16,55-64,Other,Paid Search,Not Recorded
+C001084,2025-07-22,25-34,Dublin,Affiliate,Granted
+C001085,2025-03-15,35-44,Galway,Affiliate,Granted
+C001086,2025-11-03,55-64,Other,Email,Granted
+C001087,2025-10-20,25-34,Other,Direct,Granted
+C001088,2025-12-28,45-54,Dublin,Paid Search,Granted
+C001089,2025-08-26,65+,Cork,Paid Search,Granted
+C001090,2025-02-21,25-34,Kildare,Direct,Granted
+C001091,2025-07-03,18-24,Dublin,Paid Search,Granted
+C001092,2025-06-13,45-54,Cork,Affiliate,Granted
+C001093,2025-11-04,25-34,Dublin,Direct,Granted
+C001094,2025-05-24,18-24,Dublin,Organic Search,Granted
+C001095,2025-04-30,35-44,Limerick,Direct,Granted
+C001096,2025-01-30,45-54,Kildare,Direct,Granted
+C001097,2025-11-01,25-34,Kildare,Referral,Granted
+C001098,2025-10-03,25-34,Other,Paid Search,Granted
+C001099,2025-01-16,55-64,Cork,Direct,Not Recorded
+C001100,2025-06-08,35-44,Dublin,Paid Search,Granted
+C001101,2025-06-25,55-64,Dublin,Direct,Granted
+C001102,2025-06-21,35-44,Dublin,Organic Search,Granted
+C001103,2025-12-02,65+,Dublin,Referral,Granted
+C001104,2025-02-24,45-54,Dublin,Referral,Granted
+C001105,2025-04-22,25-34,Dublin,Direct,Granted
+C001106,2025-03-08,55-64,Dublin,Direct,Granted
+C001107,2025-03-31,35-44,Kildare,Organic Search,Not Recorded
+C001108,2025-11-28,25-34,Limerick,Direct,Granted
+C001109,2025-12-10,25-34,Other,Paid Search,Granted
+C001110,2025-01-17,45-54,Other,Affiliate,Granted
+C001111,2025-08-19,18-24,Limerick,Organic Search,Granted
+C001112,2025-03-26,25-34,Dublin,Affiliate,Granted
+C001113,2025-03-12,25-34,Limerick,Paid Search,Granted
+C001114,2025-04-17,35-44,Dublin,Direct,Granted
+C001115,2025-03-12,35-44,Cork,Direct,Granted
+C001116,2025-06-28,35-44,Cork,Organic Search,Granted
+C001117,2025-12-30,25-34,Cork,Paid Search,Granted
+C001118,2025-08-03,18-24,Dublin,Affiliate,Granted
+C001119,2025-09-21,35-44,Kildare,Direct,Granted
+C001120,2025-06-30,25-34,Other,Organic Search,Granted
+C001121,2025-01-06,45-54,Wicklow,Paid Search,Granted
+C001122,2025-01-31,25-34,Limerick,Paid Search,Granted
+C001123,2025-04-09,18-24,Galway,Direct,Granted
+C001124,2025-03-30,25-34,Dublin,Direct,Granted
+C001125,2025-11-03,35-44,Wicklow,Organic Search,Granted
+C001126,2025-11-04,35-44,Galway,Direct,Granted
+C001127,2025-11-08,55-64,Dublin,Affiliate,Not Recorded
+C001128,2025-08-21,25-34,Cork,Affiliate,Granted
+C001129,2025-07-23,35-44,Other,Organic Search,Granted
+C001130,2025-08-25,35-44,Limerick,Paid Search,Not Recorded
+C001131,2025-05-29,18-24,Galway,Paid Search,Granted
+C001132,2025-09-02,35-44,Limerick,Organic Search,Granted
+C001133,2025-10-17,25-34,Cork,Paid Search,Granted
+C001134,2025-10-06,35-44,Galway,Organic Search,Granted
+C001135,2025-08-13,25-34,Dublin,Organic Search,Granted
+C001136,2025-01-22,45-54,Cork,Direct,Granted
+C001137,2025-09-22,65+,Kildare,Organic Search,Granted
+C001138,2025-05-14,18-24,Dublin,Affiliate,Granted
+C001139,2025-09-29,35-44,Other,Organic Search,Granted
+C001140,2025-07-16,45-54,Dublin,Direct,Granted
+C001141,2025-11-18,25-34,Kildare,Paid Search,Granted
+C001142,2025-05-04,45-54,Kildare,Affiliate,Granted
+C001143,2025-12-06,45-54,Kildare,Affiliate,Granted
+C001144,2025-11-05,55-64,Limerick,Paid Search,Granted
+C001145,2025-05-01,65+,Other,Direct,Granted
+C001146,2025-06-26,18-24,Galway,Organic Search,Granted
+C001147,2025-07-13,35-44,Wicklow,Direct,Granted
+C001148,2025-10-08,35-44,Kildare,Organic Search,Granted
+C001149,2025-09-09,25-34,Dublin,Paid Search,Granted
+C001150,2025-11-07,25-34,Dublin,Organic Search,Granted
+C001151,2025-05-16,65+,Cork,Referral,Granted
+C001152,2025-07-04,18-24,Dublin,Paid Search,Granted
+C001153,2025-06-07,35-44,Cork,Direct,Granted
+C001154,2025-11-28,55-64,Cork,Paid Search,Granted
+C001155,2025-04-22,25-34,Limerick,Paid Search,Not Recorded
+C001156,2025-08-03,35-44,Dublin,Organic Search,Granted
+C001157,2025-02-13,65+,Other,Referral,Granted
+C001158,2025-11-07,35-44,Cork,Affiliate,Granted
+C001159,2025-05-21,25-34,Kildare,Organic Search,Granted
+C001160,2025-05-05,18-24,Dublin,Affiliate,Granted
+C001161,2025-08-01,65+,Galway,Paid Search,Granted
+C001162,2025-07-02,25-34,Dublin,Organic Search,Granted
+C001163,2025-11-06,35-44,Kildare,Direct,Granted
+C001164,2025-07-13,18-24,Cork,Organic Search,Granted
+C001165,2025-07-08,35-44,Other,Organic Search,Not Recorded
+C001166,2025-02-08,65+,Cork,Affiliate,Granted
+C001167,2025-01-09,35-44,Limerick,Organic Search,Granted
+C001168,2025-05-26,65+,Dublin,Referral,Granted
+C001169,2025-12-31,25-34,Limerick,Direct,Granted
+C001170,2025-12-01,35-44,Galway,Affiliate,Granted
+C001171,2025-08-18,55-64,Cork,Direct,Granted
+C001172,2025-08-19,35-44,Dublin,Referral,Granted
+C001173,2025-05-23,25-34,Dublin,Paid Search,Granted
+C001174,2025-03-06,55-64,Dublin,Direct,Granted
+C001175,2025-01-04,35-44,Other,Paid Search,Granted
+C001176,2025-05-04,35-44,Cork,Referral,Granted
+C001177,2025-04-26,65+,Dublin,Organic Search,Granted
+C001178,2025-03-11,25-34,Other,Direct,Granted
+C001179,2025-04-05,25-34,Dublin,Affiliate,Granted
+C001180,2025-01-10,18-24,Cork,Paid Search,Granted
+C001181,2025-08-10,35-44,Wicklow,Referral,Granted
+C001182,2025-12-05,25-34,Other,Paid Search,Granted
+C001183,2025-09-10,45-54,Wicklow,Organic Search,Granted
+C001184,2025-06-13,25-34,Galway,Direct,Granted
+C001185,2025-06-03,45-54,Other,Paid Search,Granted
+C001186,2025-04-23,25-34,Dublin,Organic Search,Granted
+C001187,2025-02-21,25-34,Other,Organic Search,Granted
+C001188,2025-08-07,25-34,Other,Organic Search,Granted
+C001189,2025-07-26,45-54,Other,Affiliate,Granted
+C001190,2025-01-03,35-44,Dublin,Referral,Granted
+C001191,2025-06-01,25-34,Dublin,Direct,Not Recorded
+C001192,2025-04-12,55-64,Kildare,Organic Search,Not Recorded
+C001193,2025-03-04,35-44,Galway,Direct,Granted
+C001194,2025-09-14,25-34,Galway,Referral,Granted
+C001195,2025-07-11,55-64,Other,Affiliate,Granted
+C001196,2025-08-20,25-34,Limerick,Paid Search,Granted
+C001197,2025-09-18,18-24,Dublin,Organic Search,Granted
+C001198,2025-12-25,35-44,Cork,Referral,Granted
+C001199,2025-10-21,25-34,Dublin,Referral,Granted
+C001200,2025-08-15,25-34,Dublin,Organic Search,Granted
+C001201,2025-11-17,45-54,Dublin,Affiliate,Granted
+C001202,2025-06-24,25-34,Other,Organic Search,Granted
+C001203,2025-12-26,45-54,Kildare,Organic Search,Granted
+C001204,2025-10-05,65+,Galway,Affiliate,Granted
+C001205,2025-08-26,35-44,Cork,Direct,Granted
+C001206,2025-11-26,45-54,Kildare,Paid Search,Granted
+C001207,2025-07-08,45-54,Other,Referral,Not Recorded
+C001208,2025-09-21,65+,Other,Affiliate,Granted
+C001209,2025-04-14,25-34,Galway,Organic Search,Granted
+C001210,2025-12-18,25-34,Other,Direct,Granted
+C001211,2025-08-16,35-44,Galway,Affiliate,Granted
+C001212,2025-10-13,35-44,Galway,Direct,Granted
+C001213,2025-06-18,25-34,Other,Email,Granted
+C001214,2025-11-13,35-44,Cork,Affiliate,Granted
+C001215,2025-01-28,18-24,Cork,Organic Search,Granted
+C001216,2025-02-11,55-64,Dublin,Organic Search,Granted
+C001217,2025-07-05,25-34,Galway,Affiliate,Granted
+C001218,2025-09-25,18-24,Galway,Email,Granted
+C001219,2025-10-23,25-34,Kildare,Organic Search,Granted
+C001220,2025-06-10,25-34,Cork,Organic Search,Granted
+C001221,2025-08-26,25-34,Dublin,Affiliate,Granted
+C001222,2025-07-21,18-24,Other,Organic Search,Granted
+C001223,2025-12-17,25-34,Cork,Organic Search,Granted
+C001224,2025-08-27,25-34,Other,Referral,Granted
+C001225,2025-06-02,25-34,Dublin,Affiliate,Granted
+C001226,2025-12-20,35-44,Limerick,Referral,Granted
+C001227,2025-02-09,25-34,Galway,Direct,Granted
+C001228,2025-12-26,25-34,Other,Paid Search,Granted
+C001229,2025-02-26,18-24,Dublin,Referral,Granted
+C001230,2025-04-16,18-24,Other,Paid Search,Granted
+C001231,2025-10-27,25-34,Galway,Organic Search,Granted
+C001232,2025-09-25,45-54,Limerick,Referral,Granted
+C001233,2025-12-21,65+,Galway,Affiliate,Granted
+C001234,2025-10-01,55-64,Dublin,Referral,Granted
+C001235,2025-08-21,35-44,Galway,Organic Search,Granted
+C001236,2025-05-07,35-44,Dublin,Email,Not Recorded
+C001237,2025-01-02,25-34,Cork,Direct,Granted
+C001238,2025-02-15,45-54,Kildare,Direct,Granted
+C001239,2025-04-19,45-54,Galway,Referral,Granted
+C001240,2025-01-15,55-64,Dublin,Paid Search,Granted
+C001241,2025-07-05,55-64,Dublin,Affiliate,Not Recorded
+C001242,2025-10-11,35-44,Dublin,Direct,Granted
+C001243,2025-12-18,45-54,Dublin,Affiliate,Granted
+C001244,2025-06-28,45-54,Limerick,Referral,Not Recorded
+C001245,2025-11-16,25-34,Dublin,Affiliate,Granted
+C001246,2025-12-26,55-64,Other,Organic Search,Granted
+C001247,2025-11-10,18-24,Dublin,Organic Search,Granted
+C001248,2025-06-19,65+,Dublin,Email,Granted
+C001249,2025-04-29,45-54,Other,Email,Granted
+C001250,2025-12-23,18-24,Dublin,Email,Granted
+C001251,2025-03-30,45-54,Cork,Organic Search,Granted
+C001252,2025-05-31,18-24,Other,Paid Search,Granted
+C001253,2025-01-28,45-54,Other,Affiliate,Granted
+C001254,2025-10-17,45-54,Wicklow,Affiliate,Granted
+C001255,2025-08-26,35-44,Dublin,Organic Search,Granted
+C001256,2025-01-31,55-64,Limerick,Direct,Granted
+C001257,2025-03-23,18-24,Other,Organic Search,Granted
+C001258,2025-07-22,25-34,Other,Paid Search,Granted
+C001259,2025-07-17,35-44,Dublin,Organic Search,Granted
+C001260,2025-10-20,18-24,Cork,Organic Search,Granted
+C001261,2025-04-08,35-44,Dublin,Organic Search,Granted
+C001262,2025-12-04,25-34,Dublin,Referral,Granted
+C001263,2025-06-12,35-44,Kildare,Affiliate,Granted
+C001264,2025-10-28,35-44,Dublin,Email,Granted
+C001265,2025-03-29,55-64,Cork,Paid Search,Granted
+C001266,2025-01-14,25-34,Dublin,Paid Search,Granted
+C001267,2025-01-21,55-64,Galway,Paid Search,Granted
+C001268,2025-05-17,35-44,Dublin,Direct,Granted
+C001269,2025-12-14,25-34,Cork,Paid Search,Granted
+C001270,2025-01-18,35-44,Dublin,Affiliate,Not Recorded
+C001271,2025-05-15,35-44,Other,Affiliate,Granted
+C001272,2025-02-09,25-34,Dublin,Referral,Not Recorded
+C001273,2025-12-07,35-44,Galway,Organic Search,Granted
+C001274,2025-09-04,25-34,Dublin,Direct,Granted
+C001275,2025-10-06,25-34,Dublin,Organic Search,Granted
+C001276,2025-09-18,35-44,Dublin,Organic Search,Not Recorded
+C001277,2025-08-28,35-44,Dublin,Affiliate,Granted
+C001278,2025-10-10,55-64,Dublin,Direct,Granted
+C001279,2025-01-03,25-34,Galway,Affiliate,Granted
+C001280,2025-11-12,65+,Kildare,Organic Search,Granted
+C001281,2025-09-28,45-54,Dublin,Email,Granted
+C001282,2025-09-27,65+,Cork,Email,Granted
+C001283,2025-05-24,55-64,Limerick,Paid Search,Granted
+C001284,2025-10-20,25-34,Dublin,Referral,Granted
+C001285,2025-05-20,35-44,Cork,Organic Search,Granted
+C001286,2025-01-18,25-34,Dublin,Affiliate,Granted
+C001287,2025-11-28,55-64,Dublin,Referral,Granted
+C001288,2025-03-27,35-44,Galway,Affiliate,Not Recorded
+C001289,2025-02-07,25-34,Other,Affiliate,Granted
+C001290,2025-08-15,55-64,Other,Paid Search,Granted
+C001291,2025-03-27,25-34,Other,Affiliate,Granted
+C001292,2025-11-10,35-44,Cork,Affiliate,Granted
+C001293,2025-06-11,45-54,Dublin,Organic Search,Granted
+C001294,2025-01-02,18-24,Cork,Organic Search,Granted
+C001295,2025-12-14,35-44,Dublin,Affiliate,Granted
+C001296,2025-07-07,55-64,Dublin,Direct,Granted
+C001297,2025-04-06,18-24,Dublin,Paid Search,Granted
+C001298,2025-09-05,35-44,Galway,Referral,Granted
+C001299,2025-07-13,25-34,Cork,Direct,Granted
+C001300,2025-01-11,45-54,Dublin,Paid Search,Granted
+C001301,2025-10-05,25-34,Wicklow,Paid Search,Not Recorded
+C001302,2025-05-27,65+,Cork,Direct,Not Recorded
+C001303,2025-09-13,55-64,Other,Affiliate,Granted
+C001304,2025-11-23,25-34,Dublin,Direct,Granted
+C001305,2025-08-11,25-34,Galway,Paid Search,Granted
+C001306,2025-09-03,35-44,Dublin,Affiliate,Not Recorded
+C001307,2025-04-03,45-54,Galway,Affiliate,Granted
+C001308,2025-03-28,35-44,Dublin,Affiliate,Granted
+C001309,2025-06-01,25-34,Dublin,Organic Search,Granted
+C001310,2025-11-08,25-34,Limerick,Affiliate,Granted
+C001311,2025-07-11,65+,Dublin,Paid Search,Granted
+C001312,2025-05-08,35-44,Dublin,Organic Search,Granted
+C001313,2025-10-12,55-64,Other,Direct,Granted
+C001314,2025-11-08,35-44,Dublin,Affiliate,Granted
+C001315,2025-11-26,55-64,Limerick,Direct,Granted
+C001316,2025-04-20,18-24,Galway,Affiliate,Granted
+C001317,2025-09-17,25-34,Dublin,Paid Search,Granted
+C001318,2025-08-04,55-64,Galway,Organic Search,Granted
+C001319,2025-06-13,65+,Dublin,Paid Search,Granted
+C001320,2025-05-25,25-34,Wicklow,Paid Search,Granted
+C001321,2025-02-11,25-34,Dublin,Affiliate,Granted
+C001322,2025-04-11,35-44,Dublin,Affiliate,Granted
+C001323,2025-07-20,35-44,Dublin,Affiliate,Granted
+C001324,2025-11-20,25-34,Other,Organic Search,Granted
+C001325,2025-11-13,55-64,Other,Paid Search,Granted
+C001326,2025-03-10,25-34,Other,Organic Search,Granted
+C001327,2025-09-05,45-54,Kildare,Affiliate,Not Recorded
+C001328,2025-01-31,18-24,Kildare,Organic Search,Granted
+C001329,2025-09-04,18-24,Galway,Direct,Granted
+C001330,2025-05-05,45-54,Other,Affiliate,Granted
+C001331,2025-06-14,25-34,Galway,Direct,Granted
+C001332,2025-09-19,45-54,Cork,Paid Search,Granted
+C001333,2025-06-05,18-24,Kildare,Paid Search,Granted
+C001334,2025-10-22,65+,Galway,Direct,Granted
+C001335,2025-07-14,45-54,Dublin,Direct,Granted
+C001336,2025-12-31,55-64,Cork,Organic Search,Granted
+C001337,2025-08-21,25-34,Dublin,Referral,Granted
+C001338,2025-04-19,25-34,Other,Paid Search,Not Recorded
+C001339,2025-10-10,25-34,Cork,Paid Search,Granted
+C001340,2025-05-29,35-44,Other,Organic Search,Granted
+C001341,2025-07-14,25-34,Cork,Paid Search,Granted
+C001342,2025-02-19,18-24,Wicklow,Paid Search,Granted
+C001343,2025-02-13,25-34,Dublin,Organic Search,Granted
+C001344,2025-07-29,25-34,Other,Direct,Granted
+C001345,2025-03-10,35-44,Galway,Paid Search,Granted
+C001346,2025-12-31,25-34,Dublin,Referral,Granted
+C001347,2025-11-09,25-34,Dublin,Email,Granted
+C001348,2025-09-13,35-44,Dublin,Organic Search,Granted
+C001349,2025-09-26,35-44,Cork,Organic Search,Granted
+C001350,2025-08-06,25-34,Wicklow,Affiliate,Granted
+C001351,2025-01-23,35-44,Other,Email,Granted
+C001352,2025-05-24,45-54,Kildare,Referral,Granted
+C001353,2025-06-30,25-34,Galway,Organic Search,Granted
+C001354,2025-12-01,35-44,Cork,Organic Search,Granted
+C001355,2025-03-22,65+,Other,Organic Search,Granted
+C001356,2025-07-01,35-44,Other,Affiliate,Granted
+C001357,2025-05-06,55-64,Dublin,Direct,Granted
+C001358,2025-02-19,45-54,Other,Paid Search,Granted
+C001359,2025-02-07,18-24,Cork,Direct,Granted
+C001360,2025-05-14,35-44,Other,Organic Search,Granted
+C001361,2025-01-31,45-54,Other,Direct,Granted
+C001362,2025-01-25,65+,Kildare,Organic Search,Not Recorded
+C001363,2025-05-09,35-44,Dublin,Direct,Granted
+C001364,2025-03-15,18-24,Limerick,Affiliate,Not Recorded
+C001365,2025-07-22,35-44,Dublin,Direct,Granted
+C001366,2025-01-07,25-34,Other,Paid Search,Granted
+C001367,2025-04-21,45-54,Dublin,Affiliate,Granted
+C001368,2025-06-15,35-44,Kildare,Affiliate,Granted
+C001369,2025-12-18,45-54,Other,Organic Search,Granted
+C001370,2025-08-20,55-64,Dublin,Organic Search,Granted
+C001371,2025-11-18,35-44,Cork,Direct,Not Recorded
+C001372,2025-05-06,35-44,Kildare,Paid Search,Granted
+C001373,2025-06-14,45-54,Cork,Organic Search,Not Recorded
+C001374,2025-06-03,55-64,Dublin,Organic Search,Granted
+C001375,2025-11-20,55-64,Dublin,Organic Search,Granted
+C001376,2025-12-17,18-24,Cork,Paid Search,Granted
+C001377,2025-12-18,35-44,Kildare,Direct,Granted
+C001378,2025-10-02,25-34,Limerick,Organic Search,Not Recorded
+C001379,2025-07-03,55-64,Dublin,Affiliate,Granted
+C001380,2025-07-17,45-54,Galway,Paid Search,Not Recorded
+C001381,2025-12-24,35-44,Cork,Paid Search,Not Recorded
+C001382,2025-04-14,25-34,Dublin,Organic Search,Granted
+C001383,2025-05-07,25-34,Wicklow,Affiliate,Granted
+C001384,2025-11-24,45-54,Dublin,Email,Granted
+C001385,2025-05-22,25-34,Galway,Paid Search,Granted
+C001386,2025-03-27,18-24,Other,Organic Search,Granted
+C001387,2025-07-24,55-64,Galway,Organic Search,Granted
+C001388,2025-04-29,45-54,Limerick,Organic Search,Granted
+C001389,2025-11-22,25-34,Dublin,Affiliate,Granted
+C001390,2025-11-28,25-34,Dublin,Organic Search,Granted
+C001391,2025-04-22,65+,Dublin,Email,Granted
+C001392,2025-07-13,45-54,Wicklow,Direct,Granted
+C001393,2025-12-26,35-44,Other,Paid Search,Granted
+C001394,2025-09-28,25-34,Dublin,Affiliate,Granted
+C001395,2025-03-20,25-34,Dublin,Organic Search,Granted
+C001396,2025-08-04,18-24,Cork,Affiliate,Granted
+C001397,2025-08-15,45-54,Limerick,Organic Search,Granted
+C001398,2025-08-27,18-24,Limerick,Affiliate,Granted
+C001399,2025-01-10,18-24,Kildare,Direct,Granted
+C001400,2025-04-20,45-54,Other,Organic Search,Granted
+C001401,2025-11-08,65+,Dublin,Affiliate,Granted
+C001402,2025-03-30,45-54,Kildare,Organic Search,Granted
+C001403,2025-04-20,35-44,Limerick,Organic Search,Granted
+C001404,2025-04-28,35-44,Dublin,Affiliate,Granted
+C001405,2025-03-06,35-44,Other,Paid Search,Granted
+C001406,2025-02-26,25-34,Dublin,Referral,Granted
+C001407,2025-05-07,35-44,Wicklow,Direct,Granted
+C001408,2025-11-16,35-44,Wicklow,Direct,Granted
+C001409,2025-01-01,35-44,Other,Paid Search,Granted
+C001410,2025-04-14,55-64,Galway,Organic Search,Granted
+C001411,2025-01-23,65+,Cork,Email,Granted
+C001412,2025-07-24,18-24,Other,Organic Search,Granted
+C001413,2025-04-02,35-44,Other,Direct,Granted
+C001414,2025-10-17,25-34,Galway,Organic Search,Granted
+C001415,2025-08-02,25-34,Wicklow,Organic Search,Granted
+C001416,2025-10-14,25-34,Dublin,Direct,Granted
+C001417,2025-08-20,25-34,Limerick,Affiliate,Granted
+C001418,2025-06-10,45-54,Other,Affiliate,Granted
+C001419,2025-11-11,35-44,Dublin,Referral,Granted
+C001420,2025-06-23,55-64,Galway,Paid Search,Granted
+C001421,2025-12-13,18-24,Other,Paid Search,Granted
+C001422,2025-12-30,18-24,Other,Organic Search,Granted
+C001423,2025-08-03,35-44,Other,Affiliate,Granted
+C001424,2025-09-04,18-24,Cork,Paid Search,Granted
+C001425,2025-04-04,25-34,Other,Direct,Granted
+C001426,2025-10-25,65+,Dublin,Organic Search,Granted
+C001427,2025-09-03,25-34,Galway,Affiliate,Granted
+C001428,2025-11-26,25-34,Galway,Affiliate,Granted
+C001429,2025-04-08,35-44,Other,Referral,Granted
+C001430,2025-10-15,35-44,Other,Organic Search,Granted
+C001431,2025-06-21,35-44,Wicklow,Email,Granted
+C001432,2025-03-09,25-34,Limerick,Organic Search,Granted
+C001433,2025-03-04,55-64,Cork,Paid Search,Granted
+C001434,2025-07-25,25-34,Galway,Organic Search,Granted
+C001435,2025-04-27,35-44,Galway,Organic Search,Granted
+C001436,2025-02-07,45-54,Dublin,Direct,Granted
+C001437,2025-06-05,55-64,Galway,Organic Search,Granted
+C001438,2025-08-27,25-34,Other,Paid Search,Granted
+C001439,2025-04-27,35-44,Kildare,Direct,Granted
+C001440,2025-12-15,18-24,Other,Affiliate,Granted
+C001441,2025-10-12,25-34,Cork,Affiliate,Granted
+C001442,2025-07-07,18-24,Galway,Direct,Granted
+C001443,2025-12-08,45-54,Dublin,Organic Search,Granted
+C001444,2025-06-08,25-34,Cork,Affiliate,Granted
+C001445,2025-02-20,45-54,Galway,Organic Search,Granted
+C001446,2025-01-14,18-24,Dublin,Organic Search,Granted
+C001447,2025-12-09,55-64,Dublin,Organic Search,Granted
+C001448,2025-12-17,55-64,Kildare,Direct,Granted
+C001449,2025-09-27,18-24,Cork,Paid Search,Granted
+C001450,2025-02-07,18-24,Cork,Direct,Granted
+C001451,2025-04-18,18-24,Dublin,Paid Search,Granted
+C001452,2025-01-15,55-64,Galway,Paid Search,Granted
+C001453,2025-01-19,25-34,Cork,Paid Search,Granted
+C001454,2025-03-31,35-44,Galway,Organic Search,Granted
+C001455,2025-07-28,35-44,Limerick,Paid Search,Granted
+C001456,2025-01-24,45-54,Dublin,Direct,Granted
+C001457,2025-12-26,35-44,Other,Direct,Granted
+C001458,2025-06-16,35-44,Dublin,Organic Search,Granted
+C001459,2025-04-07,65+,Galway,Direct,Granted
+C001460,2025-07-08,25-34,Dublin,Paid Search,Granted
+C001461,2025-10-16,55-64,Galway,Organic Search,Granted
+C001462,2025-04-25,18-24,Dublin,Organic Search,Not Recorded
+C001463,2025-01-18,35-44,Other,Paid Search,Granted
+C001464,2025-01-19,55-64,Cork,Paid Search,Granted
+C001465,2025-11-07,45-54,Kildare,Affiliate,Granted
+C001466,2025-02-10,45-54,Dublin,Organic Search,Granted
+C001467,2025-08-20,25-34,Dublin,Affiliate,Granted
+C001468,2025-05-21,35-44,Cork,Paid Search,Granted
+C001469,2025-10-11,25-34,Galway,Direct,Not Recorded
+C001470,2025-01-23,35-44,Galway,Affiliate,Granted
+C001471,2025-11-24,35-44,Other,Paid Search,Granted
+C001472,2025-09-12,25-34,Kildare,Organic Search,Granted
+C001473,2025-06-13,25-34,Other,Direct,Granted
+C001474,2025-03-17,25-34,Dublin,Email,Not Recorded
+C001475,2025-12-23,25-34,Other,Email,Granted
+C001476,2025-04-21,25-34,Limerick,Organic Search,Granted
+C001477,2025-06-29,55-64,Limerick,Affiliate,Granted
+C001478,2025-05-24,35-44,Other,Paid Search,Granted
+C001479,2025-03-26,25-34,Kildare,Organic Search,Granted
+C001480,2025-06-02,45-54,Other,Direct,Granted
+C001481,2025-02-25,55-64,Wicklow,Paid Search,Granted
+C001482,2025-01-01,25-34,Dublin,Direct,Granted
+C001483,2025-04-16,25-34,Kildare,Affiliate,Granted
+C001484,2025-02-10,18-24,Galway,Paid Search,Granted
+C001485,2025-06-01,18-24,Other,Direct,Granted
+C001486,2025-11-11,45-54,Other,Paid Search,Not Recorded
+C001487,2025-03-01,65+,Dublin,Organic Search,Granted
+C001488,2025-01-01,18-24,Dublin,Paid Search,Granted
+C001489,2025-02-10,45-54,Dublin,Email,Granted
+C001490,2025-07-05,18-24,Galway,Paid Search,Granted
+C001491,2025-04-11,35-44,Dublin,Organic Search,Granted
+C001492,2025-06-28,45-54,Wicklow,Affiliate,Granted
+C001493,2025-01-11,25-34,Limerick,Email,Granted
+C001494,2025-05-02,18-24,Other,Referral,Granted
+C001495,2025-05-30,35-44,Dublin,Direct,Granted
+C001496,2025-06-07,65+,Galway,Paid Search,Granted
+C001497,2025-07-21,25-34,Dublin,Direct,Granted
+C001498,2025-10-12,25-34,Other,Affiliate,Granted
+C001499,2025-06-20,25-34,Dublin,Referral,Granted
+C001500,2025-11-04,35-44,Dublin,Affiliate,Granted
+C001501,2025-07-13,35-44,Dublin,Paid Search,Granted
+C001502,2025-04-06,45-54,Other,Organic Search,Granted
+C001503,2025-03-25,45-54,Dublin,Direct,Granted
+C001504,2025-04-28,55-64,Limerick,Organic Search,Granted
+C001505,2025-08-07,45-54,Wicklow,Organic Search,Granted
+C001506,2025-03-30,25-34,Wicklow,Paid Search,Granted
+C001507,2025-11-30,35-44,Dublin,Direct,Granted
+C001508,2025-06-25,25-34,Dublin,Referral,Granted
+C001509,2025-11-12,25-34,Cork,Affiliate,Not Recorded
+C001510,2025-09-07,65+,Dublin,Referral,Granted
+C001511,2025-05-02,45-54,Kildare,Affiliate,Granted
+C001512,2025-03-25,65+,Cork,Affiliate,Granted
+C001513,2025-09-29,35-44,Cork,Organic Search,Granted
+C001514,2025-05-01,35-44,Dublin,Direct,Granted
+C001515,2025-04-01,35-44,Limerick,Organic Search,Granted
+C001516,2025-12-06,25-34,Dublin,Organic Search,Granted
+C001517,2025-06-26,25-34,Kildare,Organic Search,Granted
+C001518,2025-01-18,35-44,Dublin,Affiliate,Granted
+C001519,2025-06-30,18-24,Other,Affiliate,Not Recorded
+C001520,2025-06-18,65+,Kildare,Email,Granted
+C001521,2025-11-12,25-34,Dublin,Email,Granted
+C001522,2025-09-17,25-34,Dublin,Referral,Granted
+C001523,2025-03-11,45-54,Cork,Organic Search,Granted
+C001524,2025-02-24,18-24,Dublin,Referral,Granted
+C001525,2025-08-09,55-64,Dublin,Affiliate,Not Recorded
+C001526,2025-01-18,45-54,Other,Referral,Granted
+C001527,2025-04-27,18-24,Limerick,Organic Search,Granted
+C001528,2025-02-20,45-54,Dublin,Organic Search,Granted
+C001529,2025-01-08,45-54,Limerick,Referral,Granted
+C001530,2025-12-02,45-54,Dublin,Organic Search,Granted
+C001531,2025-02-02,55-64,Other,Paid Search,Not Recorded
+C001532,2025-01-04,45-54,Dublin,Paid Search,Granted
+C001533,2025-12-07,35-44,Wicklow,Organic Search,Granted
+C001534,2025-03-10,25-34,Other,Organic Search,Granted
+C001535,2025-10-26,45-54,Dublin,Email,Granted
+C001536,2025-01-12,65+,Dublin,Referral,Granted
+C001537,2025-02-26,35-44,Cork,Referral,Granted
+C001538,2025-02-10,45-54,Other,Paid Search,Granted
+C001539,2025-09-15,35-44,Galway,Organic Search,Granted
+C001540,2025-08-15,45-54,Kildare,Paid Search,Granted
+C001541,2025-06-23,65+,Other,Paid Search,Granted
+C001542,2025-03-30,25-34,Other,Organic Search,Granted
+C001543,2025-02-02,25-34,Galway,Affiliate,Granted
+C001544,2025-07-27,35-44,Galway,Email,Granted
+C001545,2025-03-26,35-44,Wicklow,Direct,Granted
+C001546,2025-08-04,35-44,Dublin,Paid Search,Granted
+C001547,2025-09-08,18-24,Other,Paid Search,Granted
+C001548,2025-11-07,35-44,Dublin,Organic Search,Granted
+C001549,2025-06-30,35-44,Dublin,Organic Search,Granted
+C001550,2025-01-02,35-44,Other,Paid Search,Granted
+C001551,2025-04-13,45-54,Cork,Paid Search,Granted
+C001552,2025-11-08,45-54,Dublin,Direct,Granted
+C001553,2025-07-14,45-54,Dublin,Affiliate,Granted
+C001554,2025-08-14,45-54,Galway,Organic Search,Granted
+C001555,2025-06-17,35-44,Other,Organic Search,Granted
+C001556,2025-03-01,35-44,Dublin,Organic Search,Granted
+C001557,2025-11-24,35-44,Dublin,Organic Search,Granted
+C001558,2025-10-10,25-34,Galway,Direct,Granted
+C001559,2025-12-30,25-34,Other,Affiliate,Granted
+C001560,2025-11-09,35-44,Dublin,Referral,Granted
+C001561,2025-04-17,55-64,Other,Direct,Granted
+C001562,2025-04-03,45-54,Other,Paid Search,Granted
+C001563,2025-04-01,18-24,Dublin,Organic Search,Granted
+C001564,2025-12-02,35-44,Other,Paid Search,Granted
+C001565,2025-07-23,25-34,Kildare,Paid Search,Granted
+C001566,2025-06-15,45-54,Galway,Referral,Granted
+C001567,2025-12-20,55-64,Cork,Paid Search,Granted
+C001568,2025-08-09,35-44,Other,Organic Search,Granted
+C001569,2025-11-28,35-44,Other,Paid Search,Granted
+C001570,2025-12-26,25-34,Wicklow,Organic Search,Granted
+C001571,2025-01-29,35-44,Other,Referral,Granted
+C001572,2025-05-12,55-64,Galway,Organic Search,Granted
+C001573,2025-09-25,45-54,Other,Organic Search,Granted
+C001574,2025-10-24,35-44,Other,Organic Search,Granted
+C001575,2025-02-24,25-34,Dublin,Affiliate,Granted
+C001576,2025-04-27,18-24,Dublin,Direct,Granted
+C001577,2025-07-20,25-34,Cork,Direct,Granted
+C001578,2025-10-19,25-34,Other,Paid Search,Granted
+C001579,2025-02-11,25-34,Dublin,Organic Search,Not Recorded
+C001580,2025-08-08,65+,Kildare,Referral,Not Recorded
+C001581,2025-04-19,35-44,Dublin,Organic Search,Granted
+C001582,2025-03-20,25-34,Cork,Organic Search,Granted
+C001583,2025-07-08,25-34,Limerick,Direct,Granted
+C001584,2025-06-01,25-34,Dublin,Organic Search,Granted
+C001585,2025-08-21,55-64,Other,Organic Search,Granted
+C001586,2025-04-26,35-44,Dublin,Affiliate,Granted
+C001587,2025-10-28,45-54,Other,Paid Search,Granted
+C001588,2025-01-29,45-54,Dublin,Organic Search,Granted
+C001589,2025-11-11,25-34,Other,Paid Search,Granted
+C001590,2025-01-11,35-44,Limerick,Affiliate,Granted
+C001591,2025-09-26,65+,Dublin,Organic Search,Granted
+C001592,2025-05-07,35-44,Dublin,Organic Search,Granted
+C001593,2025-05-20,18-24,Dublin,Direct,Granted
+C001594,2025-01-07,55-64,Limerick,Direct,Granted
+C001595,2025-09-14,55-64,Other,Email,Granted
+C001596,2025-03-02,35-44,Cork,Paid Search,Granted
+C001597,2025-08-29,35-44,Cork,Organic Search,Granted
+C001598,2025-09-22,25-34,Limerick,Direct,Granted
+C001599,2025-11-05,55-64,Galway,Direct,Not Recorded
+C001600,2025-09-16,35-44,Kildare,Organic Search,Granted
+C001601,2025-04-21,18-24,Galway,Direct,Granted
+C001602,2025-09-27,45-54,Wicklow,Organic Search,Granted
+C001603,2025-10-29,65+,Other,Affiliate,Not Recorded
+C001604,2025-04-26,55-64,Cork,Affiliate,Granted
+C001605,2025-02-15,25-34,Dublin,Paid Search,Not Recorded
+C001606,2025-11-21,18-24,Dublin,Email,Granted
+C001607,2025-02-23,65+,Limerick,Email,Granted
+C001608,2025-08-05,65+,Cork,Organic Search,Granted
+C001609,2025-03-28,35-44,Other,Paid Search,Granted
+C001610,2025-02-15,45-54,Limerick,Direct,Granted
+C001611,2025-10-11,35-44,Galway,Organic Search,Not Recorded
+C001612,2025-02-22,35-44,Other,Paid Search,Granted
+C001613,2025-09-02,25-34,Dublin,Organic Search,Granted
+C001614,2025-09-10,18-24,Other,Email,Granted
+C001615,2025-01-22,25-34,Dublin,Paid Search,Granted
+C001616,2025-03-05,55-64,Limerick,Affiliate,Not Recorded
+C001617,2025-10-17,25-34,Other,Paid Search,Granted
+C001618,2025-07-05,25-34,Other,Organic Search,Granted
+C001619,2025-02-14,35-44,Other,Referral,Not Recorded
+C001620,2025-12-28,25-34,Cork,Organic Search,Granted
+C001621,2025-04-07,25-34,Other,Organic Search,Granted
+C001622,2025-01-02,35-44,Limerick,Paid Search,Granted
+C001623,2025-12-04,25-34,Limerick,Affiliate,Granted
+C001624,2025-01-07,35-44,Dublin,Paid Search,Granted
+C001625,2025-07-21,55-64,Dublin,Organic Search,Granted
+C001626,2025-12-29,25-34,Limerick,Paid Search,Granted
+C001627,2025-07-30,55-64,Dublin,Organic Search,Granted
+C001628,2025-08-02,55-64,Wicklow,Organic Search,Granted
+C001629,2025-05-22,55-64,Other,Direct,Granted
+C001630,2025-02-16,45-54,Other,Organic Search,Granted
+C001631,2025-07-29,35-44,Dublin,Paid Search,Granted
+C001632,2025-11-24,45-54,Other,Direct,Granted
+C001633,2025-02-03,45-54,Dublin,Affiliate,Granted
+C001634,2025-11-18,18-24,Galway,Organic Search,Granted
+C001635,2025-06-01,65+,Other,Paid Search,Granted
+C001636,2025-07-15,35-44,Dublin,Organic Search,Granted
+C001637,2025-03-02,45-54,Dublin,Email,Granted
+C001638,2025-08-15,25-34,Dublin,Organic Search,Granted
+C001639,2025-03-08,18-24,Galway,Organic Search,Granted
+C001640,2025-04-10,35-44,Other,Paid Search,Granted
+C001641,2025-09-21,35-44,Dublin,Organic Search,Granted
+C001642,2025-01-19,35-44,Dublin,Organic Search,Granted
+C001643,2025-06-13,25-34,Limerick,Organic Search,Granted
+C001644,2025-08-06,25-34,Dublin,Direct,Granted
+C001645,2025-02-18,35-44,Wicklow,Direct,Granted
+C001646,2025-04-18,25-34,Other,Direct,Granted
+C001647,2025-05-06,65+,Wicklow,Affiliate,Not Recorded
+C001648,2025-08-31,25-34,Other,Paid Search,Granted
+C001649,2025-12-23,25-34,Galway,Referral,Granted
+C001650,2025-11-02,25-34,Other,Affiliate,Granted
+C001651,2025-03-11,35-44,Dublin,Affiliate,Granted
+C001652,2025-01-07,35-44,Dublin,Affiliate,Granted
+C001653,2025-01-19,45-54,Kildare,Paid Search,Granted
+C001654,2025-08-06,65+,Dublin,Paid Search,Granted
+C001655,2025-02-27,25-34,Other,Paid Search,Granted
+C001656,2025-03-26,45-54,Kildare,Organic Search,Granted
+C001657,2025-11-06,18-24,Other,Paid Search,Granted
+C001658,2025-11-15,25-34,Dublin,Organic Search,Granted
+C001659,2025-11-03,35-44,Galway,Organic Search,Granted
+C001660,2025-04-03,18-24,Wicklow,Email,Not Recorded
+C001661,2025-08-15,35-44,Dublin,Affiliate,Granted
+C001662,2025-08-11,45-54,Galway,Direct,Granted
+C001663,2025-03-09,45-54,Kildare,Paid Search,Granted
+C001664,2025-07-22,35-44,Other,Direct,Granted
+C001665,2025-07-11,35-44,Wicklow,Referral,Granted
+C001666,2025-05-25,35-44,Dublin,Direct,Granted
+C001667,2025-10-02,18-24,Galway,Direct,Granted
+C001668,2025-09-05,18-24,Limerick,Paid Search,Granted
+C001669,2025-07-14,45-54,Dublin,Paid Search,Granted
+C001670,2025-09-22,65+,Cork,Affiliate,Granted
+C001671,2025-10-06,18-24,Dublin,Email,Granted
+C001672,2025-07-26,35-44,Dublin,Paid Search,Granted
+C001673,2025-04-08,45-54,Galway,Paid Search,Granted
+C001674,2025-10-04,55-64,Dublin,Paid Search,Granted
+C001675,2025-09-19,35-44,Limerick,Paid Search,Granted
+C001676,2025-12-25,35-44,Dublin,Email,Granted
+C001677,2025-02-24,45-54,Wicklow,Affiliate,Granted
+C001678,2025-06-03,55-64,Dublin,Paid Search,Not Recorded
+C001679,2025-12-04,25-34,Other,Paid Search,Granted
+C001680,2025-07-07,55-64,Dublin,Paid Search,Granted
+C001681,2025-12-11,18-24,Galway,Organic Search,Granted
+C001682,2025-01-05,55-64,Cork,Direct,Granted
+C001683,2025-01-13,18-24,Dublin,Affiliate,Not Recorded
+C001684,2025-10-18,25-34,Galway,Direct,Not Recorded
+C001685,2025-05-11,18-24,Other,Organic Search,Granted
+C001686,2025-07-09,35-44,Other,Affiliate,Granted
+C001687,2025-06-06,25-34,Dublin,Affiliate,Not Recorded
+C001688,2025-05-29,25-34,Dublin,Organic Search,Not Recorded
+C001689,2025-12-09,35-44,Wicklow,Direct,Granted
+C001690,2025-02-04,35-44,Limerick,Direct,Granted
+C001691,2025-10-09,45-54,Dublin,Affiliate,Granted
+C001692,2025-11-21,55-64,Wicklow,Organic Search,Not Recorded
+C001693,2025-08-28,45-54,Galway,Organic Search,Granted
+C001694,2025-05-25,25-34,Kildare,Paid Search,Granted
+C001695,2025-02-28,25-34,Cork,Organic Search,Granted
+C001696,2025-09-07,55-64,Cork,Paid Search,Granted
+C001697,2025-06-21,18-24,Dublin,Affiliate,Granted
+C001698,2025-02-24,35-44,Wicklow,Organic Search,Granted
+C001699,2025-05-12,65+,Dublin,Paid Search,Granted
+C001700,2025-12-17,65+,Other,Email,Not Recorded
+C001701,2025-04-07,35-44,Other,Paid Search,Granted
+C001702,2025-03-07,45-54,Wicklow,Paid Search,Granted
+C001703,2025-09-06,35-44,Dublin,Direct,Granted
+C001704,2025-03-14,45-54,Dublin,Organic Search,Granted
+C001705,2025-12-02,18-24,Galway,Organic Search,Granted
+C001706,2025-11-10,25-34,Limerick,Direct,Granted
+C001707,2025-12-25,35-44,Other,Paid Search,Granted
+C001708,2025-11-30,25-34,Cork,Paid Search,Granted
+C001709,2025-03-30,45-54,Other,Organic Search,Granted
+C001710,2025-03-19,25-34,Dublin,Affiliate,Granted
+C001711,2025-05-06,55-64,Cork,Organic Search,Not Recorded
+C001712,2025-06-21,55-64,Dublin,Affiliate,Granted
+C001713,2025-11-18,35-44,Wicklow,Paid Search,Granted
+C001714,2025-09-25,45-54,Dublin,Direct,Granted
+C001715,2025-08-24,25-34,Dublin,Organic Search,Granted
+C001716,2025-11-17,35-44,Other,Organic Search,Granted
+C001717,2025-08-24,25-34,Galway,Direct,Granted
+C001718,2025-05-19,55-64,Dublin,Affiliate,Granted
+C001719,2025-05-31,55-64,Dublin,Organic Search,Granted
+C001720,2025-07-08,55-64,Galway,Paid Search,Granted
+C001721,2025-02-02,55-64,Dublin,Paid Search,Granted
+C001722,2025-09-28,65+,Dublin,Organic Search,Granted
+C001723,2025-08-27,25-34,Limerick,Direct,Not Recorded
+C001724,2025-09-24,65+,Dublin,Organic Search,Granted
+C001725,2025-07-14,35-44,Limerick,Paid Search,Granted
+C001726,2025-10-13,35-44,Cork,Organic Search,Granted
+C001727,2025-12-13,35-44,Dublin,Paid Search,Granted
+C001728,2025-07-28,25-34,Dublin,Paid Search,Granted
+C001729,2025-06-12,25-34,Dublin,Paid Search,Not Recorded
+C001730,2025-02-08,25-34,Dublin,Paid Search,Granted
+C001731,2025-10-12,18-24,Dublin,Referral,Granted
+C001732,2025-11-26,35-44,Other,Paid Search,Granted
+C001733,2025-09-13,55-64,Other,Affiliate,Granted
+C001734,2025-11-12,45-54,Cork,Organic Search,Granted
+C001735,2025-11-11,35-44,Limerick,Paid Search,Granted
+C001736,2025-10-19,35-44,Limerick,Organic Search,Granted
+C001737,2025-07-03,35-44,Other,Paid Search,Granted
+C001738,2025-02-06,25-34,Dublin,Direct,Granted
+C001739,2025-01-02,55-64,Dublin,Affiliate,Granted
+C001740,2025-03-16,25-34,Dublin,Direct,Granted
+C001741,2025-06-07,45-54,Dublin,Direct,Granted
+C001742,2025-09-29,45-54,Dublin,Organic Search,Granted
+C001743,2025-06-16,35-44,Other,Organic Search,Granted
+C001744,2025-01-09,55-64,Other,Affiliate,Granted
+C001745,2025-03-18,25-34,Dublin,Organic Search,Not Recorded
+C001746,2025-12-24,55-64,Galway,Organic Search,Granted
+C001747,2025-12-27,45-54,Cork,Email,Granted
+C001748,2025-05-18,45-54,Galway,Email,Not Recorded
+C001749,2025-10-21,45-54,Limerick,Direct,Granted
+C001750,2025-09-20,55-64,Dublin,Paid Search,Granted
+C001751,2025-12-06,65+,Other,Affiliate,Granted
+C001752,2025-11-20,35-44,Other,Organic Search,Granted
+C001753,2025-08-18,55-64,Kildare,Paid Search,Granted
+C001754,2025-05-25,45-54,Kildare,Paid Search,Granted
+C001755,2025-08-17,35-44,Galway,Referral,Not Recorded
+C001756,2025-04-27,55-64,Cork,Referral,Granted
+C001757,2025-05-08,35-44,Dublin,Direct,Granted
+C001758,2025-08-11,35-44,Limerick,Organic Search,Granted
+C001759,2025-07-28,25-34,Dublin,Paid Search,Granted
+C001760,2025-08-01,25-34,Other,Organic Search,Granted
+C001761,2025-05-21,55-64,Cork,Referral,Granted
+C001762,2025-05-30,35-44,Cork,Organic Search,Granted
+C001763,2025-01-04,35-44,Cork,Organic Search,Granted
+C001764,2025-08-08,25-34,Other,Affiliate,Granted
+C001765,2025-07-30,35-44,Dublin,Paid Search,Not Recorded
+C001766,2025-12-08,45-54,Dublin,Affiliate,Granted
+C001767,2025-07-04,55-64,Dublin,Organic Search,Granted
+C001768,2025-06-20,18-24,Kildare,Affiliate,Granted
+C001769,2025-01-25,35-44,Other,Organic Search,Granted
+C001770,2025-03-13,35-44,Dublin,Organic Search,Not Recorded
+C001771,2025-05-04,35-44,Other,Paid Search,Granted
+C001772,2025-05-18,35-44,Dublin,Organic Search,Granted
+C001773,2025-05-13,35-44,Kildare,Direct,Granted
+C001774,2025-05-24,35-44,Dublin,Organic Search,Granted
+C001775,2025-10-08,35-44,Galway,Organic Search,Not Recorded
+C001776,2025-02-17,35-44,Kildare,Affiliate,Granted
+C001777,2025-05-02,35-44,Galway,Organic Search,Granted
+C001778,2025-03-01,55-64,Dublin,Direct,Granted
+C001779,2025-04-23,45-54,Other,Affiliate,Not Recorded
+C001780,2025-09-07,25-34,Other,Organic Search,Not Recorded
+C001781,2025-01-18,45-54,Galway,Affiliate,Granted
+C001782,2025-05-04,55-64,Kildare,Organic Search,Granted
+C001783,2025-01-09,25-34,Other,Paid Search,Granted
+C001784,2025-12-15,35-44,Dublin,Organic Search,Granted
+C001785,2025-09-23,25-34,Other,Affiliate,Granted
+C001786,2025-03-30,45-54,Dublin,Direct,Granted
+C001787,2025-03-14,25-34,Other,Paid Search,Not Recorded
+C001788,2025-02-06,45-54,Dublin,Email,Granted
+C001789,2025-06-22,25-34,Dublin,Paid Search,Granted
+C001790,2025-10-03,35-44,Galway,Referral,Granted
+C001791,2025-08-02,65+,Galway,Affiliate,Granted
+C001792,2025-11-18,35-44,Other,Referral,Granted
+C001793,2025-05-06,55-64,Other,Referral,Granted
+C001794,2025-04-12,65+,Dublin,Email,Not Recorded
+C001795,2025-06-24,55-64,Dublin,Organic Search,Granted
+C001796,2025-03-15,25-34,Cork,Affiliate,Granted
+C001797,2025-12-23,55-64,Galway,Affiliate,Granted
+C001798,2025-03-09,18-24,Galway,Direct,Granted
+C001799,2025-06-24,35-44,Other,Organic Search,Granted
+C001800,2025-07-10,55-64,Other,Email,Not Recorded

@@ -1,0 +1,96 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "product_quotes",
+  "position": {
+    "x": 35,
+    "y": 100,
+    "z": 0,
+    "width": 900,
+    "height": 390,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "product_performance"
+                    }
+                  },
+                  "Property": "insurance_type"
+                }
+              },
+              "queryRef": "product_performance.insurance_type",
+              "displayName": "insurance_type",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "product_performance"
+                    }
+                  },
+                  "Property": "quote_requests"
+                }
+              },
+              "queryRef": "product_performance.quote_requests",
+              "displayName": "quote_requests",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "product_performance"
+                    }
+                  },
+                  "Property": "submitted_requests"
+                }
+              },
+              "queryRef": "product_performance.submitted_requests",
+              "displayName": "submitted_requests",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {},
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Quote Requests and Submissions by Product'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "provider_table",
+  "position": {
+    "x": 35,
+    "y": 560,
+    "z": 0,
+    "width": 1850,
+    "height": 360,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "provider_performance"
+                    }
+                  },
+                  "Property": "insurance_type"
+                }
+              },
+              "queryRef": "provider_performance.insurance_type",
+              "displayName": "insurance_type"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "provider_performance"
+                    }
+                  },
+                  "Property": "provider_name"
+                }
+              },
+              "queryRef": "provider_performance.provider_name",
+              "displayName": "provider_name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "provider_performance"
+                    }
+                  },
+                  "Property": "provider_priority"
+                }
+              },
+              "queryRef": "provider_performance.provider_priority",
+              "displayName": "provider_priority"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "provider_performance"
+                    }
+                  },
+                  "Property": "provider_quote_records"
+                }
+              },
+              "queryRef": "provider_performance.provider_quote_records",
+              "displayName": "provider_quote_records"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "provider_performance"
+                    }
+                  },
+                  "Property": "quotes_returned"
+                }
+              },
+              "queryRef": "provider_performance.quotes_returned",
+              "displayName": "quotes_returned"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "provider_performance"
+                    }
+                  },
+                  "Property": "average_returned_premium_eur"
+                }
+              },
+              "queryRef": "provider_performance.average_returned_premium_eur",
+              "displayName": "average_returned_premium_eur"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "provider_performance"
+                    }
+                  },
+                  "Property": "confirmed_purchases"
+                }
+              },
+              "queryRef": "provider_performance.confirmed_purchases",
+              "displayName": "confirmed_purchases"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "provider_performance"
+                    }
+                  },
+                  "Property": "gross_premium_eur"
+                }
+              },
+              "queryRef": "provider_performance.gross_premium_eur",
+              "displayName": "gross_premium_eur"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {},
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Provider Scorecard'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

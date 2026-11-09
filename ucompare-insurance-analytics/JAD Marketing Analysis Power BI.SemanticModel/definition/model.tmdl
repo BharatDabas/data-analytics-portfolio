@@ -1,0 +1,423 @@
+model Model
+    culture: en-IN
+    defaultPowerBIDataSourceVersion: powerBI_V3
+    sourceQueryCulture: en-IN
+    valueFilterBehavior: independent
+    dataAccessOptions
+        legacyRedirects
+        returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+annotation PBI_ProTooling = ["DevMode"]
+
+ref cultureInfo en-IN
+
+table executive_kpis
+    column metric
+        dataType: string
+        summarizeBy: none
+        sourceColumn: metric
+
+    column value
+        dataType: double
+        summarizeBy: none
+        sourceColumn: value
+
+    partition executive_kpis = m
+        mode: import
+        source =
+            let
+                Source = Csv.Document(File.Contents("C:\\Users\\dabas\\Downloads\\analytics-portfolio-github-clean\\analytics-portfolio\\ucompare-insurance-analytics\\outputs\\executive_kpis.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+                PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+                ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {{"metric", type text}, {"value", type number}} , "en-IE")
+            in
+                ChangedTypes
+
+
+table monthly_performance
+    column month
+        dataType: string
+        summarizeBy: none
+        sourceColumn: month
+
+    column insurance_type
+        dataType: string
+        summarizeBy: none
+        sourceColumn: insurance_type
+
+    column quote_requests
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: quote_requests
+
+    column confirmed_purchases
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: confirmed_purchases
+
+    column gross_premium_eur
+        dataType: double
+        summarizeBy: none
+        sourceColumn: gross_premium_eur
+
+    partition monthly_performance = m
+        mode: import
+        source =
+            let
+                Source = Csv.Document(File.Contents("C:\\Users\\dabas\\Downloads\\analytics-portfolio-github-clean\\analytics-portfolio\\ucompare-insurance-analytics\\outputs\\monthly_performance.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+                PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+                ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {{"month", type text}, {"insurance_type", type text}, {"quote_requests", Int64.Type}, {"confirmed_purchases", Int64.Type}, {"gross_premium_eur", type number}} , "en-IE")
+            in
+                ChangedTypes
+
+
+table product_performance
+    column insurance_type
+        dataType: string
+        summarizeBy: none
+        sourceColumn: insurance_type
+
+    column quote_requests
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: quote_requests
+
+    column submitted_requests
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: submitted_requests
+
+    column confirmed_purchases
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: confirmed_purchases
+
+    column gross_premium_eur
+        dataType: double
+        summarizeBy: none
+        sourceColumn: gross_premium_eur
+
+    column earned_commission_eur
+        dataType: double
+        summarizeBy: none
+        sourceColumn: earned_commission_eur
+
+    partition product_performance = m
+        mode: import
+        source =
+            let
+                Source = Csv.Document(File.Contents("C:\\Users\\dabas\\Downloads\\analytics-portfolio-github-clean\\analytics-portfolio\\ucompare-insurance-analytics\\outputs\\product_performance.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+                PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+                ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {{"insurance_type", type text}, {"quote_requests", Int64.Type}, {"submitted_requests", Int64.Type}, {"confirmed_purchases", Int64.Type}, {"gross_premium_eur", type number}, {"earned_commission_eur", type number}} , "en-IE")
+            in
+                ChangedTypes
+
+
+table provider_performance
+    column insurance_type
+        dataType: string
+        summarizeBy: none
+        sourceColumn: insurance_type
+
+    column provider_name
+        dataType: string
+        summarizeBy: none
+        sourceColumn: provider_name
+
+    column provider_priority
+        dataType: boolean
+        summarizeBy: none
+        sourceColumn: provider_priority
+
+    column provider_quote_records
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: provider_quote_records
+
+    column quotes_returned
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: quotes_returned
+
+    column average_returned_premium_eur
+        dataType: double
+        summarizeBy: none
+        sourceColumn: average_returned_premium_eur
+
+    column confirmed_purchases
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: confirmed_purchases
+
+    column gross_premium_eur
+        dataType: double
+        summarizeBy: none
+        sourceColumn: gross_premium_eur
+
+    partition provider_performance = m
+        mode: import
+        source =
+            let
+                Source = Csv.Document(File.Contents("C:\\Users\\dabas\\Downloads\\analytics-portfolio-github-clean\\analytics-portfolio\\ucompare-insurance-analytics\\outputs\\provider_performance.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+                PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+                ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {{"insurance_type", type text}, {"provider_name", type text}, {"provider_priority", type logical}, {"provider_quote_records", Int64.Type}, {"quotes_returned", Int64.Type}, {"average_returned_premium_eur", type number}, {"confirmed_purchases", Int64.Type}, {"gross_premium_eur", type number}} , "en-IE")
+            in
+                ChangedTypes
+
+
+table travel_priority_providers
+    column insurance_type
+        dataType: string
+        summarizeBy: none
+        sourceColumn: insurance_type
+
+    column provider_name
+        dataType: string
+        summarizeBy: none
+        sourceColumn: provider_name
+
+    column provider_priority
+        dataType: boolean
+        summarizeBy: none
+        sourceColumn: provider_priority
+
+    column provider_quote_records
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: provider_quote_records
+
+    column quotes_returned
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: quotes_returned
+
+    column average_returned_premium_eur
+        dataType: double
+        summarizeBy: none
+        sourceColumn: average_returned_premium_eur
+
+    column confirmed_purchases
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: confirmed_purchases
+
+    column gross_premium_eur
+        dataType: double
+        summarizeBy: none
+        sourceColumn: gross_premium_eur
+
+    partition travel_priority_providers = m
+        mode: import
+        source =
+            let
+                Source = Csv.Document(File.Contents("C:\\Users\\dabas\\Downloads\\analytics-portfolio-github-clean\\analytics-portfolio\\ucompare-insurance-analytics\\outputs\\travel_priority_providers.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+                PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+                ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {{"insurance_type", type text}, {"provider_name", type text}, {"provider_priority", type logical}, {"provider_quote_records", Int64.Type}, {"quotes_returned", Int64.Type}, {"average_returned_premium_eur", type number}, {"confirmed_purchases", Int64.Type}, {"gross_premium_eur", type number}} , "en-IE")
+            in
+                ChangedTypes
+
+
+table provider_scorecard
+    column insurance_type
+        dataType: string
+        summarizeBy: none
+        sourceColumn: insurance_type
+
+    column provider_name
+        dataType: string
+        summarizeBy: none
+        sourceColumn: provider_name
+
+    column provider_priority
+        dataType: boolean
+        summarizeBy: none
+        sourceColumn: provider_priority
+
+    column provider_quote_rows
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: provider_quote_rows
+
+    column quotes_returned
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: quotes_returned
+
+    column avg_annual_premium_eur
+        dataType: double
+        summarizeBy: none
+        sourceColumn: avg_annual_premium_eur
+
+    column purchases
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: purchases
+
+    column premium_eur
+        dataType: double
+        summarizeBy: none
+        sourceColumn: premium_eur
+
+    partition provider_scorecard = m
+        mode: import
+        source =
+            let
+                Source = Csv.Document(File.Contents("C:\\Users\\dabas\\Downloads\\analytics-portfolio-github-clean\\analytics-portfolio\\ucompare-insurance-analytics\\outputs\\provider_scorecard.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+                PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+                ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {{"insurance_type", type text}, {"provider_name", type text}, {"provider_priority", type logical}, {"provider_quote_rows", Int64.Type}, {"quotes_returned", Int64.Type}, {"avg_annual_premium_eur", type number}, {"purchases", Int64.Type}, {"premium_eur", type number}} , "en-IE")
+            in
+                ChangedTypes
+
+
+table travel_provider_priority_analysis
+    column insurance_type
+        dataType: string
+        summarizeBy: none
+        sourceColumn: insurance_type
+
+    column provider_name
+        dataType: string
+        summarizeBy: none
+        sourceColumn: provider_name
+
+    column provider_priority
+        dataType: boolean
+        summarizeBy: none
+        sourceColumn: provider_priority
+
+    column provider_quote_rows
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: provider_quote_rows
+
+    column quotes_returned
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: quotes_returned
+
+    column avg_annual_premium_eur
+        dataType: double
+        summarizeBy: none
+        sourceColumn: avg_annual_premium_eur
+
+    column purchases
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: purchases
+
+    column premium_eur
+        dataType: double
+        summarizeBy: none
+        sourceColumn: premium_eur
+
+    partition travel_provider_priority_analysis = m
+        mode: import
+        source =
+            let
+                Source = Csv.Document(File.Contents("C:\\Users\\dabas\\Downloads\\analytics-portfolio-github-clean\\analytics-portfolio\\ucompare-insurance-analytics\\outputs\\travel_provider_priority_analysis.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+                PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+                ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {{"insurance_type", type text}, {"provider_name", type text}, {"provider_priority", type logical}, {"provider_quote_rows", Int64.Type}, {"quotes_returned", Int64.Type}, {"avg_annual_premium_eur", type number}, {"purchases", Int64.Type}, {"premium_eur", type number}} , "en-IE")
+            in
+                ChangedTypes
+
+
+table data_quality_checks
+    column table
+        dataType: string
+        summarizeBy: none
+        sourceColumn: table
+
+    column rows
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: rows
+
+    column duplicate_primary_keys
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: duplicate_primary_keys
+
+    column missing_primary_keys
+        dataType: int64
+        summarizeBy: none
+        sourceColumn: missing_primary_keys
+
+    partition data_quality_checks = m
+        mode: import
+        source =
+            let
+                Source = Csv.Document(File.Contents("C:\\Users\\dabas\\Downloads\\analytics-portfolio-github-clean\\analytics-portfolio\\ucompare-insurance-analytics\\outputs\\data_quality_checks.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+                PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+                ChangedTypes = Table.TransformColumnTypes(PromotedHeaders, {{"table", type text}, {"rows", Int64.Type}, {"duplicate_primary_keys", Int64.Type}, {"missing_primary_keys", Int64.Type}} , "en-IE")
+            in
+                ChangedTypes
+
+
+    measure 'Total Customers' = CALCULATE(MAX(executive_kpis[value]), executive_kpis[metric] = "Unique Customers")
+        formatString: "#,0"
+
+    measure 'Quote Requests' = CALCULATE(MAX(executive_kpis[value]), executive_kpis[metric] = "Quote Requests")
+        formatString: "#,0"
+
+    measure 'Submitted Requests' = CALCULATE(MAX(executive_kpis[value]), executive_kpis[metric] = "Submitted Quote Requests")
+        formatString: "#,0"
+
+    measure 'Provider Quotes Returned' = CALCULATE(MAX(executive_kpis[value]), executive_kpis[metric] = "Provider Quotes Returned")
+        formatString: "#,0"
+
+    measure 'Confirmed Purchases' = CALCULATE(MAX(executive_kpis[value]), executive_kpis[metric] = "Confirmed Purchases")
+        formatString: "#,0"
+
+    measure 'Gross Premium EUR' = CALCULATE(MAX(executive_kpis[value]), executive_kpis[metric] = "Gross Premium EUR")
+        formatString: "€#,0.00"
+
+    measure 'Earned Commission EUR' = CALCULATE(MAX(executive_kpis[value]), executive_kpis[metric] = "Earned Commission EUR")
+        formatString: "€#,0.00"
+
+    measure 'Purchase Conversion Rate' = DIVIDE([Confirmed Purchases], [Quote Requests])
+        formatString: "0.0%"
+
+    measure 'Quote Submission Rate' = DIVIDE([Submitted Requests], [Quote Requests])
+        formatString: "0.0%"
+
+    measure 'Returned Quote Rate' = DIVIDE([Provider Quotes Returned], [Submitted Requests])
+        formatString: "0.0%"
+
+    measure 'Product Quote Requests' = SUM(product_performance[quote_requests])
+        formatString: "#,0"
+
+    measure 'Product Purchases' = SUM(product_performance[confirmed_purchases])
+        formatString: "#,0"
+
+    measure 'Product Gross Premium EUR' = SUM(product_performance[gross_premium_eur])
+        formatString: "€#,0.00"
+
+    measure 'Product Commission EUR' = SUM(product_performance[earned_commission_eur])
+        formatString: "€#,0.00"
+
+    measure 'Monthly Quote Requests' = SUM(monthly_performance[quote_requests])
+        formatString: "#,0"
+
+    measure 'Monthly Purchases' = SUM(monthly_performance[confirmed_purchases])
+        formatString: "#,0"
+
+    measure 'Monthly Gross Premium EUR' = SUM(monthly_performance[gross_premium_eur])
+        formatString: "€#,0.00"
+
+    measure 'Provider Quotes' = SUM(provider_performance[quotes_returned])
+        formatString: "#,0"
+
+    measure 'Provider Purchases' = SUM(provider_performance[confirmed_purchases])
+        formatString: "#,0"
+
+    measure 'Provider Premium EUR' = SUM(provider_performance[gross_premium_eur])
+        formatString: "€#,0.00"
+
+    measure 'Priority Provider Quotes' = SUM(travel_priority_providers[quotes_returned])
+        formatString: "#,0"
+
+    measure 'Priority Provider Purchases' = SUM(travel_priority_providers[confirmed_purchases])
+        formatString: "#,0"
+
+    measure 'Priority Provider Premium EUR' = SUM(travel_priority_providers[gross_premium_eur])
+        formatString: "€#,0.00"

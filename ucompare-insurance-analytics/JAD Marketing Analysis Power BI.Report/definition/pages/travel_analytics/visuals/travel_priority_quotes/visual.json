@@ -1,0 +1,81 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "travel_priority_quotes",
+  "position": {
+    "x": 35,
+    "y": 100,
+    "z": 0,
+    "width": 900,
+    "height": 400,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "clusteredBarChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "travel_priority_providers"
+                    }
+                  },
+                  "Property": "provider_name"
+                }
+              },
+              "queryRef": "travel_priority_providers.provider_name",
+              "displayName": "provider_name",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "travel_priority_providers"
+                    }
+                  },
+                  "Property": "quotes_returned"
+                }
+              },
+              "queryRef": "travel_priority_providers.quotes_returned",
+              "displayName": "quotes_returned",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {},
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Quotes Returned — Priority Travel Providers'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,6 @@
+table,rows,duplicate_primary_keys,missing_primary_keys
+customers,1800,0,0
+quote_requests,2413,0,0
+provider_quotes,5261,0,0
+purchases,659,0,0
+commissions,659,0,0

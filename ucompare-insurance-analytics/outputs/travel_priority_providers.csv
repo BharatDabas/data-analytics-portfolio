@@ -1,0 +1,4 @@
+insurance_type,provider_name,provider_priority,provider_quote_records,quotes_returned,average_returned_premium_eur,confirmed_purchases,gross_premium_eur
+Travel,ATI,True,478,403,100.79625310173697,53,5428.77
+Travel,Multitrip,True,490,443,101.66939051918736,81,8148.34
+Travel,Switched On,True,471,403,93.57111662531018,63,6000.34

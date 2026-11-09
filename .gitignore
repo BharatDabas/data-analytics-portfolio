@@ -26,3 +26,7 @@ venv/
 Thumbs.db
 .vscode/
 .idea/
+
+# Include Ucompare synthetic source datasets
+!ucompare-insurance-analytics/data/raw/
+!ucompare-insurance-analytics/data/raw/*.csv

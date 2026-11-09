@@ -93,6 +93,16 @@ cd supply-chain-inventory-analytics && pip install -r requirements.txt && stream
 
 ---
 
+### Ucompare Insurance Analytics Prototype
+
+**Development Period:** April 2024 – June 2024
+
+An insurance comparison analytics prototype featuring Python-based analysis, SQL, Databricks templates, Excel dashboards and Power BI reporting. All records and metrics are synthetic demonstration data, not actual Ucompare or JAD Marketing performance.
+
+[View Project](ucompare-insurance-analytics/README.md)
+
+---
+
 ## Portfolio architecture
 
 All three projects follow the same layered pattern, but each is **independently runnable**, with its own dependencies, database, tests and app.

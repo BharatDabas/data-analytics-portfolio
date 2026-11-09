@@ -1,0 +1,13 @@
+insurance_type,provider_name,provider_priority
+Life,Royal London,False
+Life,Zurich,False
+Life,Aviva,False
+Life,Irish Life,False
+Life,New Ireland,False
+Travel,Cover for You,False
+Travel,ATI,True
+Travel,Multitrip,True
+Travel,AA Travel Insurance,False
+Travel,Ireland Go,False
+Travel,Switched On,True
+Bike,Bikmo,False

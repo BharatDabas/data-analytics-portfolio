@@ -1,0 +1,39 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Generated local databases
+*.duckdb
+*.duckdb-wal
+*.db
+*.sqlite
+*.sqlite3
+
+# Power BI local cache and machine-specific settings
+**/.pbi/
+**/localSettings.json
+
+# Editor and operating-system files
+.vscode/
+.idea/

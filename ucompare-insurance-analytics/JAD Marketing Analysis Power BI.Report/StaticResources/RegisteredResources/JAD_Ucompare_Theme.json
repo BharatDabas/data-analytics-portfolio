@@ -1,0 +1,15 @@
+{
+  "name": "JAD Ucompare Professional",
+  "dataColors": [
+    "#17365D",
+    "#2F75B5",
+    "#00A6A6",
+    "#F4B183",
+    "#70AD47",
+    "#8064A2",
+    "#C0504D"
+  ],
+  "background": "#F4F7FB",
+  "foreground": "#17365D",
+  "tableAccent": "#2F75B5"
+}

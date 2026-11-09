@@ -1,0 +1,2414 @@
+quote_request_id,customer_id,quote_date,insurance_type,quote_submitted,session_source,cover_amount_eur,trip_type,destination_region,bike_count,bike_value_eur
+Q0000001,C000001,2025-09-26,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000002,C000002,2025-05-03,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000003,C000003,2025-09-08,Bike,False,Direct,,,,1.0,4200.0
+Q0000004,C000004,2025-05-06,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000005,C000005,2025-03-27,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000006,C000006,2025-11-26,Life,True,Paid Search,150000.0,,,,
+Q0000007,C000007,2025-12-22,Life,True,Paid Search,50000.0,,,,
+Q0000008,C000008,2025-03-16,Life,True,Organic Search,100000.0,,,,
+Q0000009,C000008,2025-12-04,Bike,True,Organic Search,,,,1.0,6900.0
+Q0000010,C000009,2025-04-15,Bike,True,Affiliate,,,,1.0,2800.0
+Q0000011,C000009,2025-02-20,Bike,True,Affiliate,,,,2.0,5300.0
+Q0000012,C000009,2025-12-05,Bike,True,Affiliate,,,,3.0,4800.0
+Q0000013,C000010,2025-12-22,Travel,False,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000014,C000011,2025-09-29,Travel,True,Direct,,Single Trip,Europe,,
+Q0000015,C000012,2025-03-21,Life,True,Paid Search,150000.0,,,,
+Q0000016,C000012,2025-01-05,Bike,True,Paid Search,,,,1.0,4100.0
+Q0000017,C000013,2025-09-08,Travel,True,Referral,,Annual Multi-trip,Worldwide,,
+Q0000018,C000014,2025-05-30,Bike,True,Organic Search,,,,1.0,6200.0
+Q0000019,C000014,2025-11-25,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000020,C000015,2025-06-08,Life,True,Organic Search,50000.0,,,,
+Q0000021,C000015,2025-08-28,Bike,True,Organic Search,,,,1.0,6600.0
+Q0000022,C000016,2025-05-06,Bike,True,Paid Search,,,,1.0,4100.0
+Q0000023,C000017,2025-04-13,Bike,True,Paid Search,,,,3.0,3200.0
+Q0000024,C000017,2025-06-08,Life,False,Paid Search,100000.0,,,,
+Q0000025,C000018,2025-07-10,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000026,C000019,2025-01-24,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0000027,C000019,2025-03-01,Life,True,Affiliate,150000.0,,,,
+Q0000028,C000020,2025-04-15,Bike,True,Organic Search,,,,1.0,2500.0
+Q0000029,C000021,2025-08-11,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000030,C000021,2025-03-05,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000031,C000022,2025-04-27,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000032,C000023,2025-08-30,Life,True,Affiliate,50000.0,,,,
+Q0000033,C000024,2025-10-30,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000034,C000025,2025-12-04,Bike,True,Affiliate,,,,1.0,6900.0
+Q0000035,C000026,2025-01-25,Life,True,Direct,150000.0,,,,
+Q0000036,C000026,2025-08-14,Bike,True,Direct,,,,1.0,5500.0
+Q0000037,C000026,2025-07-04,Life,True,Direct,250000.0,,,,
+Q0000038,C000027,2025-07-01,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0000039,C000028,2025-12-28,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0000040,C000029,2025-11-17,Life,True,Organic Search,100000.0,,,,
+Q0000041,C000030,2025-08-31,Bike,True,Direct,,,,4.0,1100.0
+Q0000042,C000031,2025-07-04,Bike,True,Affiliate,,,,2.0,3400.0
+Q0000043,C000032,2025-09-23,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000044,C000033,2025-04-25,Bike,True,Direct,,,,2.0,5200.0
+Q0000045,C000033,2025-01-18,Bike,False,Direct,,,,1.0,5100.0
+Q0000046,C000034,2025-07-27,Life,True,Paid Search,200000.0,,,,
+Q0000047,C000035,2025-01-05,Life,True,Paid Search,300000.0,,,,
+Q0000048,C000035,2025-03-04,Travel,True,Paid Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0000049,C000036,2025-05-03,Life,True,Organic Search,300000.0,,,,
+Q0000050,C000037,2025-08-15,Life,True,Direct,250000.0,,,,
+Q0000051,C000038,2025-11-11,Travel,True,Referral,,Backpacker,Europe,,
+Q0000052,C000039,2025-01-20,Life,True,Organic Search,100000.0,,,,
+Q0000053,C000040,2025-03-03,Bike,True,Paid Search,,,,1.0,3500.0
+Q0000054,C000041,2025-10-12,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0000055,C000042,2025-02-09,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000056,C000043,2025-07-19,Travel,True,Email,,Annual Multi-trip,Europe,,
+Q0000057,C000044,2025-07-24,Life,True,Paid Search,100000.0,,,,
+Q0000058,C000045,2025-06-22,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000059,C000046,2025-09-18,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000060,C000047,2025-02-18,Travel,True,Email,,Single Trip,Europe,,
+Q0000061,C000048,2025-12-26,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000062,C000049,2025-12-11,Life,True,Affiliate,300000.0,,,,
+Q0000063,C000050,2025-12-08,Life,True,Paid Search,200000.0,,,,
+Q0000064,C000051,2025-10-03,Life,True,Organic Search,300000.0,,,,
+Q0000065,C000052,2025-02-10,Travel,False,Affiliate,,Backpacker,Europe,,
+Q0000066,C000053,2025-05-02,Life,False,Organic Search,300000.0,,,,
+Q0000067,C000054,2025-05-17,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000068,C000055,2025-04-02,Travel,True,Organic Search,,Backpacker,Europe,,
+Q0000069,C000055,2025-11-13,Life,True,Organic Search,100000.0,,,,
+Q0000070,C000056,2025-11-04,Life,True,Affiliate,200000.0,,,,
+Q0000071,C000057,2025-01-19,Life,True,Affiliate,300000.0,,,,
+Q0000072,C000058,2025-11-01,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000073,C000059,2025-04-06,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000074,C000059,2025-07-26,Bike,True,Organic Search,,,,2.0,1700.0
+Q0000075,C000060,2025-05-21,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000076,C000061,2025-09-26,Life,True,Email,150000.0,,,,
+Q0000077,C000061,2025-05-14,Travel,True,Email,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000078,C000061,2025-04-02,Bike,True,Email,,,,2.0,1100.0
+Q0000079,C000062,2025-05-06,Life,True,Organic Search,50000.0,,,,
+Q0000080,C000062,2025-12-26,Bike,False,Organic Search,,,,1.0,5100.0
+Q0000081,C000063,2025-08-23,Bike,False,Organic Search,,,,3.0,4400.0
+Q0000082,C000064,2025-10-12,Life,False,Affiliate,50000.0,,,,
+Q0000083,C000065,2025-02-01,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000084,C000065,2025-12-01,Life,True,Organic Search,250000.0,,,,
+Q0000085,C000066,2025-01-15,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0000086,C000067,2025-08-27,Life,True,Affiliate,50000.0,,,,
+Q0000087,C000067,2025-03-25,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0000088,C000068,2025-12-11,Bike,True,Organic Search,,,,1.0,4700.0
+Q0000089,C000069,2025-01-12,Travel,True,Direct,,Backpacker,Europe,,
+Q0000090,C000069,2025-11-12,Travel,True,Direct,,Single Trip,Europe,,
+Q0000091,C000070,2025-06-17,Bike,True,Direct,,,,1.0,800.0
+Q0000092,C000071,2025-09-28,Bike,False,Paid Search,,,,3.0,4000.0
+Q0000093,C000071,2025-07-22,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000094,C000071,2025-11-09,Life,True,Paid Search,50000.0,,,,
+Q0000095,C000072,2025-01-25,Life,True,Referral,50000.0,,,,
+Q0000096,C000073,2025-12-27,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000097,C000074,2025-01-02,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000098,C000075,2025-05-21,Life,True,Affiliate,100000.0,,,,
+Q0000099,C000075,2025-07-18,Life,True,Affiliate,150000.0,,,,
+Q0000100,C000076,2025-01-19,Life,True,Organic Search,200000.0,,,,
+Q0000101,C000077,2025-04-05,Bike,True,Affiliate,,,,2.0,1900.0
+Q0000102,C000077,2025-12-19,Life,True,Affiliate,250000.0,,,,
+Q0000103,C000078,2025-11-06,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000104,C000079,2025-07-09,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000105,C000080,2025-07-30,Bike,False,Organic Search,,,,1.0,500.0
+Q0000106,C000081,2025-04-02,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000107,C000082,2025-07-03,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0000108,C000082,2025-07-14,Life,False,Affiliate,50000.0,,,,
+Q0000109,C000083,2025-10-19,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000110,C000084,2025-11-26,Travel,True,Email,,Single Trip,Europe,,
+Q0000111,C000084,2025-05-03,Travel,True,Email,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000112,C000085,2025-12-23,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000113,C000086,2025-10-16,Life,True,Affiliate,50000.0,,,,
+Q0000114,C000087,2025-01-08,Life,True,Paid Search,100000.0,,,,
+Q0000115,C000088,2025-02-03,Bike,True,Referral,,,,1.0,1500.0
+Q0000116,C000089,2025-04-14,Life,False,Direct,50000.0,,,,
+Q0000117,C000089,2025-04-24,Travel,False,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000118,C000089,2025-12-18,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000119,C000090,2025-10-18,Travel,True,Referral,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000120,C000090,2025-07-25,Travel,True,Referral,,Annual Multi-trip,Europe,,
+Q0000121,C000090,2025-03-04,Bike,True,Referral,,,,1.0,6600.0
+Q0000122,C000091,2025-06-09,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000123,C000092,2025-04-14,Bike,True,Paid Search,,,,1.0,2900.0
+Q0000124,C000093,2025-09-06,Life,True,Affiliate,150000.0,,,,
+Q0000125,C000094,2025-10-29,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000126,C000095,2025-08-18,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000127,C000096,2025-01-22,Travel,True,Email,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000128,C000096,2025-03-16,Bike,True,Email,,,,1.0,2500.0
+Q0000129,C000097,2025-11-29,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000130,C000098,2025-06-09,Life,True,Organic Search,100000.0,,,,
+Q0000131,C000099,2025-07-28,Bike,False,Paid Search,,,,1.0,1300.0
+Q0000132,C000099,2025-11-15,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000133,C000100,2025-05-23,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0000134,C000100,2025-07-17,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000135,C000101,2025-09-28,Life,True,Direct,200000.0,,,,
+Q0000136,C000101,2025-05-25,Bike,True,Direct,,,,3.0,6600.0
+Q0000137,C000102,2025-06-24,Travel,True,Referral,,Single Trip,Europe,,
+Q0000138,C000103,2025-06-30,Life,False,Email,100000.0,,,,
+Q0000139,C000103,2025-07-12,Life,True,Email,300000.0,,,,
+Q0000140,C000103,2025-07-29,Bike,True,Email,,,,1.0,6300.0
+Q0000141,C000104,2025-05-26,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000142,C000105,2025-06-14,Bike,True,Affiliate,,,,2.0,2500.0
+Q0000143,C000106,2025-05-07,Life,True,Paid Search,200000.0,,,,
+Q0000144,C000106,2025-07-05,Life,True,Paid Search,250000.0,,,,
+Q0000145,C000107,2025-03-30,Travel,False,Referral,,Annual Multi-trip,Worldwide,,
+Q0000146,C000108,2025-04-11,Life,True,Organic Search,150000.0,,,,
+Q0000147,C000109,2025-01-25,Life,True,Organic Search,150000.0,,,,
+Q0000148,C000109,2025-10-16,Life,False,Organic Search,150000.0,,,,
+Q0000149,C000110,2025-04-21,Bike,True,Email,,,,2.0,6400.0
+Q0000150,C000111,2025-04-27,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000151,C000112,2025-02-28,Life,True,Paid Search,150000.0,,,,
+Q0000152,C000113,2025-06-06,Bike,True,Direct,,,,2.0,6700.0
+Q0000153,C000113,2025-09-25,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000154,C000114,2025-11-06,Life,True,Paid Search,150000.0,,,,
+Q0000155,C000115,2025-01-08,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000156,C000115,2025-12-27,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0000157,C000115,2025-05-21,Bike,True,Paid Search,,,,1.0,1800.0
+Q0000158,C000116,2025-01-13,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000159,C000117,2025-01-12,Bike,True,Organic Search,,,,1.0,6500.0
+Q0000160,C000117,2025-05-25,Life,True,Organic Search,300000.0,,,,
+Q0000161,C000118,2025-04-17,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000162,C000118,2025-08-25,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000163,C000119,2025-03-31,Bike,True,Paid Search,,,,2.0,3000.0
+Q0000164,C000120,2025-03-22,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000165,C000120,2025-07-19,Life,True,Paid Search,50000.0,,,,
+Q0000166,C000121,2025-01-19,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000167,C000122,2025-10-16,Bike,True,Email,,,,2.0,5700.0
+Q0000168,C000123,2025-06-05,Bike,True,Direct,,,,1.0,2100.0
+Q0000169,C000124,2025-04-16,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000170,C000124,2025-05-20,Travel,False,Referral,,Annual Multi-trip,Europe,,
+Q0000171,C000125,2025-05-27,Life,True,Organic Search,250000.0,,,,
+Q0000172,C000126,2025-11-24,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000173,C000126,2025-09-08,Bike,True,Direct,,,,4.0,5700.0
+Q0000174,C000127,2025-06-06,Bike,True,Affiliate,,,,1.0,2200.0
+Q0000175,C000128,2025-11-06,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000176,C000129,2025-04-16,Travel,True,Organic Search,,Backpacker,Worldwide,,
+Q0000177,C000130,2025-07-09,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000178,C000130,2025-09-02,Life,True,Organic Search,200000.0,,,,
+Q0000179,C000131,2025-08-21,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000180,C000132,2025-10-16,Life,True,Paid Search,100000.0,,,,
+Q0000181,C000133,2025-09-20,Bike,True,Paid Search,,,,1.0,5800.0
+Q0000182,C000133,2025-11-22,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000183,C000134,2025-10-04,Life,True,Organic Search,250000.0,,,,
+Q0000184,C000135,2025-09-24,Life,True,Direct,250000.0,,,,
+Q0000185,C000135,2025-10-13,Bike,True,Direct,,,,1.0,2500.0
+Q0000186,C000136,2025-08-09,Bike,False,Organic Search,,,,1.0,2700.0
+Q0000187,C000137,2025-11-07,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000188,C000138,2025-07-04,Life,True,Affiliate,300000.0,,,,
+Q0000189,C000139,2025-12-16,Life,True,Organic Search,200000.0,,,,
+Q0000190,C000140,2025-04-10,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000191,C000141,2025-03-04,Bike,True,Organic Search,,,,1.0,5200.0
+Q0000192,C000142,2025-01-21,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000193,C000143,2025-04-11,Life,False,Paid Search,250000.0,,,,
+Q0000194,C000143,2025-10-09,Bike,True,Paid Search,,,,2.0,5800.0
+Q0000195,C000144,2025-01-28,Life,True,Organic Search,150000.0,,,,
+Q0000196,C000145,2025-04-30,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000197,C000146,2025-01-09,Bike,True,Email,,,,2.0,4100.0
+Q0000198,C000146,2025-12-29,Life,True,Email,300000.0,,,,
+Q0000199,C000147,2025-07-01,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000200,C000148,2025-09-22,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000201,C000149,2025-08-26,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000202,C000149,2025-03-14,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000203,C000150,2025-11-27,Bike,True,Paid Search,,,,1.0,2200.0
+Q0000204,C000151,2025-01-29,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0000205,C000152,2025-01-10,Travel,False,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000206,C000153,2025-03-25,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000207,C000154,2025-04-20,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0000208,C000154,2025-04-06,Bike,True,Organic Search,,,,2.0,6300.0
+Q0000209,C000155,2025-09-23,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000210,C000156,2025-01-03,Bike,True,Referral,,,,1.0,5800.0
+Q0000211,C000156,2025-05-31,Life,True,Referral,50000.0,,,,
+Q0000212,C000157,2025-05-16,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000213,C000158,2025-07-30,Life,True,Organic Search,50000.0,,,,
+Q0000214,C000159,2025-09-17,Bike,True,Direct,,,,4.0,1700.0
+Q0000215,C000160,2025-08-23,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000216,C000161,2025-07-11,Life,True,Affiliate,200000.0,,,,
+Q0000217,C000162,2025-07-31,Life,True,Referral,300000.0,,,,
+Q0000218,C000162,2025-03-08,Life,True,Referral,50000.0,,,,
+Q0000219,C000163,2025-11-23,Bike,True,Paid Search,,,,1.0,2900.0
+Q0000220,C000164,2025-08-14,Travel,False,Organic Search,,Annual Multi-trip,Europe,,
+Q0000221,C000165,2025-10-15,Life,True,Direct,150000.0,,,,
+Q0000222,C000166,2025-10-04,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000223,C000166,2025-08-25,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000224,C000167,2025-03-27,Life,True,Affiliate,200000.0,,,,
+Q0000225,C000168,2025-10-27,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000226,C000169,2025-08-17,Travel,True,Referral,,Annual Multi-trip,Worldwide,,
+Q0000227,C000170,2025-01-21,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000228,C000171,2025-08-25,Travel,False,Organic Search,,Single Trip,Europe,,
+Q0000229,C000172,2025-02-13,Life,True,Paid Search,200000.0,,,,
+Q0000230,C000173,2025-01-13,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000231,C000174,2025-05-20,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000232,C000175,2025-01-20,Travel,True,Direct,,Single Trip,Europe,,
+Q0000233,C000175,2025-12-29,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000234,C000176,2025-10-04,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000235,C000176,2025-09-21,Bike,True,Organic Search,,,,1.0,3800.0
+Q0000236,C000177,2025-11-26,Bike,True,Organic Search,,,,2.0,3400.0
+Q0000237,C000178,2025-06-22,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000238,C000179,2025-06-09,Travel,False,Organic Search,,Single Trip,Worldwide,,
+Q0000239,C000180,2025-10-06,Life,True,Referral,150000.0,,,,
+Q0000240,C000180,2025-12-29,Bike,True,Referral,,,,2.0,2500.0
+Q0000241,C000180,2025-09-04,Bike,True,Referral,,,,1.0,700.0
+Q0000242,C000181,2025-03-10,Life,True,Email,200000.0,,,,
+Q0000243,C000182,2025-02-25,Life,True,Organic Search,250000.0,,,,
+Q0000244,C000182,2025-11-13,Life,True,Organic Search,50000.0,,,,
+Q0000245,C000183,2025-07-12,Travel,False,Affiliate,,Annual Multi-trip,Europe,,
+Q0000246,C000184,2025-04-05,Life,True,Affiliate,50000.0,,,,
+Q0000247,C000184,2025-02-18,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000248,C000185,2025-09-15,Life,True,Email,100000.0,,,,
+Q0000249,C000186,2025-12-24,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000250,C000187,2025-03-30,Life,True,Paid Search,200000.0,,,,
+Q0000251,C000188,2025-09-28,Life,True,Paid Search,200000.0,,,,
+Q0000252,C000189,2025-05-23,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0000253,C000190,2025-06-21,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0000254,C000191,2025-07-29,Bike,True,Paid Search,,,,1.0,4600.0
+Q0000255,C000191,2025-02-27,Travel,False,Paid Search,,Single Trip,Worldwide,,
+Q0000256,C000192,2025-04-13,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000257,C000192,2025-12-13,Bike,True,Organic Search,,,,1.0,4700.0
+Q0000258,C000193,2025-10-16,Bike,True,Affiliate,,,,1.0,2200.0
+Q0000259,C000193,2025-03-27,Bike,True,Affiliate,,,,1.0,6800.0
+Q0000260,C000194,2025-03-29,Life,True,Referral,300000.0,,,,
+Q0000261,C000195,2025-07-15,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000262,C000196,2025-11-11,Travel,True,Direct,,Backpacker,Worldwide,,
+Q0000263,C000196,2025-02-17,Life,True,Direct,150000.0,,,,
+Q0000264,C000196,2025-08-02,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000265,C000197,2025-07-14,Life,True,Paid Search,300000.0,,,,
+Q0000266,C000197,2025-12-14,Life,True,Paid Search,300000.0,,,,
+Q0000267,C000198,2025-01-13,Bike,True,Paid Search,,,,1.0,3100.0
+Q0000268,C000199,2025-08-14,Life,False,Direct,100000.0,,,,
+Q0000269,C000199,2025-03-09,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0000270,C000199,2025-02-25,Bike,True,Direct,,,,1.0,5200.0
+Q0000271,C000200,2025-06-26,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0000272,C000201,2025-10-14,Bike,True,Email,,,,2.0,4500.0
+Q0000273,C000202,2025-03-17,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000274,C000203,2025-05-08,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000275,C000204,2025-11-18,Life,True,Paid Search,200000.0,,,,
+Q0000276,C000204,2025-01-13,Life,True,Paid Search,250000.0,,,,
+Q0000277,C000205,2025-06-26,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000278,C000206,2025-12-06,Bike,True,Paid Search,,,,4.0,3700.0
+Q0000279,C000207,2025-05-07,Life,True,Organic Search,50000.0,,,,
+Q0000280,C000207,2025-07-26,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000281,C000207,2025-10-30,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000282,C000208,2025-07-17,Bike,True,Paid Search,,,,1.0,6000.0
+Q0000283,C000208,2025-12-14,Life,False,Paid Search,200000.0,,,,
+Q0000284,C000209,2025-09-13,Life,True,Organic Search,250000.0,,,,
+Q0000285,C000210,2025-03-01,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000286,C000210,2025-09-05,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000287,C000211,2025-11-20,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000288,C000212,2025-02-17,Life,False,Organic Search,250000.0,,,,
+Q0000289,C000212,2025-09-14,Life,True,Organic Search,150000.0,,,,
+Q0000290,C000212,2025-10-13,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000291,C000213,2025-06-14,Life,False,Direct,300000.0,,,,
+Q0000292,C000214,2025-07-07,Travel,True,Referral,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000293,C000215,2025-04-06,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000294,C000216,2025-09-27,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000295,C000216,2025-08-26,Life,True,Organic Search,300000.0,,,,
+Q0000296,C000217,2025-01-09,Life,True,Paid Search,300000.0,,,,
+Q0000297,C000218,2025-04-20,Life,True,Direct,100000.0,,,,
+Q0000298,C000219,2025-01-13,Travel,False,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000299,C000220,2025-11-08,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000300,C000221,2025-03-10,Bike,True,Paid Search,,,,1.0,2100.0
+Q0000301,C000221,2025-08-14,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000302,C000222,2025-05-15,Travel,True,Direct,,Single Trip,Europe,,
+Q0000303,C000222,2025-10-21,Life,True,Direct,50000.0,,,,
+Q0000304,C000223,2025-01-25,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0000305,C000224,2025-04-13,Travel,False,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000306,C000225,2025-12-21,Life,True,Organic Search,200000.0,,,,
+Q0000307,C000226,2025-05-25,Bike,True,Paid Search,,,,1.0,2000.0
+Q0000308,C000227,2025-12-22,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000309,C000228,2025-03-07,Bike,True,Organic Search,,,,1.0,2100.0
+Q0000310,C000229,2025-10-18,Life,True,Direct,300000.0,,,,
+Q0000311,C000229,2025-07-22,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0000312,C000230,2025-03-06,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000313,C000231,2025-05-02,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000314,C000232,2025-06-19,Life,False,Referral,300000.0,,,,
+Q0000315,C000233,2025-10-14,Life,True,Paid Search,250000.0,,,,
+Q0000316,C000234,2025-05-24,Life,True,Organic Search,150000.0,,,,
+Q0000317,C000234,2025-02-28,Travel,True,Organic Search,,Backpacker,Worldwide,,
+Q0000318,C000235,2025-03-24,Travel,False,Referral,,Annual Multi-trip,Europe,,
+Q0000319,C000236,2025-03-28,Bike,True,Affiliate,,,,1.0,6900.0
+Q0000320,C000236,2025-03-26,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0000321,C000237,2025-02-20,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000322,C000238,2025-02-15,Life,True,Organic Search,250000.0,,,,
+Q0000323,C000238,2025-10-03,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000324,C000239,2025-06-09,Travel,True,Organic Search,,Backpacker,Worldwide,,
+Q0000325,C000239,2025-11-06,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000326,C000240,2025-11-16,Bike,True,Direct,,,,1.0,3600.0
+Q0000327,C000240,2025-11-20,Bike,False,Direct,,,,1.0,1600.0
+Q0000328,C000241,2025-04-08,Travel,True,Organic Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0000329,C000241,2025-04-01,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000330,C000242,2025-05-01,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000331,C000243,2025-12-29,Life,True,Affiliate,250000.0,,,,
+Q0000332,C000244,2025-05-20,Bike,True,Paid Search,,,,2.0,2000.0
+Q0000333,C000245,2025-12-29,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000334,C000246,2025-12-04,Life,False,Organic Search,150000.0,,,,
+Q0000335,C000247,2025-04-13,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0000336,C000248,2025-06-12,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0000337,C000249,2025-11-22,Life,True,Referral,150000.0,,,,
+Q0000338,C000249,2025-08-07,Bike,True,Referral,,,,3.0,3400.0
+Q0000339,C000250,2025-08-10,Life,True,Organic Search,200000.0,,,,
+Q0000340,C000250,2025-10-18,Life,False,Organic Search,150000.0,,,,
+Q0000341,C000251,2025-08-11,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000342,C000252,2025-09-10,Bike,False,Direct,,,,1.0,1800.0
+Q0000343,C000252,2025-03-16,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0000344,C000253,2025-03-22,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000345,C000254,2025-03-13,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000346,C000255,2025-08-04,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0000347,C000256,2025-04-05,Bike,True,Direct,,,,3.0,4700.0
+Q0000348,C000256,2025-10-29,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0000349,C000257,2025-03-27,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000350,C000258,2025-02-13,Life,True,Email,50000.0,,,,
+Q0000351,C000259,2025-07-08,Life,True,Organic Search,50000.0,,,,
+Q0000352,C000260,2025-10-15,Life,True,Email,100000.0,,,,
+Q0000353,C000260,2025-11-02,Travel,True,Email,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000354,C000261,2025-08-07,Bike,True,Paid Search,,,,2.0,6900.0
+Q0000355,C000262,2025-07-22,Life,True,Paid Search,150000.0,,,,
+Q0000356,C000263,2025-07-06,Bike,True,Referral,,,,4.0,3800.0
+Q0000357,C000264,2025-04-09,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000358,C000264,2025-04-29,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000359,C000264,2025-08-11,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0000360,C000265,2025-05-02,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000361,C000266,2025-03-10,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000362,C000266,2025-08-27,Life,True,Organic Search,100000.0,,,,
+Q0000363,C000267,2025-02-02,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000364,C000268,2025-02-10,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000365,C000268,2025-09-28,Life,True,Direct,250000.0,,,,
+Q0000366,C000268,2025-11-18,Bike,True,Direct,,,,1.0,6500.0
+Q0000367,C000269,2025-11-27,Life,True,Organic Search,250000.0,,,,
+Q0000368,C000270,2025-11-12,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0000369,C000271,2025-08-02,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000370,C000271,2025-09-08,Bike,True,Direct,,,,1.0,5400.0
+Q0000371,C000272,2025-07-30,Life,True,Paid Search,50000.0,,,,
+Q0000372,C000273,2025-10-27,Bike,True,Organic Search,,,,1.0,4700.0
+Q0000373,C000274,2025-03-27,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000374,C000275,2025-06-21,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000375,C000276,2025-01-02,Bike,True,Organic Search,,,,1.0,4100.0
+Q0000376,C000277,2025-10-24,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000377,C000277,2025-10-19,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0000378,C000278,2025-05-06,Bike,True,Organic Search,,,,1.0,3800.0
+Q0000379,C000278,2025-09-28,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000380,C000279,2025-11-25,Bike,True,Organic Search,,,,2.0,3000.0
+Q0000381,C000280,2025-09-27,Life,True,Direct,300000.0,,,,
+Q0000382,C000281,2025-06-21,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000383,C000281,2025-03-16,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0000384,C000282,2025-02-22,Travel,True,Email,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000385,C000283,2025-09-04,Life,True,Referral,50000.0,,,,
+Q0000386,C000284,2025-12-05,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0000387,C000284,2025-07-26,Life,True,Direct,150000.0,,,,
+Q0000388,C000285,2025-08-24,Travel,True,Email,,Annual Multi-trip,Europe,,
+Q0000389,C000286,2025-09-05,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000390,C000287,2025-10-23,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000391,C000288,2025-03-09,Bike,False,Affiliate,,,,2.0,5700.0
+Q0000392,C000288,2025-06-25,Life,True,Affiliate,300000.0,,,,
+Q0000393,C000289,2025-08-19,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000394,C000290,2025-06-01,Life,True,Affiliate,250000.0,,,,
+Q0000395,C000290,2025-07-26,Life,True,Affiliate,100000.0,,,,
+Q0000396,C000291,2025-11-23,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000397,C000292,2025-04-19,Bike,True,Organic Search,,,,1.0,6000.0
+Q0000398,C000293,2025-03-27,Bike,True,Organic Search,,,,1.0,6300.0
+Q0000399,C000294,2025-06-21,Travel,True,Email,,Single Trip,Europe,,
+Q0000400,C000294,2025-03-15,Life,True,Email,150000.0,,,,
+Q0000401,C000295,2025-06-18,Travel,True,Paid Search,,Backpacker,Worldwide,,
+Q0000402,C000296,2025-03-24,Bike,True,Organic Search,,,,1.0,800.0
+Q0000403,C000296,2025-05-27,Bike,True,Organic Search,,,,1.0,3000.0
+Q0000404,C000297,2025-12-20,Life,True,Organic Search,50000.0,,,,
+Q0000405,C000298,2025-11-17,Bike,False,Paid Search,,,,1.0,4300.0
+Q0000406,C000299,2025-09-09,Travel,False,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000407,C000300,2025-01-18,Travel,False,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000408,C000301,2025-02-08,Life,False,Paid Search,50000.0,,,,
+Q0000409,C000302,2025-12-27,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000410,C000303,2025-12-02,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000411,C000303,2025-03-20,Life,True,Organic Search,50000.0,,,,
+Q0000412,C000304,2025-02-24,Life,True,Paid Search,300000.0,,,,
+Q0000413,C000305,2025-03-24,Life,True,Affiliate,250000.0,,,,
+Q0000414,C000305,2025-11-06,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0000415,C000306,2025-11-26,Bike,True,Affiliate,,,,1.0,2600.0
+Q0000416,C000307,2025-01-06,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000417,C000307,2025-09-04,Life,True,Paid Search,50000.0,,,,
+Q0000418,C000308,2025-11-29,Bike,True,Direct,,,,1.0,6800.0
+Q0000419,C000309,2025-08-30,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0000420,C000310,2025-01-07,Bike,True,Direct,,,,1.0,5400.0
+Q0000421,C000310,2025-12-03,Travel,True,Direct,,Backpacker,Worldwide excluding USA/Canada,,
+Q0000422,C000311,2025-01-29,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000423,C000312,2025-05-22,Bike,False,Affiliate,,,,1.0,1400.0
+Q0000424,C000313,2025-04-08,Life,False,Paid Search,300000.0,,,,
+Q0000425,C000314,2025-06-30,Travel,True,Email,,Single Trip,Worldwide,,
+Q0000426,C000315,2025-02-03,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000427,C000315,2025-07-03,Bike,True,Paid Search,,,,2.0,3300.0
+Q0000428,C000316,2025-01-11,Bike,True,Organic Search,,,,3.0,1200.0
+Q0000429,C000317,2025-02-12,Bike,True,Organic Search,,,,3.0,1700.0
+Q0000430,C000318,2025-11-25,Life,False,Paid Search,50000.0,,,,
+Q0000431,C000318,2025-09-08,Bike,True,Paid Search,,,,2.0,4800.0
+Q0000432,C000319,2025-06-05,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0000433,C000319,2025-04-08,Bike,True,Direct,,,,1.0,2600.0
+Q0000434,C000320,2025-01-29,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000435,C000320,2025-01-01,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0000436,C000321,2025-03-14,Life,True,Affiliate,200000.0,,,,
+Q0000437,C000321,2025-09-11,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0000438,C000322,2025-12-09,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000439,C000322,2025-07-28,Bike,True,Organic Search,,,,4.0,6900.0
+Q0000440,C000322,2025-04-21,Bike,True,Organic Search,,,,1.0,2400.0
+Q0000441,C000323,2025-10-26,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000442,C000323,2025-03-02,Bike,True,Direct,,,,1.0,3600.0
+Q0000443,C000324,2025-10-31,Life,True,Affiliate,150000.0,,,,
+Q0000444,C000325,2025-02-15,Bike,True,Paid Search,,,,3.0,5000.0
+Q0000445,C000326,2025-05-31,Bike,False,Paid Search,,,,2.0,4100.0
+Q0000446,C000326,2025-10-19,Bike,True,Paid Search,,,,1.0,5600.0
+Q0000447,C000326,2025-03-14,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000448,C000327,2025-11-25,Life,True,Organic Search,100000.0,,,,
+Q0000449,C000327,2025-08-10,Life,True,Organic Search,300000.0,,,,
+Q0000450,C000328,2025-07-30,Life,True,Paid Search,200000.0,,,,
+Q0000451,C000329,2025-07-03,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000452,C000330,2025-02-22,Bike,True,Referral,,,,1.0,1200.0
+Q0000453,C000331,2025-05-22,Travel,True,Direct,,Single Trip,Europe,,
+Q0000454,C000332,2025-07-27,Life,True,Paid Search,300000.0,,,,
+Q0000455,C000333,2025-12-27,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0000456,C000334,2025-12-17,Life,True,Affiliate,200000.0,,,,
+Q0000457,C000335,2025-08-10,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000458,C000335,2025-03-22,Bike,True,Paid Search,,,,4.0,3300.0
+Q0000459,C000336,2025-09-17,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000460,C000336,2025-05-09,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0000461,C000337,2025-10-26,Life,True,Organic Search,200000.0,,,,
+Q0000462,C000338,2025-06-09,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0000463,C000338,2025-06-18,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000464,C000338,2025-09-19,Bike,True,Organic Search,,,,3.0,5400.0
+Q0000465,C000339,2025-10-07,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000466,C000340,2025-06-24,Bike,True,Organic Search,,,,1.0,5600.0
+Q0000467,C000340,2025-10-17,Life,True,Organic Search,250000.0,,,,
+Q0000468,C000341,2025-12-03,Bike,True,Referral,,,,1.0,5700.0
+Q0000469,C000342,2025-12-26,Bike,True,Paid Search,,,,3.0,1500.0
+Q0000470,C000343,2025-06-24,Bike,True,Organic Search,,,,1.0,6800.0
+Q0000471,C000343,2025-07-05,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000472,C000344,2025-09-26,Life,True,Paid Search,250000.0,,,,
+Q0000473,C000344,2025-08-04,Life,True,Paid Search,100000.0,,,,
+Q0000474,C000345,2025-01-06,Life,True,Paid Search,250000.0,,,,
+Q0000475,C000346,2025-11-17,Travel,False,Paid Search,,Single Trip,Worldwide,,
+Q0000476,C000347,2025-09-22,Travel,False,Organic Search,,Single Trip,Europe,,
+Q0000477,C000347,2025-04-09,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000478,C000348,2025-11-23,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000479,C000349,2025-03-12,Life,True,Organic Search,200000.0,,,,
+Q0000480,C000349,2025-06-21,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000481,C000350,2025-01-05,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0000482,C000351,2025-06-07,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000483,C000352,2025-12-06,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000484,C000352,2025-06-08,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0000485,C000353,2025-03-19,Bike,True,Affiliate,,,,2.0,3500.0
+Q0000486,C000354,2025-08-14,Life,True,Organic Search,200000.0,,,,
+Q0000487,C000355,2025-03-30,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000488,C000355,2025-07-17,Bike,True,Organic Search,,,,3.0,1900.0
+Q0000489,C000356,2025-11-15,Bike,True,Email,,,,1.0,5700.0
+Q0000490,C000356,2025-09-17,Bike,True,Email,,,,1.0,2500.0
+Q0000491,C000356,2025-10-05,Bike,True,Email,,,,1.0,500.0
+Q0000492,C000357,2025-03-25,Life,True,Paid Search,100000.0,,,,
+Q0000493,C000357,2025-11-09,Life,True,Paid Search,250000.0,,,,
+Q0000494,C000358,2025-03-11,Travel,True,Direct,,Single Trip,Europe,,
+Q0000495,C000359,2025-07-11,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000496,C000360,2025-01-23,Life,True,Organic Search,50000.0,,,,
+Q0000497,C000360,2025-10-10,Life,True,Organic Search,250000.0,,,,
+Q0000498,C000360,2025-12-25,Bike,True,Organic Search,,,,1.0,2000.0
+Q0000499,C000361,2025-07-07,Life,True,Paid Search,50000.0,,,,
+Q0000500,C000362,2025-02-05,Travel,False,Referral,,Single Trip,Worldwide,,
+Q0000501,C000362,2025-01-16,Bike,True,Referral,,,,2.0,4900.0
+Q0000502,C000363,2025-12-20,Travel,False,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000503,C000364,2025-12-03,Life,True,Affiliate,300000.0,,,,
+Q0000504,C000365,2025-09-06,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000505,C000366,2025-11-18,Life,True,Organic Search,100000.0,,,,
+Q0000506,C000367,2025-03-15,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000507,C000368,2025-01-09,Bike,True,Organic Search,,,,2.0,4000.0
+Q0000508,C000369,2025-01-26,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000509,C000370,2025-03-06,Bike,True,Direct,,,,1.0,6100.0
+Q0000510,C000371,2025-09-04,Life,True,Paid Search,100000.0,,,,
+Q0000511,C000372,2025-01-06,Life,True,Organic Search,300000.0,,,,
+Q0000512,C000373,2025-11-29,Bike,True,Affiliate,,,,3.0,500.0
+Q0000513,C000373,2025-02-12,Travel,True,Affiliate,,Backpacker,Europe,,
+Q0000514,C000373,2025-11-04,Life,True,Affiliate,100000.0,,,,
+Q0000515,C000374,2025-06-23,Life,True,Direct,200000.0,,,,
+Q0000516,C000375,2025-08-27,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000517,C000376,2025-02-23,Travel,False,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000518,C000377,2025-03-19,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000519,C000378,2025-09-24,Life,True,Affiliate,200000.0,,,,
+Q0000520,C000378,2025-04-01,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0000521,C000378,2025-03-08,Life,True,Affiliate,200000.0,,,,
+Q0000522,C000379,2025-05-07,Travel,False,Paid Search,,Single Trip,Europe,,
+Q0000523,C000380,2025-12-01,Life,True,Paid Search,200000.0,,,,
+Q0000524,C000381,2025-09-07,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0000525,C000382,2025-03-30,Life,True,Direct,300000.0,,,,
+Q0000526,C000382,2025-09-12,Travel,True,Direct,,Backpacker,Worldwide excluding USA/Canada,,
+Q0000527,C000382,2025-02-02,Travel,True,Direct,,Single Trip,Europe,,
+Q0000528,C000383,2025-05-13,Life,True,Direct,250000.0,,,,
+Q0000529,C000384,2025-03-03,Life,True,Paid Search,200000.0,,,,
+Q0000530,C000384,2025-05-19,Travel,False,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0000531,C000385,2025-07-23,Life,False,Referral,150000.0,,,,
+Q0000532,C000385,2025-02-02,Bike,True,Referral,,,,1.0,3400.0
+Q0000533,C000386,2025-09-05,Life,True,Affiliate,250000.0,,,,
+Q0000534,C000387,2025-06-25,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000535,C000388,2025-03-15,Bike,True,Affiliate,,,,1.0,3800.0
+Q0000536,C000389,2025-04-08,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000537,C000390,2025-01-21,Bike,True,Email,,,,2.0,4600.0
+Q0000538,C000391,2025-04-03,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000539,C000392,2025-03-22,Bike,True,Paid Search,,,,1.0,5800.0
+Q0000540,C000393,2025-12-05,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000541,C000394,2025-08-31,Bike,True,Organic Search,,,,1.0,3000.0
+Q0000542,C000395,2025-12-24,Life,True,Affiliate,250000.0,,,,
+Q0000543,C000396,2025-08-27,Life,True,Paid Search,100000.0,,,,
+Q0000544,C000397,2025-11-18,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000545,C000398,2025-01-03,Life,True,Paid Search,150000.0,,,,
+Q0000546,C000398,2025-02-03,Travel,False,Paid Search,,Single Trip,Worldwide,,
+Q0000547,C000399,2025-03-25,Life,True,Referral,50000.0,,,,
+Q0000548,C000400,2025-11-18,Life,False,Affiliate,100000.0,,,,
+Q0000549,C000400,2025-11-25,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000550,C000401,2025-01-30,Bike,True,Paid Search,,,,1.0,3700.0
+Q0000551,C000402,2025-04-03,Life,True,Paid Search,50000.0,,,,
+Q0000552,C000403,2025-12-02,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0000553,C000404,2025-07-15,Bike,True,Referral,,,,1.0,2000.0
+Q0000554,C000405,2025-03-13,Life,True,Affiliate,250000.0,,,,
+Q0000555,C000405,2025-10-12,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0000556,C000406,2025-10-21,Travel,True,Direct,,Single Trip,Europe,,
+Q0000557,C000407,2025-10-16,Bike,True,Referral,,,,2.0,2500.0
+Q0000558,C000407,2025-01-28,Travel,True,Referral,,Backpacker,Worldwide excluding USA/Canada,,
+Q0000559,C000408,2025-06-13,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000560,C000408,2025-12-20,Life,True,Organic Search,300000.0,,,,
+Q0000561,C000409,2025-11-16,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000562,C000410,2025-03-21,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000563,C000411,2025-03-08,Bike,True,Organic Search,,,,1.0,4100.0
+Q0000564,C000412,2025-04-07,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000565,C000413,2025-10-22,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000566,C000414,2025-06-10,Life,False,Email,250000.0,,,,
+Q0000567,C000415,2025-02-16,Bike,True,Paid Search,,,,1.0,5000.0
+Q0000568,C000416,2025-04-09,Life,True,Affiliate,50000.0,,,,
+Q0000569,C000416,2025-01-17,Life,False,Affiliate,100000.0,,,,
+Q0000570,C000417,2025-07-17,Travel,True,Affiliate,,Backpacker,Worldwide,,
+Q0000571,C000418,2025-09-21,Life,True,Direct,100000.0,,,,
+Q0000572,C000419,2025-01-10,Travel,True,Referral,,Annual Multi-trip,Worldwide,,
+Q0000573,C000420,2025-06-16,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000574,C000421,2025-01-31,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000575,C000422,2025-05-26,Bike,True,Organic Search,,,,2.0,4600.0
+Q0000576,C000422,2025-04-30,Life,True,Organic Search,50000.0,,,,
+Q0000577,C000423,2025-12-24,Bike,True,Organic Search,,,,1.0,4000.0
+Q0000578,C000423,2025-09-11,Bike,True,Organic Search,,,,1.0,2900.0
+Q0000579,C000424,2025-11-19,Bike,True,Referral,,,,1.0,2200.0
+Q0000580,C000425,2025-07-06,Bike,True,Paid Search,,,,1.0,2100.0
+Q0000581,C000426,2025-05-26,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000582,C000427,2025-02-09,Bike,True,Organic Search,,,,1.0,6800.0
+Q0000583,C000427,2025-01-04,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000584,C000428,2025-07-28,Life,True,Paid Search,250000.0,,,,
+Q0000585,C000429,2025-10-23,Life,True,Affiliate,250000.0,,,,
+Q0000586,C000429,2025-01-13,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0000587,C000429,2025-05-11,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0000588,C000430,2025-12-26,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000589,C000431,2025-10-31,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0000590,C000432,2025-01-02,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000591,C000433,2025-09-06,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000592,C000434,2025-09-22,Life,True,Organic Search,300000.0,,,,
+Q0000593,C000435,2025-05-10,Bike,True,Direct,,,,1.0,5500.0
+Q0000594,C000436,2025-11-14,Life,True,Organic Search,250000.0,,,,
+Q0000595,C000436,2025-07-12,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000596,C000437,2025-03-02,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0000597,C000438,2025-06-27,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000598,C000439,2025-05-22,Life,True,Direct,250000.0,,,,
+Q0000599,C000440,2025-06-09,Life,True,Organic Search,300000.0,,,,
+Q0000600,C000441,2025-07-20,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000601,C000442,2025-03-01,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000602,C000443,2025-10-04,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000603,C000444,2025-05-06,Travel,True,Email,,Single Trip,Europe,,
+Q0000604,C000445,2025-08-29,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0000605,C000446,2025-07-07,Life,True,Affiliate,300000.0,,,,
+Q0000606,C000447,2025-08-15,Life,True,Direct,100000.0,,,,
+Q0000607,C000448,2025-01-15,Life,True,Affiliate,250000.0,,,,
+Q0000608,C000449,2025-02-27,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000609,C000450,2025-06-25,Life,True,Affiliate,200000.0,,,,
+Q0000610,C000451,2025-12-02,Travel,False,Organic Search,,Single Trip,Europe,,
+Q0000611,C000452,2025-05-26,Life,True,Affiliate,200000.0,,,,
+Q0000612,C000452,2025-12-21,Life,True,Affiliate,150000.0,,,,
+Q0000613,C000453,2025-09-02,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000614,C000454,2025-07-25,Travel,True,Email,,Annual Multi-trip,Worldwide,,
+Q0000615,C000455,2025-05-07,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000616,C000456,2025-08-16,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000617,C000456,2025-11-10,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000618,C000457,2025-11-08,Life,True,Referral,300000.0,,,,
+Q0000619,C000458,2025-08-18,Bike,True,Organic Search,,,,2.0,3700.0
+Q0000620,C000459,2025-10-06,Travel,False,Paid Search,,Single Trip,Worldwide,,
+Q0000621,C000460,2025-07-31,Bike,True,Affiliate,,,,3.0,1500.0
+Q0000622,C000460,2025-11-12,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0000623,C000461,2025-05-07,Life,True,Organic Search,100000.0,,,,
+Q0000624,C000462,2025-02-03,Bike,True,Organic Search,,,,3.0,5800.0
+Q0000625,C000463,2025-12-18,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000626,C000464,2025-01-12,Bike,True,Organic Search,,,,2.0,4500.0
+Q0000627,C000465,2025-06-23,Bike,False,Organic Search,,,,2.0,4700.0
+Q0000628,C000466,2025-10-01,Travel,True,Organic Search,,Backpacker,Worldwide,,
+Q0000629,C000466,2025-08-23,Life,True,Organic Search,150000.0,,,,
+Q0000630,C000467,2025-03-30,Bike,True,Paid Search,,,,2.0,6600.0
+Q0000631,C000468,2025-05-19,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000632,C000468,2025-11-27,Bike,False,Paid Search,,,,1.0,5700.0
+Q0000633,C000469,2025-07-21,Bike,True,Organic Search,,,,1.0,6200.0
+Q0000634,C000470,2025-08-09,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000635,C000471,2025-10-10,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0000636,C000471,2025-11-16,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0000637,C000472,2025-04-14,Bike,True,Organic Search,,,,1.0,800.0
+Q0000638,C000473,2025-12-16,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000639,C000473,2025-12-03,Bike,True,Paid Search,,,,1.0,4100.0
+Q0000640,C000473,2025-12-30,Travel,False,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000641,C000474,2025-09-01,Bike,True,Referral,,,,1.0,5100.0
+Q0000642,C000475,2025-10-13,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000643,C000475,2025-06-25,Life,False,Direct,200000.0,,,,
+Q0000644,C000475,2025-03-03,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0000645,C000476,2025-08-31,Life,True,Paid Search,200000.0,,,,
+Q0000646,C000477,2025-08-11,Life,False,Paid Search,200000.0,,,,
+Q0000647,C000478,2025-08-06,Bike,True,Organic Search,,,,1.0,2400.0
+Q0000648,C000479,2025-06-29,Life,True,Affiliate,150000.0,,,,
+Q0000649,C000480,2025-10-08,Bike,True,Referral,,,,1.0,3200.0
+Q0000650,C000480,2025-07-06,Life,True,Referral,150000.0,,,,
+Q0000651,C000481,2025-06-01,Travel,True,Referral,,Single Trip,Europe,,
+Q0000652,C000482,2025-02-09,Travel,False,Organic Search,,Backpacker,Worldwide,,
+Q0000653,C000483,2025-10-21,Bike,True,Paid Search,,,,1.0,3000.0
+Q0000654,C000483,2025-10-06,Bike,True,Paid Search,,,,1.0,2800.0
+Q0000655,C000484,2025-03-14,Bike,True,Organic Search,,,,1.0,2400.0
+Q0000656,C000484,2025-04-25,Bike,True,Organic Search,,,,1.0,1800.0
+Q0000657,C000485,2025-09-25,Life,True,Paid Search,200000.0,,,,
+Q0000658,C000486,2025-04-25,Bike,True,Paid Search,,,,1.0,3000.0
+Q0000659,C000487,2025-05-03,Travel,True,Direct,,Single Trip,Europe,,
+Q0000660,C000488,2025-05-21,Life,True,Organic Search,200000.0,,,,
+Q0000661,C000489,2025-01-27,Life,True,Referral,250000.0,,,,
+Q0000662,C000490,2025-06-09,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000663,C000491,2025-03-23,Life,True,Organic Search,50000.0,,,,
+Q0000664,C000492,2025-12-20,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0000665,C000493,2025-01-14,Travel,True,Affiliate,,Backpacker,Worldwide,,
+Q0000666,C000493,2025-12-20,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0000667,C000493,2025-11-09,Bike,False,Affiliate,,,,2.0,6300.0
+Q0000668,C000494,2025-05-29,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0000669,C000495,2025-05-03,Life,True,Direct,250000.0,,,,
+Q0000670,C000496,2025-02-10,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000671,C000497,2025-09-07,Travel,False,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000672,C000498,2025-02-11,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000673,C000498,2025-07-19,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000674,C000499,2025-12-03,Life,True,Paid Search,150000.0,,,,
+Q0000675,C000500,2025-11-27,Bike,True,Direct,,,,1.0,5000.0
+Q0000676,C000500,2025-01-01,Travel,True,Direct,,Single Trip,Europe,,
+Q0000677,C000501,2025-05-26,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000678,C000502,2025-08-27,Bike,True,Direct,,,,2.0,3700.0
+Q0000679,C000502,2025-01-12,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000680,C000503,2025-11-21,Bike,True,Affiliate,,,,1.0,1400.0
+Q0000681,C000503,2025-12-10,Bike,True,Affiliate,,,,1.0,1600.0
+Q0000682,C000504,2025-04-14,Life,True,Organic Search,150000.0,,,,
+Q0000683,C000505,2025-12-11,Bike,True,Organic Search,,,,1.0,900.0
+Q0000684,C000506,2025-03-31,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000685,C000507,2025-10-29,Bike,True,Affiliate,,,,1.0,6000.0
+Q0000686,C000508,2025-07-06,Life,True,Direct,50000.0,,,,
+Q0000687,C000509,2025-10-25,Travel,False,Affiliate,,Single Trip,Europe,,
+Q0000688,C000510,2025-01-14,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000689,C000510,2025-10-03,Life,True,Paid Search,300000.0,,,,
+Q0000690,C000511,2025-11-03,Life,True,Organic Search,300000.0,,,,
+Q0000691,C000512,2025-05-14,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000692,C000513,2025-12-11,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000693,C000514,2025-02-01,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000694,C000515,2025-01-25,Bike,True,Organic Search,,,,1.0,4000.0
+Q0000695,C000516,2025-08-21,Bike,True,Paid Search,,,,1.0,2200.0
+Q0000696,C000517,2025-02-17,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000697,C000518,2025-08-12,Life,False,Paid Search,300000.0,,,,
+Q0000698,C000519,2025-02-13,Life,True,Direct,300000.0,,,,
+Q0000699,C000520,2025-12-31,Bike,True,Paid Search,,,,1.0,2300.0
+Q0000700,C000521,2025-11-01,Travel,True,Referral,,Annual Multi-trip,Worldwide,,
+Q0000701,C000522,2025-11-10,Bike,True,Affiliate,,,,1.0,2600.0
+Q0000702,C000523,2025-11-11,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000703,C000524,2025-01-10,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000704,C000525,2025-11-25,Life,True,Direct,200000.0,,,,
+Q0000705,C000526,2025-02-08,Bike,True,Direct,,,,3.0,2200.0
+Q0000706,C000527,2025-10-14,Bike,True,Paid Search,,,,1.0,3700.0
+Q0000707,C000528,2025-03-26,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000708,C000529,2025-08-03,Bike,True,Direct,,,,2.0,6700.0
+Q0000709,C000529,2025-10-16,Bike,False,Direct,,,,1.0,5500.0
+Q0000710,C000530,2025-06-30,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000711,C000531,2025-08-16,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000712,C000532,2025-10-08,Bike,True,Referral,,,,1.0,700.0
+Q0000713,C000533,2025-07-14,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000714,C000534,2025-10-26,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0000715,C000534,2025-03-03,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000716,C000535,2025-12-12,Travel,True,Direct,,Backpacker,Worldwide,,
+Q0000717,C000536,2025-09-25,Travel,False,Organic Search,,Single Trip,Europe,,
+Q0000718,C000536,2025-06-10,Bike,True,Organic Search,,,,1.0,1800.0
+Q0000719,C000537,2025-06-13,Bike,False,Referral,,,,2.0,4100.0
+Q0000720,C000537,2025-08-26,Life,True,Referral,200000.0,,,,
+Q0000721,C000538,2025-07-11,Life,False,Organic Search,250000.0,,,,
+Q0000722,C000539,2025-12-11,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0000723,C000540,2025-04-04,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000724,C000541,2025-10-23,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000725,C000542,2025-11-04,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000726,C000542,2025-05-29,Travel,False,Organic Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0000727,C000543,2025-04-07,Bike,True,Paid Search,,,,1.0,1100.0
+Q0000728,C000543,2025-03-01,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000729,C000544,2025-02-20,Bike,True,Paid Search,,,,1.0,1900.0
+Q0000730,C000545,2025-07-20,Bike,True,Organic Search,,,,2.0,5400.0
+Q0000731,C000546,2025-10-22,Life,True,Email,50000.0,,,,
+Q0000732,C000547,2025-11-01,Life,True,Organic Search,250000.0,,,,
+Q0000733,C000548,2025-10-06,Life,False,Affiliate,150000.0,,,,
+Q0000734,C000549,2025-12-05,Life,True,Organic Search,100000.0,,,,
+Q0000735,C000550,2025-03-14,Travel,True,Email,,Single Trip,Worldwide,,
+Q0000736,C000551,2025-03-27,Life,True,Organic Search,50000.0,,,,
+Q0000737,C000552,2025-05-10,Bike,True,Paid Search,,,,3.0,2600.0
+Q0000738,C000552,2025-06-28,Bike,True,Paid Search,,,,2.0,3500.0
+Q0000739,C000552,2025-10-22,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0000740,C000553,2025-02-03,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000741,C000554,2025-03-15,Bike,True,Organic Search,,,,1.0,4600.0
+Q0000742,C000555,2025-05-28,Life,True,Affiliate,300000.0,,,,
+Q0000743,C000555,2025-10-08,Life,True,Affiliate,150000.0,,,,
+Q0000744,C000555,2025-12-20,Travel,True,Affiliate,,Backpacker,Europe,,
+Q0000745,C000556,2025-04-04,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000746,C000557,2025-05-20,Life,True,Direct,300000.0,,,,
+Q0000747,C000557,2025-11-26,Travel,True,Direct,,Single Trip,Europe,,
+Q0000748,C000558,2025-10-10,Bike,False,Direct,,,,3.0,5400.0
+Q0000749,C000558,2025-07-02,Travel,False,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000750,C000559,2025-07-10,Travel,True,Direct,,Backpacker,Europe,,
+Q0000751,C000560,2025-05-21,Life,True,Organic Search,150000.0,,,,
+Q0000752,C000560,2025-01-18,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000753,C000560,2025-03-02,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0000754,C000561,2025-11-07,Life,True,Organic Search,200000.0,,,,
+Q0000755,C000562,2025-09-13,Life,True,Organic Search,250000.0,,,,
+Q0000756,C000563,2025-05-18,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000757,C000564,2025-05-30,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000758,C000565,2025-01-30,Bike,True,Referral,,,,1.0,5900.0
+Q0000759,C000566,2025-12-13,Life,True,Paid Search,200000.0,,,,
+Q0000760,C000566,2025-05-06,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000761,C000567,2025-06-17,Travel,False,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000762,C000567,2025-01-21,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0000763,C000567,2025-02-07,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0000764,C000568,2025-04-15,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000765,C000569,2025-11-26,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0000766,C000570,2025-04-21,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000767,C000570,2025-01-19,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000768,C000571,2025-10-29,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000769,C000572,2025-05-22,Life,False,Paid Search,250000.0,,,,
+Q0000770,C000573,2025-09-24,Life,True,Paid Search,300000.0,,,,
+Q0000771,C000574,2025-10-28,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000772,C000575,2025-11-18,Travel,True,Email,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000773,C000576,2025-09-28,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000774,C000577,2025-04-02,Bike,True,Paid Search,,,,1.0,2900.0
+Q0000775,C000577,2025-08-16,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000776,C000578,2025-08-30,Bike,True,Organic Search,,,,2.0,4400.0
+Q0000777,C000578,2025-06-18,Life,True,Organic Search,250000.0,,,,
+Q0000778,C000579,2025-06-16,Bike,True,Paid Search,,,,1.0,6800.0
+Q0000779,C000580,2025-10-26,Bike,True,Affiliate,,,,2.0,3300.0
+Q0000780,C000581,2025-11-18,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000781,C000581,2025-04-17,Bike,True,Organic Search,,,,3.0,4100.0
+Q0000782,C000582,2025-01-09,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000783,C000583,2025-02-22,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000784,C000584,2025-12-16,Life,True,Organic Search,50000.0,,,,
+Q0000785,C000584,2025-03-09,Life,True,Organic Search,100000.0,,,,
+Q0000786,C000585,2025-07-14,Travel,True,Email,,Single Trip,Europe,,
+Q0000787,C000586,2025-02-04,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000788,C000586,2025-12-25,Bike,True,Paid Search,,,,1.0,5300.0
+Q0000789,C000587,2025-11-07,Life,True,Affiliate,250000.0,,,,
+Q0000790,C000588,2025-05-04,Life,True,Paid Search,100000.0,,,,
+Q0000791,C000589,2025-10-31,Travel,True,Email,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000792,C000590,2025-07-18,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000793,C000591,2025-05-05,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000794,C000591,2025-06-23,Life,True,Paid Search,300000.0,,,,
+Q0000795,C000592,2025-12-18,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000796,C000592,2025-02-08,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0000797,C000593,2025-11-21,Life,True,Paid Search,300000.0,,,,
+Q0000798,C000594,2025-08-22,Bike,True,Paid Search,,,,1.0,3700.0
+Q0000799,C000595,2025-08-04,Travel,True,Email,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000800,C000595,2025-02-28,Travel,True,Email,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000801,C000596,2025-10-04,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000802,C000597,2025-06-28,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0000803,C000598,2025-04-01,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0000804,C000598,2025-12-14,Travel,True,Direct,,Single Trip,Europe,,
+Q0000805,C000599,2025-07-12,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0000806,C000599,2025-07-31,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0000807,C000600,2025-12-03,Life,True,Referral,150000.0,,,,
+Q0000808,C000601,2025-03-04,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0000809,C000601,2025-07-25,Bike,True,Direct,,,,1.0,5000.0
+Q0000810,C000601,2025-12-10,Bike,True,Direct,,,,1.0,5800.0
+Q0000811,C000602,2025-07-05,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000812,C000603,2025-10-17,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000813,C000604,2025-11-17,Bike,True,Direct,,,,1.0,3700.0
+Q0000814,C000605,2025-11-17,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000815,C000606,2025-09-03,Travel,True,Paid Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0000816,C000607,2025-02-27,Travel,True,Organic Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0000817,C000608,2025-05-04,Life,True,Paid Search,150000.0,,,,
+Q0000818,C000609,2025-02-19,Life,True,Paid Search,300000.0,,,,
+Q0000819,C000609,2025-05-30,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000820,C000610,2025-03-21,Life,True,Affiliate,100000.0,,,,
+Q0000821,C000611,2025-10-28,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000822,C000612,2025-08-08,Travel,True,Direct,,Single Trip,Europe,,
+Q0000823,C000613,2025-05-23,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0000824,C000613,2025-01-01,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000825,C000614,2025-05-02,Travel,True,Email,,Single Trip,Worldwide,,
+Q0000826,C000615,2025-08-04,Bike,True,Organic Search,,,,1.0,3500.0
+Q0000827,C000616,2025-01-19,Travel,True,Referral,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000828,C000617,2025-05-08,Travel,True,Direct,,Single Trip,Europe,,
+Q0000829,C000617,2025-04-24,Bike,True,Direct,,,,1.0,4300.0
+Q0000830,C000618,2025-03-02,Bike,True,Affiliate,,,,1.0,6600.0
+Q0000831,C000618,2025-04-20,Bike,False,Affiliate,,,,1.0,4300.0
+Q0000832,C000619,2025-10-03,Life,False,Organic Search,100000.0,,,,
+Q0000833,C000620,2025-09-25,Life,True,Paid Search,250000.0,,,,
+Q0000834,C000620,2025-11-07,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000835,C000621,2025-04-14,Life,True,Direct,100000.0,,,,
+Q0000836,C000621,2025-10-17,Life,True,Direct,150000.0,,,,
+Q0000837,C000622,2025-08-02,Bike,True,Paid Search,,,,1.0,1900.0
+Q0000838,C000623,2025-10-05,Life,True,Paid Search,250000.0,,,,
+Q0000839,C000624,2025-08-01,Life,True,Direct,300000.0,,,,
+Q0000840,C000625,2025-04-28,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000841,C000625,2025-09-04,Bike,True,Direct,,,,1.0,5000.0
+Q0000842,C000626,2025-07-25,Life,True,Organic Search,250000.0,,,,
+Q0000843,C000627,2025-12-26,Life,True,Paid Search,250000.0,,,,
+Q0000844,C000628,2025-03-01,Bike,True,Organic Search,,,,1.0,6300.0
+Q0000845,C000629,2025-08-27,Bike,True,Referral,,,,3.0,2100.0
+Q0000846,C000630,2025-11-18,Travel,True,Email,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000847,C000631,2025-03-15,Life,True,Paid Search,50000.0,,,,
+Q0000848,C000632,2025-05-21,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000849,C000632,2025-07-22,Travel,True,Organic Search,,Backpacker,Worldwide,,
+Q0000850,C000633,2025-11-19,Life,True,Organic Search,250000.0,,,,
+Q0000851,C000633,2025-10-06,Life,True,Organic Search,250000.0,,,,
+Q0000852,C000633,2025-08-27,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000853,C000634,2025-04-14,Life,True,Paid Search,50000.0,,,,
+Q0000854,C000634,2025-06-25,Life,True,Paid Search,200000.0,,,,
+Q0000855,C000635,2025-09-03,Life,False,Referral,100000.0,,,,
+Q0000856,C000636,2025-08-03,Travel,True,Paid Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0000857,C000637,2025-11-06,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000858,C000637,2025-11-05,Life,True,Organic Search,50000.0,,,,
+Q0000859,C000638,2025-02-12,Life,True,Organic Search,150000.0,,,,
+Q0000860,C000638,2025-03-13,Travel,False,Organic Search,,Single Trip,Worldwide,,
+Q0000861,C000639,2025-05-21,Life,True,Organic Search,50000.0,,,,
+Q0000862,C000640,2025-10-19,Bike,True,Affiliate,,,,1.0,1800.0
+Q0000863,C000641,2025-10-18,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000864,C000642,2025-03-03,Life,True,Direct,250000.0,,,,
+Q0000865,C000643,2025-06-04,Bike,True,Paid Search,,,,1.0,5100.0
+Q0000866,C000644,2025-04-11,Travel,True,Referral,,Backpacker,Worldwide excluding USA/Canada,,
+Q0000867,C000645,2025-04-04,Life,True,Paid Search,50000.0,,,,
+Q0000868,C000646,2025-03-14,Bike,True,Affiliate,,,,1.0,5400.0
+Q0000869,C000646,2025-03-27,Travel,False,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000870,C000647,2025-06-12,Travel,True,Referral,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000871,C000647,2025-07-31,Life,True,Referral,200000.0,,,,
+Q0000872,C000648,2025-06-26,Life,True,Paid Search,150000.0,,,,
+Q0000873,C000649,2025-05-10,Travel,True,Referral,,Annual Multi-trip,Europe,,
+Q0000874,C000650,2025-08-08,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000875,C000651,2025-05-11,Travel,True,Direct,,Single Trip,Europe,,
+Q0000876,C000652,2025-12-27,Bike,True,Organic Search,,,,1.0,900.0
+Q0000877,C000652,2025-02-13,Life,True,Organic Search,150000.0,,,,
+Q0000878,C000652,2025-06-03,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000879,C000653,2025-05-02,Life,True,Paid Search,250000.0,,,,
+Q0000880,C000654,2025-02-20,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000881,C000654,2025-03-31,Bike,True,Organic Search,,,,1.0,1800.0
+Q0000882,C000655,2025-10-19,Travel,True,Organic Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0000883,C000655,2025-03-16,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000884,C000656,2025-03-05,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000885,C000657,2025-02-27,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000886,C000658,2025-01-16,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0000887,C000659,2025-01-13,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000888,C000660,2025-09-28,Travel,True,Paid Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0000889,C000661,2025-12-27,Travel,True,Email,,Annual Multi-trip,Europe,,
+Q0000890,C000662,2025-07-02,Travel,True,Email,,Annual Multi-trip,Europe,,
+Q0000891,C000663,2025-01-30,Life,True,Organic Search,100000.0,,,,
+Q0000892,C000664,2025-09-18,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0000893,C000665,2025-08-06,Bike,True,Direct,,,,1.0,4800.0
+Q0000894,C000666,2025-12-02,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000895,C000667,2025-11-06,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000896,C000668,2025-01-15,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0000897,C000669,2025-05-17,Life,True,Organic Search,100000.0,,,,
+Q0000898,C000670,2025-10-17,Life,True,Paid Search,50000.0,,,,
+Q0000899,C000670,2025-04-11,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0000900,C000670,2025-10-22,Bike,True,Paid Search,,,,2.0,2600.0
+Q0000901,C000671,2025-03-04,Life,True,Affiliate,200000.0,,,,
+Q0000902,C000671,2025-07-22,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0000903,C000672,2025-06-09,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000904,C000672,2025-12-07,Life,True,Direct,150000.0,,,,
+Q0000905,C000673,2025-07-16,Life,True,Affiliate,200000.0,,,,
+Q0000906,C000674,2025-07-14,Bike,True,Organic Search,,,,2.0,4100.0
+Q0000907,C000675,2025-07-25,Life,True,Organic Search,200000.0,,,,
+Q0000908,C000676,2025-07-11,Life,True,Organic Search,100000.0,,,,
+Q0000909,C000677,2025-12-24,Life,True,Organic Search,150000.0,,,,
+Q0000910,C000677,2025-05-30,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000911,C000678,2025-12-11,Life,True,Organic Search,50000.0,,,,
+Q0000912,C000679,2025-06-01,Life,True,Paid Search,150000.0,,,,
+Q0000913,C000680,2025-08-05,Life,True,Direct,250000.0,,,,
+Q0000914,C000681,2025-02-16,Bike,True,Direct,,,,1.0,800.0
+Q0000915,C000682,2025-07-13,Bike,True,Paid Search,,,,1.0,1500.0
+Q0000916,C000683,2025-02-27,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000917,C000684,2025-11-26,Life,False,Direct,300000.0,,,,
+Q0000918,C000685,2025-03-11,Life,True,Organic Search,50000.0,,,,
+Q0000919,C000686,2025-11-01,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0000920,C000687,2025-12-12,Bike,True,Organic Search,,,,3.0,5500.0
+Q0000921,C000687,2025-03-07,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000922,C000687,2025-01-19,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000923,C000688,2025-10-07,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000924,C000688,2025-01-24,Bike,True,Direct,,,,1.0,2200.0
+Q0000925,C000689,2025-10-14,Travel,True,Referral,,Annual Multi-trip,Europe,,
+Q0000926,C000690,2025-12-31,Bike,False,Direct,,,,1.0,2200.0
+Q0000927,C000691,2025-10-13,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0000928,C000692,2025-10-12,Life,True,Affiliate,100000.0,,,,
+Q0000929,C000692,2025-03-12,Bike,True,Affiliate,,,,1.0,1400.0
+Q0000930,C000693,2025-11-10,Life,True,Organic Search,200000.0,,,,
+Q0000931,C000694,2025-01-03,Bike,True,Direct,,,,1.0,4300.0
+Q0000932,C000695,2025-08-21,Bike,True,Referral,,,,1.0,1700.0
+Q0000933,C000696,2025-08-10,Bike,True,Email,,,,1.0,4900.0
+Q0000934,C000697,2025-10-12,Life,True,Paid Search,200000.0,,,,
+Q0000935,C000698,2025-04-24,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000936,C000699,2025-11-18,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0000937,C000700,2025-10-26,Life,True,Direct,150000.0,,,,
+Q0000938,C000701,2025-04-16,Life,True,Organic Search,250000.0,,,,
+Q0000939,C000702,2025-10-05,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000940,C000703,2025-12-04,Life,True,Organic Search,100000.0,,,,
+Q0000941,C000704,2025-07-20,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000942,C000705,2025-04-21,Bike,True,Organic Search,,,,1.0,4500.0
+Q0000943,C000705,2025-01-01,Bike,True,Organic Search,,,,2.0,2000.0
+Q0000944,C000706,2025-03-14,Bike,True,Organic Search,,,,2.0,4700.0
+Q0000945,C000707,2025-01-28,Life,True,Organic Search,50000.0,,,,
+Q0000946,C000708,2025-12-09,Bike,True,Referral,,,,2.0,6800.0
+Q0000947,C000708,2025-11-14,Bike,True,Referral,,,,2.0,6100.0
+Q0000948,C000709,2025-08-01,Life,True,Organic Search,200000.0,,,,
+Q0000949,C000709,2025-08-19,Life,False,Organic Search,300000.0,,,,
+Q0000950,C000710,2025-09-22,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000951,C000711,2025-02-10,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000952,C000712,2025-07-07,Life,True,Organic Search,100000.0,,,,
+Q0000953,C000713,2025-03-20,Bike,False,Email,,,,2.0,5700.0
+Q0000954,C000714,2025-10-06,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000955,C000714,2025-06-04,Travel,True,Referral,,Single Trip,Europe,,
+Q0000956,C000715,2025-11-01,Bike,True,Paid Search,,,,1.0,4100.0
+Q0000957,C000716,2025-12-23,Bike,True,Paid Search,,,,3.0,4400.0
+Q0000958,C000717,2025-04-08,Life,True,Paid Search,50000.0,,,,
+Q0000959,C000718,2025-05-29,Life,False,Organic Search,150000.0,,,,
+Q0000960,C000719,2025-06-28,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0000961,C000719,2025-01-27,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000962,C000720,2025-04-25,Life,True,Organic Search,250000.0,,,,
+Q0000963,C000720,2025-12-12,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000964,C000721,2025-02-11,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0000965,C000721,2025-06-01,Life,True,Organic Search,200000.0,,,,
+Q0000966,C000722,2025-07-22,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0000967,C000723,2025-09-04,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000968,C000724,2025-10-15,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000969,C000724,2025-09-28,Life,True,Organic Search,200000.0,,,,
+Q0000970,C000724,2025-04-01,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000971,C000725,2025-10-30,Life,True,Paid Search,150000.0,,,,
+Q0000972,C000726,2025-11-14,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000973,C000726,2025-10-17,Life,True,Paid Search,50000.0,,,,
+Q0000974,C000727,2025-09-09,Life,True,Organic Search,150000.0,,,,
+Q0000975,C000727,2025-04-22,Bike,True,Organic Search,,,,3.0,1000.0
+Q0000976,C000728,2025-08-21,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0000977,C000729,2025-03-13,Life,True,Organic Search,300000.0,,,,
+Q0000978,C000730,2025-02-27,Travel,True,Organic Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0000979,C000730,2025-07-22,Bike,True,Organic Search,,,,1.0,1100.0
+Q0000980,C000731,2025-01-13,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0000981,C000732,2025-09-16,Travel,True,Referral,,Annual Multi-trip,Worldwide,,
+Q0000982,C000733,2025-12-27,Life,True,Paid Search,150000.0,,,,
+Q0000983,C000734,2025-01-03,Bike,True,Paid Search,,,,1.0,2100.0
+Q0000984,C000735,2025-12-11,Bike,True,Affiliate,,,,2.0,3200.0
+Q0000985,C000735,2025-04-14,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0000986,C000735,2025-02-09,Life,True,Affiliate,150000.0,,,,
+Q0000987,C000736,2025-07-09,Life,True,Direct,200000.0,,,,
+Q0000988,C000737,2025-04-13,Life,True,Organic Search,250000.0,,,,
+Q0000989,C000738,2025-04-22,Bike,True,Organic Search,,,,2.0,5800.0
+Q0000990,C000739,2025-04-28,Life,True,Paid Search,50000.0,,,,
+Q0000991,C000740,2025-06-23,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000992,C000741,2025-02-15,Life,True,Organic Search,100000.0,,,,
+Q0000993,C000741,2025-06-24,Bike,True,Organic Search,,,,1.0,4000.0
+Q0000994,C000742,2025-09-18,Life,True,Paid Search,150000.0,,,,
+Q0000995,C000743,2025-12-07,Bike,True,Paid Search,,,,2.0,4600.0
+Q0000996,C000744,2025-05-12,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0000997,C000745,2025-02-12,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0000998,C000745,2025-03-28,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0000999,C000746,2025-05-30,Travel,False,Direct,,Annual Multi-trip,Worldwide,,
+Q0001000,C000747,2025-05-16,Life,True,Paid Search,300000.0,,,,
+Q0001001,C000748,2025-02-25,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001002,C000748,2025-12-04,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001003,C000749,2025-12-04,Travel,False,Organic Search,,Single Trip,Worldwide,,
+Q0001004,C000750,2025-05-15,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001005,C000750,2025-10-20,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001006,C000751,2025-03-01,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0001007,C000752,2025-10-18,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001008,C000753,2025-12-03,Bike,True,Organic Search,,,,1.0,1300.0
+Q0001009,C000753,2025-12-26,Travel,False,Organic Search,,Single Trip,Europe,,
+Q0001010,C000754,2025-02-28,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001011,C000754,2025-01-16,Life,False,Affiliate,150000.0,,,,
+Q0001012,C000755,2025-05-13,Bike,True,Affiliate,,,,1.0,5000.0
+Q0001013,C000756,2025-11-04,Life,True,Referral,50000.0,,,,
+Q0001014,C000756,2025-08-03,Life,True,Referral,150000.0,,,,
+Q0001015,C000757,2025-04-09,Life,True,Direct,100000.0,,,,
+Q0001016,C000758,2025-10-25,Life,True,Paid Search,200000.0,,,,
+Q0001017,C000758,2025-09-08,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001018,C000759,2025-12-21,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0001019,C000760,2025-05-08,Bike,True,Organic Search,,,,1.0,2500.0
+Q0001020,C000761,2025-11-08,Life,True,Direct,250000.0,,,,
+Q0001021,C000762,2025-04-21,Life,False,Direct,150000.0,,,,
+Q0001022,C000762,2025-04-17,Bike,True,Direct,,,,1.0,5000.0
+Q0001023,C000763,2025-08-05,Life,True,Organic Search,250000.0,,,,
+Q0001024,C000763,2025-06-02,Life,True,Organic Search,200000.0,,,,
+Q0001025,C000763,2025-01-21,Bike,True,Organic Search,,,,2.0,2000.0
+Q0001026,C000764,2025-03-04,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0001027,C000765,2025-12-31,Life,True,Paid Search,250000.0,,,,
+Q0001028,C000766,2025-01-11,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001029,C000767,2025-01-30,Life,True,Paid Search,150000.0,,,,
+Q0001030,C000767,2025-10-26,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0001031,C000768,2025-10-19,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001032,C000768,2025-09-24,Life,True,Referral,300000.0,,,,
+Q0001033,C000769,2025-07-24,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001034,C000770,2025-06-21,Life,True,Paid Search,300000.0,,,,
+Q0001035,C000771,2025-05-20,Life,True,Email,100000.0,,,,
+Q0001036,C000772,2025-11-13,Travel,True,Referral,,Annual Multi-trip,Europe,,
+Q0001037,C000773,2025-09-01,Bike,False,Affiliate,,,,2.0,1200.0
+Q0001038,C000773,2025-06-27,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001039,C000774,2025-10-17,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0001040,C000774,2025-09-06,Travel,True,Referral,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001041,C000775,2025-08-23,Life,True,Paid Search,150000.0,,,,
+Q0001042,C000776,2025-11-09,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001043,C000777,2025-08-30,Life,True,Direct,150000.0,,,,
+Q0001044,C000778,2025-06-01,Travel,True,Affiliate,,Backpacker,Worldwide excluding USA/Canada,,
+Q0001045,C000779,2025-11-15,Bike,True,Organic Search,,,,1.0,4800.0
+Q0001046,C000780,2025-01-29,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001047,C000780,2025-08-20,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001048,C000781,2025-04-12,Travel,True,Email,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001049,C000782,2025-01-11,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001050,C000783,2025-09-28,Travel,True,Email,,Backpacker,Worldwide excluding USA/Canada,,
+Q0001051,C000784,2025-05-19,Life,True,Paid Search,150000.0,,,,
+Q0001052,C000784,2025-08-20,Life,True,Paid Search,300000.0,,,,
+Q0001053,C000785,2025-12-10,Bike,True,Organic Search,,,,2.0,3700.0
+Q0001054,C000786,2025-12-31,Life,True,Organic Search,250000.0,,,,
+Q0001055,C000787,2025-11-13,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001056,C000787,2025-09-15,Bike,True,Affiliate,,,,2.0,1200.0
+Q0001057,C000788,2025-04-29,Travel,False,Direct,,Annual Multi-trip,Europe,,
+Q0001058,C000789,2025-11-26,Bike,False,Paid Search,,,,1.0,1300.0
+Q0001059,C000789,2025-01-17,Bike,True,Paid Search,,,,1.0,6100.0
+Q0001060,C000790,2025-02-23,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0001061,C000791,2025-02-08,Bike,True,Paid Search,,,,1.0,2900.0
+Q0001062,C000792,2025-05-27,Bike,True,Paid Search,,,,1.0,1500.0
+Q0001063,C000793,2025-11-03,Life,True,Referral,300000.0,,,,
+Q0001064,C000794,2025-04-20,Life,True,Direct,250000.0,,,,
+Q0001065,C000795,2025-11-30,Life,True,Affiliate,50000.0,,,,
+Q0001066,C000796,2025-09-01,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0001067,C000797,2025-02-19,Bike,True,Email,,,,2.0,6500.0
+Q0001068,C000798,2025-01-15,Bike,True,Organic Search,,,,2.0,600.0
+Q0001069,C000798,2025-03-19,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001070,C000799,2025-05-04,Life,True,Organic Search,250000.0,,,,
+Q0001071,C000799,2025-09-08,Life,True,Organic Search,250000.0,,,,
+Q0001072,C000800,2025-12-15,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001073,C000800,2025-05-23,Life,True,Organic Search,250000.0,,,,
+Q0001074,C000801,2025-07-28,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001075,C000802,2025-11-03,Life,True,Direct,150000.0,,,,
+Q0001076,C000803,2025-03-25,Life,True,Affiliate,150000.0,,,,
+Q0001077,C000803,2025-05-23,Bike,True,Affiliate,,,,3.0,6400.0
+Q0001078,C000804,2025-03-08,Bike,True,Paid Search,,,,1.0,5700.0
+Q0001079,C000805,2025-08-09,Life,True,Organic Search,150000.0,,,,
+Q0001080,C000806,2025-02-21,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0001081,C000806,2025-07-05,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001082,C000807,2025-06-11,Life,True,Email,250000.0,,,,
+Q0001083,C000808,2025-07-01,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001084,C000809,2025-11-15,Bike,True,Organic Search,,,,1.0,3000.0
+Q0001085,C000809,2025-09-03,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001086,C000809,2025-12-10,Bike,True,Organic Search,,,,3.0,2900.0
+Q0001087,C000810,2025-06-11,Bike,False,Paid Search,,,,1.0,2200.0
+Q0001088,C000811,2025-08-20,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001089,C000811,2025-05-14,Life,True,Paid Search,50000.0,,,,
+Q0001090,C000812,2025-11-19,Life,True,Organic Search,100000.0,,,,
+Q0001091,C000813,2025-02-27,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001092,C000814,2025-02-08,Bike,True,Direct,,,,1.0,4600.0
+Q0001093,C000815,2025-10-02,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0001094,C000815,2025-04-18,Life,True,Paid Search,50000.0,,,,
+Q0001095,C000815,2025-02-18,Life,True,Paid Search,200000.0,,,,
+Q0001096,C000816,2025-11-14,Travel,True,Paid Search,,Backpacker,Worldwide,,
+Q0001097,C000817,2025-11-09,Life,True,Organic Search,150000.0,,,,
+Q0001098,C000818,2025-04-25,Bike,True,Referral,,,,4.0,1000.0
+Q0001099,C000819,2025-07-06,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001100,C000820,2025-01-25,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0001101,C000821,2025-11-23,Life,True,Organic Search,250000.0,,,,
+Q0001102,C000822,2025-06-01,Travel,False,Direct,,Annual Multi-trip,Europe,,
+Q0001103,C000823,2025-07-27,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001104,C000823,2025-12-11,Bike,True,Referral,,,,1.0,2500.0
+Q0001105,C000824,2025-02-12,Travel,False,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001106,C000825,2025-06-20,Life,True,Organic Search,300000.0,,,,
+Q0001107,C000825,2025-02-13,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001108,C000826,2025-11-11,Life,False,Organic Search,50000.0,,,,
+Q0001109,C000827,2025-09-06,Travel,False,Direct,,Annual Multi-trip,Europe,,
+Q0001110,C000828,2025-07-29,Travel,True,Referral,,Annual Multi-trip,Europe,,
+Q0001111,C000828,2025-03-01,Life,True,Referral,250000.0,,,,
+Q0001112,C000829,2025-04-01,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001113,C000829,2025-06-09,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001114,C000830,2025-09-18,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001115,C000831,2025-09-09,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001116,C000831,2025-10-16,Bike,True,Affiliate,,,,2.0,1700.0
+Q0001117,C000832,2025-03-14,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001118,C000833,2025-11-27,Life,True,Organic Search,50000.0,,,,
+Q0001119,C000834,2025-07-18,Bike,True,Organic Search,,,,1.0,2100.0
+Q0001120,C000835,2025-08-17,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0001121,C000836,2025-10-10,Life,True,Affiliate,50000.0,,,,
+Q0001122,C000837,2025-01-26,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001123,C000838,2025-03-23,Travel,True,Direct,,Single Trip,Europe,,
+Q0001124,C000838,2025-06-05,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0001125,C000839,2025-07-26,Bike,True,Affiliate,,,,1.0,2900.0
+Q0001126,C000840,2025-11-26,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001127,C000841,2025-06-23,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0001128,C000842,2025-12-15,Bike,True,Organic Search,,,,1.0,6600.0
+Q0001129,C000843,2025-07-16,Bike,True,Referral,,,,1.0,2600.0
+Q0001130,C000844,2025-11-10,Life,True,Direct,100000.0,,,,
+Q0001131,C000844,2025-04-14,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0001132,C000845,2025-04-02,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001133,C000846,2025-10-18,Life,True,Organic Search,300000.0,,,,
+Q0001134,C000846,2025-07-21,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001135,C000847,2025-01-24,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0001136,C000847,2025-06-25,Life,True,Affiliate,300000.0,,,,
+Q0001137,C000847,2025-04-04,Life,True,Affiliate,150000.0,,,,
+Q0001138,C000848,2025-09-01,Life,True,Affiliate,200000.0,,,,
+Q0001139,C000849,2025-01-26,Travel,True,Direct,,Single Trip,Europe,,
+Q0001140,C000850,2025-12-06,Travel,True,Organic Search,,Backpacker,Worldwide,,
+Q0001141,C000850,2025-11-02,Life,True,Organic Search,200000.0,,,,
+Q0001142,C000851,2025-09-03,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001143,C000852,2025-07-23,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001144,C000853,2025-08-30,Life,True,Direct,150000.0,,,,
+Q0001145,C000854,2025-06-05,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0001146,C000854,2025-09-12,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0001147,C000855,2025-02-15,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0001148,C000856,2025-10-25,Bike,False,Referral,,,,3.0,6000.0
+Q0001149,C000857,2025-08-03,Bike,True,Direct,,,,1.0,5500.0
+Q0001150,C000858,2025-09-03,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001151,C000859,2025-02-14,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001152,C000859,2025-11-22,Life,True,Paid Search,250000.0,,,,
+Q0001153,C000859,2025-05-22,Bike,False,Paid Search,,,,1.0,5700.0
+Q0001154,C000860,2025-11-01,Life,True,Affiliate,300000.0,,,,
+Q0001155,C000861,2025-09-19,Life,False,Direct,100000.0,,,,
+Q0001156,C000862,2025-12-23,Life,True,Organic Search,200000.0,,,,
+Q0001157,C000862,2025-06-14,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001158,C000863,2025-05-24,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001159,C000864,2025-04-18,Travel,True,Referral,,Annual Multi-trip,Worldwide,,
+Q0001160,C000864,2025-08-05,Life,True,Referral,150000.0,,,,
+Q0001161,C000865,2025-02-12,Bike,True,Referral,,,,1.0,6600.0
+Q0001162,C000866,2025-01-15,Travel,True,Email,,Single Trip,Europe,,
+Q0001163,C000866,2025-03-12,Bike,False,Email,,,,2.0,6000.0
+Q0001164,C000867,2025-05-12,Life,True,Paid Search,200000.0,,,,
+Q0001165,C000868,2025-01-28,Bike,True,Affiliate,,,,1.0,2100.0
+Q0001166,C000869,2025-07-11,Bike,True,Affiliate,,,,1.0,500.0
+Q0001167,C000870,2025-05-16,Life,True,Paid Search,300000.0,,,,
+Q0001168,C000870,2025-10-21,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001169,C000870,2025-10-08,Life,True,Paid Search,300000.0,,,,
+Q0001170,C000871,2025-06-25,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001171,C000871,2025-07-09,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001172,C000872,2025-08-18,Life,True,Email,50000.0,,,,
+Q0001173,C000873,2025-06-13,Bike,True,Organic Search,,,,1.0,2000.0
+Q0001174,C000874,2025-02-25,Bike,False,Direct,,,,1.0,4800.0
+Q0001175,C000875,2025-06-19,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0001176,C000876,2025-11-26,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001177,C000877,2025-05-19,Life,True,Organic Search,50000.0,,,,
+Q0001178,C000878,2025-08-07,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0001179,C000878,2025-12-09,Life,True,Affiliate,50000.0,,,,
+Q0001180,C000879,2025-12-14,Bike,False,Organic Search,,,,1.0,6700.0
+Q0001181,C000880,2025-05-16,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001182,C000881,2025-07-08,Bike,True,Organic Search,,,,3.0,700.0
+Q0001183,C000882,2025-05-08,Bike,True,Affiliate,,,,1.0,5000.0
+Q0001184,C000883,2025-06-08,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001185,C000884,2025-10-09,Life,True,Organic Search,300000.0,,,,
+Q0001186,C000885,2025-09-13,Bike,True,Organic Search,,,,1.0,2800.0
+Q0001187,C000886,2025-11-21,Bike,True,Affiliate,,,,1.0,4900.0
+Q0001188,C000887,2025-06-30,Life,True,Organic Search,200000.0,,,,
+Q0001189,C000887,2025-11-04,Bike,True,Organic Search,,,,1.0,2200.0
+Q0001190,C000888,2025-06-21,Bike,True,Organic Search,,,,1.0,2000.0
+Q0001191,C000889,2025-05-10,Travel,True,Paid Search,,Backpacker,Europe,,
+Q0001192,C000889,2025-08-27,Travel,True,Paid Search,,Backpacker,Worldwide,,
+Q0001193,C000890,2025-02-17,Life,True,Email,100000.0,,,,
+Q0001194,C000890,2025-12-07,Life,True,Email,50000.0,,,,
+Q0001195,C000890,2025-03-31,Travel,True,Email,,Single Trip,Worldwide,,
+Q0001196,C000891,2025-12-17,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0001197,C000891,2025-02-07,Bike,True,Direct,,,,4.0,800.0
+Q0001198,C000892,2025-09-09,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001199,C000893,2025-06-27,Travel,True,Email,,Annual Multi-trip,Europe,,
+Q0001200,C000893,2025-07-25,Life,True,Email,100000.0,,,,
+Q0001201,C000894,2025-05-03,Life,True,Paid Search,300000.0,,,,
+Q0001202,C000895,2025-09-03,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001203,C000896,2025-06-16,Bike,True,Paid Search,,,,2.0,3000.0
+Q0001204,C000897,2025-05-20,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001205,C000898,2025-09-20,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0001206,C000899,2025-03-15,Bike,True,Affiliate,,,,2.0,4600.0
+Q0001207,C000900,2025-07-11,Life,True,Organic Search,50000.0,,,,
+Q0001208,C000901,2025-03-03,Bike,True,Affiliate,,,,2.0,900.0
+Q0001209,C000902,2025-03-17,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001210,C000903,2025-01-14,Life,True,Paid Search,300000.0,,,,
+Q0001211,C000903,2025-04-14,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001212,C000904,2025-09-03,Bike,True,Organic Search,,,,1.0,2800.0
+Q0001213,C000904,2025-09-18,Life,True,Organic Search,50000.0,,,,
+Q0001214,C000905,2025-10-13,Bike,True,Direct,,,,1.0,4400.0
+Q0001215,C000906,2025-07-15,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001216,C000906,2025-02-06,Bike,False,Affiliate,,,,1.0,4800.0
+Q0001217,C000907,2025-01-02,Bike,True,Paid Search,,,,3.0,3000.0
+Q0001218,C000908,2025-12-04,Travel,False,Organic Search,,Single Trip,Worldwide,,
+Q0001219,C000909,2025-03-27,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001220,C000910,2025-09-21,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001221,C000911,2025-02-27,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001222,C000912,2025-09-08,Life,True,Affiliate,150000.0,,,,
+Q0001223,C000913,2025-05-22,Bike,False,Paid Search,,,,2.0,6000.0
+Q0001224,C000914,2025-06-19,Life,True,Organic Search,50000.0,,,,
+Q0001225,C000915,2025-01-22,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001226,C000915,2025-01-01,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001227,C000916,2025-09-15,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001228,C000916,2025-11-21,Bike,True,Paid Search,,,,1.0,6200.0
+Q0001229,C000917,2025-07-09,Life,True,Organic Search,300000.0,,,,
+Q0001230,C000918,2025-09-21,Life,True,Email,250000.0,,,,
+Q0001231,C000919,2025-07-06,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001232,C000919,2025-06-05,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001233,C000920,2025-07-05,Bike,True,Paid Search,,,,1.0,5600.0
+Q0001234,C000921,2025-12-15,Life,True,Paid Search,200000.0,,,,
+Q0001235,C000922,2025-10-31,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001236,C000922,2025-04-04,Travel,False,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0001237,C000923,2025-12-09,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001238,C000924,2025-08-27,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001239,C000924,2025-01-31,Bike,True,Organic Search,,,,1.0,3100.0
+Q0001240,C000924,2025-12-23,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001241,C000925,2025-04-15,Travel,True,Email,,Single Trip,Worldwide,,
+Q0001242,C000925,2025-12-27,Life,True,Email,150000.0,,,,
+Q0001243,C000926,2025-08-26,Bike,True,Direct,,,,1.0,800.0
+Q0001244,C000926,2025-11-13,Bike,True,Direct,,,,2.0,1600.0
+Q0001245,C000927,2025-05-22,Bike,False,Email,,,,3.0,3900.0
+Q0001246,C000928,2025-08-26,Bike,True,Affiliate,,,,3.0,4100.0
+Q0001247,C000929,2025-06-24,Travel,True,Referral,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001248,C000929,2025-11-11,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0001249,C000930,2025-03-18,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0001250,C000931,2025-11-17,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001251,C000931,2025-03-19,Bike,True,Paid Search,,,,2.0,5300.0
+Q0001252,C000932,2025-05-13,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001253,C000933,2025-02-13,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0001254,C000934,2025-07-16,Life,True,Paid Search,100000.0,,,,
+Q0001255,C000935,2025-06-06,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001256,C000936,2025-06-27,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001257,C000937,2025-12-15,Life,True,Affiliate,100000.0,,,,
+Q0001258,C000938,2025-10-02,Life,True,Organic Search,50000.0,,,,
+Q0001259,C000938,2025-04-08,Bike,True,Organic Search,,,,1.0,6200.0
+Q0001260,C000939,2025-06-03,Travel,True,Email,,Annual Multi-trip,Worldwide,,
+Q0001261,C000940,2025-09-04,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001262,C000940,2025-12-27,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001263,C000941,2025-10-15,Life,True,Organic Search,200000.0,,,,
+Q0001264,C000942,2025-02-26,Life,True,Affiliate,200000.0,,,,
+Q0001265,C000943,2025-01-21,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0001266,C000944,2025-10-04,Bike,True,Affiliate,,,,3.0,5000.0
+Q0001267,C000945,2025-06-14,Life,True,Email,250000.0,,,,
+Q0001268,C000946,2025-04-06,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001269,C000946,2025-12-12,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001270,C000947,2025-11-13,Life,True,Affiliate,50000.0,,,,
+Q0001271,C000948,2025-03-12,Bike,True,Paid Search,,,,1.0,2600.0
+Q0001272,C000949,2025-05-14,Life,True,Direct,300000.0,,,,
+Q0001273,C000950,2025-10-05,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001274,C000951,2025-01-31,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001275,C000952,2025-02-16,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0001276,C000953,2025-02-18,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0001277,C000953,2025-10-20,Life,True,Affiliate,300000.0,,,,
+Q0001278,C000954,2025-02-05,Travel,False,Organic Search,,Annual Multi-trip,Europe,,
+Q0001279,C000955,2025-04-26,Bike,True,Email,,,,2.0,5500.0
+Q0001280,C000955,2025-05-03,Travel,True,Email,,Backpacker,Worldwide,,
+Q0001281,C000956,2025-02-13,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0001282,C000957,2025-08-14,Bike,True,Organic Search,,,,1.0,3400.0
+Q0001283,C000958,2025-04-26,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001284,C000959,2025-08-31,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001285,C000960,2025-03-08,Bike,True,Organic Search,,,,1.0,900.0
+Q0001286,C000961,2025-02-12,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0001287,C000962,2025-01-19,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001288,C000963,2025-08-27,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001289,C000964,2025-08-14,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001290,C000965,2025-11-18,Life,True,Organic Search,150000.0,,,,
+Q0001291,C000966,2025-04-20,Life,True,Affiliate,50000.0,,,,
+Q0001292,C000966,2025-10-19,Bike,True,Affiliate,,,,1.0,2300.0
+Q0001293,C000966,2025-04-08,Life,True,Affiliate,50000.0,,,,
+Q0001294,C000967,2025-10-07,Life,True,Affiliate,250000.0,,,,
+Q0001295,C000968,2025-01-17,Life,True,Organic Search,250000.0,,,,
+Q0001296,C000968,2025-04-11,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001297,C000968,2025-03-11,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001298,C000969,2025-01-15,Bike,True,Paid Search,,,,1.0,5900.0
+Q0001299,C000969,2025-08-30,Life,True,Paid Search,150000.0,,,,
+Q0001300,C000970,2025-12-12,Bike,True,Organic Search,,,,1.0,1000.0
+Q0001301,C000971,2025-01-10,Travel,True,Direct,,Single Trip,Europe,,
+Q0001302,C000972,2025-10-22,Life,True,Organic Search,50000.0,,,,
+Q0001303,C000972,2025-05-16,Life,True,Organic Search,50000.0,,,,
+Q0001304,C000973,2025-09-02,Life,True,Email,300000.0,,,,
+Q0001305,C000974,2025-02-11,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001306,C000974,2025-07-17,Bike,True,Organic Search,,,,1.0,5200.0
+Q0001307,C000975,2025-06-24,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001308,C000975,2025-12-08,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001309,C000975,2025-04-24,Travel,True,Affiliate,,Backpacker,Worldwide,,
+Q0001310,C000976,2025-07-23,Life,True,Organic Search,100000.0,,,,
+Q0001311,C000977,2025-12-09,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001312,C000977,2025-02-27,Bike,False,Organic Search,,,,2.0,1000.0
+Q0001313,C000977,2025-01-28,Life,False,Organic Search,300000.0,,,,
+Q0001314,C000978,2025-06-03,Life,True,Paid Search,250000.0,,,,
+Q0001315,C000979,2025-10-31,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0001316,C000980,2025-01-12,Travel,True,Email,,Annual Multi-trip,Europe,,
+Q0001317,C000981,2025-01-25,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001318,C000982,2025-10-30,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001319,C000983,2025-07-28,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001320,C000983,2025-04-09,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001321,C000984,2025-01-08,Life,True,Paid Search,300000.0,,,,
+Q0001322,C000985,2025-03-17,Life,True,Referral,50000.0,,,,
+Q0001323,C000985,2025-09-22,Bike,True,Referral,,,,4.0,4900.0
+Q0001324,C000985,2025-10-30,Travel,True,Referral,,Single Trip,Europe,,
+Q0001325,C000986,2025-01-09,Bike,True,Referral,,,,1.0,4700.0
+Q0001326,C000987,2025-07-08,Travel,True,Referral,,Annual Multi-trip,Worldwide,,
+Q0001327,C000988,2025-10-25,Bike,True,Organic Search,,,,1.0,6800.0
+Q0001328,C000989,2025-10-25,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001329,C000990,2025-05-13,Bike,True,Affiliate,,,,1.0,1100.0
+Q0001330,C000991,2025-07-21,Bike,True,Paid Search,,,,1.0,2100.0
+Q0001331,C000992,2025-12-07,Bike,True,Direct,,,,2.0,1900.0
+Q0001332,C000993,2025-10-04,Travel,False,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001333,C000993,2025-01-24,Bike,True,Organic Search,,,,1.0,2900.0
+Q0001334,C000993,2025-12-17,Life,True,Organic Search,200000.0,,,,
+Q0001335,C000994,2025-06-23,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001336,C000995,2025-12-20,Bike,True,Referral,,,,1.0,5100.0
+Q0001337,C000996,2025-05-25,Bike,True,Organic Search,,,,3.0,5600.0
+Q0001338,C000996,2025-03-30,Bike,False,Organic Search,,,,4.0,1500.0
+Q0001339,C000997,2025-01-17,Bike,True,Email,,,,2.0,4100.0
+Q0001340,C000997,2025-01-28,Life,True,Email,100000.0,,,,
+Q0001341,C000997,2025-03-21,Travel,False,Email,,Annual Multi-trip,Europe,,
+Q0001342,C000998,2025-12-20,Life,True,Paid Search,100000.0,,,,
+Q0001343,C000999,2025-01-19,Bike,True,Organic Search,,,,1.0,5400.0
+Q0001344,C001000,2025-07-04,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001345,C001000,2025-05-10,Life,True,Organic Search,200000.0,,,,
+Q0001346,C001000,2025-03-05,Bike,True,Organic Search,,,,1.0,6100.0
+Q0001347,C001001,2025-09-21,Bike,True,Organic Search,,,,1.0,2100.0
+Q0001348,C001002,2025-01-25,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001349,C001002,2025-04-30,Life,True,Paid Search,100000.0,,,,
+Q0001350,C001002,2025-02-25,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001351,C001003,2025-09-02,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001352,C001004,2025-04-30,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001353,C001005,2025-05-31,Bike,True,Referral,,,,2.0,3100.0
+Q0001354,C001006,2025-04-29,Bike,True,Paid Search,,,,1.0,4800.0
+Q0001355,C001007,2025-04-03,Life,True,Organic Search,100000.0,,,,
+Q0001356,C001007,2025-11-22,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001357,C001007,2025-07-31,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001358,C001008,2025-08-23,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001359,C001009,2025-02-06,Travel,True,Affiliate,,Backpacker,Worldwide excluding USA/Canada,,
+Q0001360,C001009,2025-01-30,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001361,C001010,2025-09-23,Life,True,Direct,200000.0,,,,
+Q0001362,C001011,2025-04-04,Life,True,Organic Search,50000.0,,,,
+Q0001363,C001012,2025-01-03,Bike,True,Direct,,,,2.0,4700.0
+Q0001364,C001013,2025-02-27,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001365,C001014,2025-03-24,Life,True,Paid Search,200000.0,,,,
+Q0001366,C001015,2025-05-08,Life,True,Organic Search,50000.0,,,,
+Q0001367,C001016,2025-07-12,Life,True,Email,50000.0,,,,
+Q0001368,C001017,2025-12-06,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001369,C001018,2025-11-01,Bike,True,Organic Search,,,,1.0,5400.0
+Q0001370,C001019,2025-02-09,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001371,C001019,2025-03-21,Life,True,Organic Search,300000.0,,,,
+Q0001372,C001019,2025-07-22,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001373,C001020,2025-02-21,Bike,True,Direct,,,,1.0,4400.0
+Q0001374,C001021,2025-10-06,Life,True,Paid Search,50000.0,,,,
+Q0001375,C001021,2025-01-25,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001376,C001022,2025-10-23,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001377,C001023,2025-02-28,Bike,True,Paid Search,,,,1.0,4800.0
+Q0001378,C001024,2025-03-14,Bike,False,Direct,,,,3.0,4600.0
+Q0001379,C001025,2025-05-16,Bike,True,Paid Search,,,,2.0,2300.0
+Q0001380,C001025,2025-09-29,Travel,True,Paid Search,,Backpacker,Europe,,
+Q0001381,C001026,2025-06-27,Life,True,Referral,250000.0,,,,
+Q0001382,C001026,2025-05-26,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001383,C001027,2025-01-07,Life,True,Paid Search,150000.0,,,,
+Q0001384,C001028,2025-02-11,Bike,True,Organic Search,,,,2.0,3900.0
+Q0001385,C001028,2025-02-13,Travel,True,Organic Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0001386,C001028,2025-07-02,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001387,C001029,2025-02-22,Life,True,Email,200000.0,,,,
+Q0001388,C001029,2025-07-14,Travel,True,Email,,Backpacker,Worldwide excluding USA/Canada,,
+Q0001389,C001029,2025-09-02,Life,True,Email,300000.0,,,,
+Q0001390,C001030,2025-10-16,Life,True,Affiliate,50000.0,,,,
+Q0001391,C001031,2025-10-16,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001392,C001032,2025-01-25,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0001393,C001033,2025-03-10,Life,True,Paid Search,200000.0,,,,
+Q0001394,C001034,2025-03-30,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001395,C001035,2025-06-19,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001396,C001036,2025-10-17,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001397,C001037,2025-11-03,Life,True,Paid Search,250000.0,,,,
+Q0001398,C001038,2025-06-19,Life,True,Direct,150000.0,,,,
+Q0001399,C001039,2025-01-09,Bike,True,Paid Search,,,,1.0,4100.0
+Q0001400,C001039,2025-03-04,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001401,C001040,2025-12-17,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001402,C001041,2025-09-18,Travel,True,Email,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001403,C001042,2025-03-08,Life,True,Direct,150000.0,,,,
+Q0001404,C001043,2025-03-26,Life,True,Direct,150000.0,,,,
+Q0001405,C001043,2025-09-28,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001406,C001044,2025-04-08,Bike,True,Direct,,,,1.0,3200.0
+Q0001407,C001045,2025-10-18,Life,True,Direct,200000.0,,,,
+Q0001408,C001046,2025-08-25,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0001409,C001047,2025-05-06,Life,True,Email,150000.0,,,,
+Q0001410,C001048,2025-09-26,Life,True,Direct,150000.0,,,,
+Q0001411,C001049,2025-10-16,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001412,C001049,2025-01-11,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001413,C001050,2025-09-17,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001414,C001051,2025-12-22,Travel,False,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001415,C001052,2025-05-27,Life,True,Organic Search,50000.0,,,,
+Q0001416,C001053,2025-03-09,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0001417,C001053,2025-10-19,Life,True,Paid Search,300000.0,,,,
+Q0001418,C001054,2025-08-28,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001419,C001055,2025-11-07,Travel,True,Direct,,Single Trip,Europe,,
+Q0001420,C001056,2025-10-21,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001421,C001057,2025-10-04,Life,True,Paid Search,250000.0,,,,
+Q0001422,C001058,2025-02-25,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0001423,C001059,2025-03-08,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001424,C001060,2025-09-18,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001425,C001060,2025-11-11,Bike,True,Organic Search,,,,1.0,2800.0
+Q0001426,C001061,2025-01-26,Travel,False,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001427,C001062,2025-02-28,Life,True,Paid Search,200000.0,,,,
+Q0001428,C001063,2025-09-21,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001429,C001064,2025-12-03,Travel,False,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001430,C001064,2025-07-02,Life,True,Organic Search,300000.0,,,,
+Q0001431,C001064,2025-05-05,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001432,C001065,2025-02-03,Travel,True,Email,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001433,C001065,2025-06-02,Bike,True,Email,,,,3.0,3800.0
+Q0001434,C001066,2025-06-14,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001435,C001067,2025-02-06,Life,True,Direct,200000.0,,,,
+Q0001436,C001067,2025-11-24,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001437,C001068,2025-04-30,Bike,True,Organic Search,,,,2.0,6200.0
+Q0001438,C001069,2025-09-21,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001439,C001069,2025-01-30,Life,True,Organic Search,150000.0,,,,
+Q0001440,C001070,2025-03-25,Bike,True,Referral,,,,2.0,4100.0
+Q0001441,C001071,2025-10-14,Bike,True,Organic Search,,,,1.0,3600.0
+Q0001442,C001072,2025-09-27,Bike,True,Organic Search,,,,2.0,6100.0
+Q0001443,C001073,2025-02-10,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001444,C001074,2025-10-12,Bike,True,Referral,,,,2.0,5600.0
+Q0001445,C001075,2025-04-11,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001446,C001076,2025-04-14,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001447,C001077,2025-06-15,Life,False,Email,50000.0,,,,
+Q0001448,C001077,2025-11-20,Bike,True,Email,,,,2.0,500.0
+Q0001449,C001078,2025-02-07,Bike,True,Direct,,,,1.0,4900.0
+Q0001450,C001079,2025-05-08,Bike,False,Referral,,,,2.0,2300.0
+Q0001451,C001079,2025-12-12,Life,True,Referral,150000.0,,,,
+Q0001452,C001080,2025-02-06,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0001453,C001080,2025-11-26,Life,True,Affiliate,300000.0,,,,
+Q0001454,C001081,2025-04-27,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001455,C001082,2025-02-21,Life,True,Paid Search,100000.0,,,,
+Q0001456,C001082,2025-09-23,Life,True,Paid Search,150000.0,,,,
+Q0001457,C001083,2025-02-18,Life,True,Paid Search,150000.0,,,,
+Q0001458,C001084,2025-06-11,Travel,False,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001459,C001084,2025-05-17,Life,True,Affiliate,150000.0,,,,
+Q0001460,C001085,2025-12-07,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001461,C001086,2025-06-16,Travel,True,Email,,Backpacker,Worldwide,,
+Q0001462,C001086,2025-09-06,Life,False,Email,100000.0,,,,
+Q0001463,C001087,2025-01-19,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0001464,C001088,2025-07-18,Life,True,Paid Search,250000.0,,,,
+Q0001465,C001089,2025-08-20,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001466,C001090,2025-08-19,Life,True,Direct,200000.0,,,,
+Q0001467,C001091,2025-12-30,Life,True,Paid Search,150000.0,,,,
+Q0001468,C001091,2025-09-01,Life,True,Paid Search,300000.0,,,,
+Q0001469,C001092,2025-03-25,Life,True,Affiliate,250000.0,,,,
+Q0001470,C001093,2025-09-24,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0001471,C001094,2025-06-12,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001472,C001095,2025-07-09,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001473,C001096,2025-02-17,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001474,C001096,2025-10-13,Life,True,Direct,50000.0,,,,
+Q0001475,C001096,2025-12-13,Bike,True,Direct,,,,1.0,5400.0
+Q0001476,C001097,2025-08-06,Travel,True,Referral,,Backpacker,Worldwide,,
+Q0001477,C001098,2025-12-15,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001478,C001099,2025-04-25,Life,True,Direct,150000.0,,,,
+Q0001479,C001100,2025-04-22,Bike,True,Paid Search,,,,1.0,4300.0
+Q0001480,C001101,2025-01-28,Travel,True,Direct,,Backpacker,Worldwide,,
+Q0001481,C001102,2025-03-20,Life,True,Organic Search,200000.0,,,,
+Q0001482,C001103,2025-04-04,Life,True,Referral,300000.0,,,,
+Q0001483,C001103,2025-09-01,Life,True,Referral,250000.0,,,,
+Q0001484,C001104,2025-05-01,Travel,True,Referral,,Backpacker,Worldwide,,
+Q0001485,C001105,2025-12-07,Life,True,Direct,300000.0,,,,
+Q0001486,C001105,2025-04-17,Life,True,Direct,50000.0,,,,
+Q0001487,C001106,2025-02-07,Travel,False,Direct,,Annual Multi-trip,Worldwide,,
+Q0001488,C001107,2025-05-27,Life,True,Organic Search,200000.0,,,,
+Q0001489,C001108,2025-08-03,Travel,True,Direct,,Single Trip,Europe,,
+Q0001490,C001109,2025-11-25,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001491,C001110,2025-01-15,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001492,C001110,2025-08-08,Life,True,Affiliate,100000.0,,,,
+Q0001493,C001110,2025-05-21,Life,False,Affiliate,50000.0,,,,
+Q0001494,C001111,2025-05-01,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001495,C001112,2025-02-15,Life,True,Affiliate,100000.0,,,,
+Q0001496,C001113,2025-04-13,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0001497,C001113,2025-12-10,Life,True,Paid Search,50000.0,,,,
+Q0001498,C001113,2025-12-25,Bike,True,Paid Search,,,,1.0,1100.0
+Q0001499,C001114,2025-07-10,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0001500,C001115,2025-03-14,Life,True,Direct,300000.0,,,,
+Q0001501,C001116,2025-08-11,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001502,C001117,2025-09-18,Bike,False,Paid Search,,,,2.0,5500.0
+Q0001503,C001118,2025-02-19,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0001504,C001119,2025-07-02,Bike,True,Direct,,,,2.0,500.0
+Q0001505,C001120,2025-02-16,Bike,True,Organic Search,,,,2.0,4000.0
+Q0001506,C001121,2025-05-06,Life,True,Paid Search,200000.0,,,,
+Q0001507,C001122,2025-07-26,Life,True,Paid Search,150000.0,,,,
+Q0001508,C001123,2025-09-12,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0001509,C001124,2025-08-01,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001510,C001125,2025-06-16,Life,True,Organic Search,200000.0,,,,
+Q0001511,C001126,2025-04-29,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001512,C001126,2025-06-29,Bike,True,Direct,,,,1.0,3800.0
+Q0001513,C001126,2025-12-02,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0001514,C001127,2025-12-09,Life,False,Affiliate,250000.0,,,,
+Q0001515,C001128,2025-07-01,Bike,True,Affiliate,,,,1.0,6600.0
+Q0001516,C001129,2025-09-02,Bike,True,Organic Search,,,,3.0,3200.0
+Q0001517,C001130,2025-03-08,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001518,C001131,2025-10-13,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001519,C001132,2025-04-22,Bike,True,Organic Search,,,,2.0,500.0
+Q0001520,C001132,2025-10-24,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001521,C001133,2025-03-21,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001522,C001133,2025-04-04,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001523,C001134,2025-07-14,Life,True,Organic Search,250000.0,,,,
+Q0001524,C001135,2025-11-01,Bike,True,Organic Search,,,,1.0,6800.0
+Q0001525,C001136,2025-01-26,Travel,True,Direct,,Single Trip,Europe,,
+Q0001526,C001137,2025-07-16,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001527,C001138,2025-08-12,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0001528,C001139,2025-10-30,Travel,True,Organic Search,,Backpacker,Europe,,
+Q0001529,C001140,2025-08-28,Travel,True,Direct,,Single Trip,Europe,,
+Q0001530,C001141,2025-12-18,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001531,C001141,2025-11-19,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0001532,C001142,2025-04-18,Bike,False,Affiliate,,,,1.0,3400.0
+Q0001533,C001143,2025-02-15,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0001534,C001144,2025-12-26,Life,True,Paid Search,250000.0,,,,
+Q0001535,C001145,2025-08-02,Life,True,Direct,150000.0,,,,
+Q0001536,C001145,2025-10-10,Travel,True,Direct,,Backpacker,Europe,,
+Q0001537,C001145,2025-05-31,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001538,C001146,2025-07-29,Life,True,Organic Search,250000.0,,,,
+Q0001539,C001147,2025-07-22,Bike,True,Direct,,,,3.0,2700.0
+Q0001540,C001148,2025-10-29,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001541,C001149,2025-03-14,Bike,True,Paid Search,,,,1.0,3500.0
+Q0001542,C001150,2025-01-21,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001543,C001151,2025-10-17,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001544,C001152,2025-09-29,Bike,True,Paid Search,,,,1.0,4400.0
+Q0001545,C001153,2025-04-10,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001546,C001153,2025-12-12,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0001547,C001154,2025-01-28,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0001548,C001154,2025-04-02,Life,True,Paid Search,150000.0,,,,
+Q0001549,C001155,2025-06-18,Life,True,Paid Search,300000.0,,,,
+Q0001550,C001156,2025-09-04,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001551,C001157,2025-08-29,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001552,C001158,2025-04-10,Life,True,Affiliate,200000.0,,,,
+Q0001553,C001159,2025-01-18,Bike,True,Organic Search,,,,4.0,2300.0
+Q0001554,C001160,2025-10-16,Life,False,Affiliate,250000.0,,,,
+Q0001555,C001161,2025-12-01,Bike,True,Paid Search,,,,1.0,2900.0
+Q0001556,C001161,2025-11-04,Travel,False,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001557,C001162,2025-09-01,Bike,True,Organic Search,,,,1.0,3900.0
+Q0001558,C001162,2025-08-21,Life,True,Organic Search,300000.0,,,,
+Q0001559,C001163,2025-05-01,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001560,C001163,2025-04-11,Life,False,Direct,100000.0,,,,
+Q0001561,C001163,2025-10-05,Life,True,Direct,200000.0,,,,
+Q0001562,C001164,2025-01-10,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001563,C001165,2025-10-21,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001564,C001166,2025-10-27,Bike,True,Affiliate,,,,1.0,2100.0
+Q0001565,C001167,2025-01-28,Bike,False,Organic Search,,,,2.0,6100.0
+Q0001566,C001167,2025-01-16,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001567,C001168,2025-09-25,Life,True,Referral,50000.0,,,,
+Q0001568,C001168,2025-07-11,Life,True,Referral,200000.0,,,,
+Q0001569,C001169,2025-05-23,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001570,C001170,2025-11-23,Life,True,Affiliate,250000.0,,,,
+Q0001571,C001170,2025-07-19,Life,False,Affiliate,150000.0,,,,
+Q0001572,C001171,2025-11-22,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0001573,C001172,2025-10-13,Life,True,Referral,50000.0,,,,
+Q0001574,C001173,2025-04-01,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0001575,C001174,2025-12-27,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001576,C001175,2025-12-26,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001577,C001176,2025-08-29,Travel,True,Referral,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001578,C001177,2025-04-17,Bike,True,Organic Search,,,,2.0,3300.0
+Q0001579,C001178,2025-04-19,Bike,True,Direct,,,,1.0,900.0
+Q0001580,C001179,2025-11-05,Travel,False,Affiliate,,Annual Multi-trip,Europe,,
+Q0001581,C001180,2025-01-09,Life,True,Paid Search,50000.0,,,,
+Q0001582,C001181,2025-04-24,Life,True,Referral,100000.0,,,,
+Q0001583,C001181,2025-11-09,Bike,True,Referral,,,,1.0,6300.0
+Q0001584,C001182,2025-08-24,Bike,True,Paid Search,,,,3.0,2200.0
+Q0001585,C001183,2025-05-02,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001586,C001184,2025-10-22,Life,True,Direct,250000.0,,,,
+Q0001587,C001185,2025-09-04,Life,True,Paid Search,200000.0,,,,
+Q0001588,C001185,2025-07-05,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001589,C001186,2025-05-15,Life,True,Organic Search,200000.0,,,,
+Q0001590,C001187,2025-09-22,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001591,C001188,2025-10-11,Bike,True,Organic Search,,,,1.0,4600.0
+Q0001592,C001189,2025-02-14,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0001593,C001190,2025-08-30,Bike,True,Referral,,,,1.0,2200.0
+Q0001594,C001191,2025-07-02,Life,True,Direct,100000.0,,,,
+Q0001595,C001191,2025-05-27,Bike,True,Direct,,,,1.0,3200.0
+Q0001596,C001192,2025-03-29,Travel,False,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001597,C001192,2025-05-27,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001598,C001193,2025-10-21,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0001599,C001193,2025-09-12,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0001600,C001194,2025-03-28,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001601,C001194,2025-06-12,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0001602,C001195,2025-01-23,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0001603,C001196,2025-11-29,Bike,True,Paid Search,,,,2.0,2900.0
+Q0001604,C001197,2025-12-28,Bike,True,Organic Search,,,,2.0,3100.0
+Q0001605,C001198,2025-03-23,Life,True,Referral,300000.0,,,,
+Q0001606,C001198,2025-08-17,Life,True,Referral,250000.0,,,,
+Q0001607,C001199,2025-12-26,Travel,True,Referral,,Single Trip,Europe,,
+Q0001608,C001199,2025-04-06,Travel,True,Referral,,Annual Multi-trip,Worldwide,,
+Q0001609,C001199,2025-04-03,Travel,True,Referral,,Annual Multi-trip,Worldwide,,
+Q0001610,C001200,2025-10-17,Bike,True,Organic Search,,,,1.0,3100.0
+Q0001611,C001201,2025-04-20,Bike,True,Affiliate,,,,2.0,5200.0
+Q0001612,C001202,2025-04-11,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001613,C001203,2025-05-07,Life,True,Organic Search,50000.0,,,,
+Q0001614,C001204,2025-03-23,Life,True,Affiliate,150000.0,,,,
+Q0001615,C001204,2025-06-09,Life,True,Affiliate,250000.0,,,,
+Q0001616,C001205,2025-02-19,Life,True,Direct,250000.0,,,,
+Q0001617,C001206,2025-02-17,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0001618,C001206,2025-06-26,Life,True,Paid Search,200000.0,,,,
+Q0001619,C001207,2025-12-21,Life,True,Referral,200000.0,,,,
+Q0001620,C001208,2025-12-04,Bike,True,Affiliate,,,,1.0,3500.0
+Q0001621,C001209,2025-12-28,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001622,C001210,2025-07-11,Life,True,Direct,250000.0,,,,
+Q0001623,C001211,2025-04-28,Travel,True,Affiliate,,Backpacker,Worldwide excluding USA/Canada,,
+Q0001624,C001211,2025-02-16,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001625,C001212,2025-02-10,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0001626,C001213,2025-05-29,Travel,True,Email,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001627,C001214,2025-12-02,Bike,True,Affiliate,,,,2.0,2700.0
+Q0001628,C001215,2025-02-19,Bike,True,Organic Search,,,,1.0,1800.0
+Q0001629,C001216,2025-03-13,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001630,C001216,2025-10-19,Travel,False,Organic Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0001631,C001217,2025-05-09,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001632,C001218,2025-05-25,Bike,True,Email,,,,1.0,5900.0
+Q0001633,C001218,2025-12-09,Bike,True,Email,,,,2.0,5600.0
+Q0001634,C001219,2025-02-11,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001635,C001220,2025-12-13,Life,True,Organic Search,50000.0,,,,
+Q0001636,C001221,2025-06-29,Life,True,Affiliate,50000.0,,,,
+Q0001637,C001222,2025-05-11,Bike,True,Organic Search,,,,1.0,1000.0
+Q0001638,C001223,2025-07-05,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001639,C001224,2025-04-06,Travel,True,Referral,,Annual Multi-trip,Worldwide,,
+Q0001640,C001225,2025-06-09,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001641,C001225,2025-10-05,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001642,C001226,2025-02-13,Bike,True,Referral,,,,2.0,4600.0
+Q0001643,C001227,2025-06-26,Bike,True,Direct,,,,1.0,5700.0
+Q0001644,C001227,2025-11-29,Travel,True,Direct,,Single Trip,Europe,,
+Q0001645,C001228,2025-04-14,Life,True,Paid Search,200000.0,,,,
+Q0001646,C001229,2025-04-10,Bike,True,Referral,,,,1.0,1400.0
+Q0001647,C001230,2025-07-08,Bike,True,Paid Search,,,,1.0,900.0
+Q0001648,C001230,2025-04-23,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001649,C001231,2025-11-07,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001650,C001231,2025-03-02,Bike,True,Organic Search,,,,4.0,1100.0
+Q0001651,C001232,2025-11-26,Bike,True,Referral,,,,1.0,6200.0
+Q0001652,C001233,2025-12-06,Bike,True,Affiliate,,,,1.0,1100.0
+Q0001653,C001234,2025-10-22,Travel,False,Referral,,Annual Multi-trip,Europe,,
+Q0001654,C001234,2025-05-07,Life,True,Referral,250000.0,,,,
+Q0001655,C001235,2025-11-22,Bike,False,Organic Search,,,,1.0,1500.0
+Q0001656,C001236,2025-04-13,Travel,True,Email,,Annual Multi-trip,Europe,,
+Q0001657,C001237,2025-08-13,Life,True,Direct,150000.0,,,,
+Q0001658,C001237,2025-07-18,Life,True,Direct,50000.0,,,,
+Q0001659,C001238,2025-08-01,Bike,True,Direct,,,,1.0,5500.0
+Q0001660,C001238,2025-07-17,Travel,True,Direct,,Single Trip,Europe,,
+Q0001661,C001239,2025-04-24,Life,True,Referral,250000.0,,,,
+Q0001662,C001240,2025-02-10,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001663,C001241,2025-03-29,Travel,True,Affiliate,,Backpacker,Europe,,
+Q0001664,C001242,2025-09-26,Life,True,Direct,250000.0,,,,
+Q0001665,C001243,2025-12-09,Bike,True,Affiliate,,,,3.0,2500.0
+Q0001666,C001243,2025-02-05,Bike,True,Affiliate,,,,1.0,3100.0
+Q0001667,C001243,2025-08-20,Bike,True,Affiliate,,,,1.0,2300.0
+Q0001668,C001244,2025-09-25,Travel,True,Referral,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001669,C001245,2025-06-02,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001670,C001246,2025-12-14,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001671,C001246,2025-03-27,Bike,True,Organic Search,,,,1.0,1200.0
+Q0001672,C001247,2025-02-05,Bike,True,Organic Search,,,,1.0,4200.0
+Q0001673,C001248,2025-12-01,Bike,True,Email,,,,1.0,2100.0
+Q0001674,C001249,2025-08-02,Life,True,Email,150000.0,,,,
+Q0001675,C001250,2025-06-26,Life,True,Email,300000.0,,,,
+Q0001676,C001251,2025-07-20,Bike,True,Organic Search,,,,1.0,4200.0
+Q0001677,C001252,2025-09-24,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0001678,C001252,2025-07-08,Bike,True,Paid Search,,,,1.0,1800.0
+Q0001679,C001253,2025-09-11,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001680,C001253,2025-10-16,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001681,C001254,2025-05-19,Life,True,Affiliate,50000.0,,,,
+Q0001682,C001255,2025-03-18,Bike,True,Organic Search,,,,2.0,1900.0
+Q0001683,C001256,2025-08-02,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0001684,C001257,2025-04-13,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001685,C001257,2025-04-01,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001686,C001258,2025-05-20,Bike,True,Paid Search,,,,1.0,3600.0
+Q0001687,C001259,2025-08-12,Travel,False,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001688,C001259,2025-08-14,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001689,C001260,2025-06-14,Bike,True,Organic Search,,,,2.0,1000.0
+Q0001690,C001260,2025-01-03,Life,True,Organic Search,150000.0,,,,
+Q0001691,C001261,2025-12-08,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001692,C001262,2025-01-03,Bike,True,Referral,,,,2.0,3400.0
+Q0001693,C001263,2025-02-17,Travel,True,Affiliate,,Backpacker,Europe,,
+Q0001694,C001263,2025-04-30,Life,True,Affiliate,250000.0,,,,
+Q0001695,C001263,2025-11-09,Bike,True,Affiliate,,,,1.0,1200.0
+Q0001696,C001264,2025-05-05,Life,True,Email,200000.0,,,,
+Q0001697,C001265,2025-07-02,Life,False,Paid Search,150000.0,,,,
+Q0001698,C001266,2025-06-01,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001699,C001267,2025-08-15,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001700,C001267,2025-11-18,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001701,C001268,2025-11-17,Bike,True,Direct,,,,2.0,3700.0
+Q0001702,C001269,2025-10-13,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001703,C001270,2025-07-24,Life,True,Affiliate,50000.0,,,,
+Q0001704,C001271,2025-11-12,Life,True,Affiliate,100000.0,,,,
+Q0001705,C001272,2025-07-02,Travel,False,Referral,,Single Trip,Worldwide,,
+Q0001706,C001272,2025-06-24,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0001707,C001272,2025-03-10,Travel,True,Referral,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001708,C001273,2025-11-16,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001709,C001274,2025-03-11,Travel,True,Direct,,Backpacker,Europe,,
+Q0001710,C001275,2025-06-23,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001711,C001275,2025-02-25,Life,False,Organic Search,150000.0,,,,
+Q0001712,C001276,2025-03-22,Bike,True,Organic Search,,,,1.0,4900.0
+Q0001713,C001276,2025-12-17,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001714,C001277,2025-04-30,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001715,C001278,2025-02-08,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001716,C001279,2025-08-27,Bike,True,Affiliate,,,,1.0,6400.0
+Q0001717,C001280,2025-01-11,Travel,False,Organic Search,,Backpacker,Europe,,
+Q0001718,C001281,2025-03-09,Travel,True,Email,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001719,C001282,2025-02-19,Life,True,Email,250000.0,,,,
+Q0001720,C001282,2025-11-01,Travel,True,Email,,Backpacker,Europe,,
+Q0001721,C001283,2025-10-22,Bike,True,Paid Search,,,,1.0,2200.0
+Q0001722,C001283,2025-08-13,Life,True,Paid Search,250000.0,,,,
+Q0001723,C001284,2025-02-14,Bike,True,Referral,,,,1.0,6000.0
+Q0001724,C001285,2025-06-25,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001725,C001286,2025-01-23,Bike,True,Affiliate,,,,1.0,6200.0
+Q0001726,C001287,2025-04-28,Life,True,Referral,250000.0,,,,
+Q0001727,C001287,2025-08-25,Travel,True,Referral,,Annual Multi-trip,Worldwide,,
+Q0001728,C001288,2025-12-24,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001729,C001288,2025-10-10,Bike,True,Affiliate,,,,2.0,5500.0
+Q0001730,C001289,2025-03-29,Travel,True,Affiliate,,Backpacker,Worldwide,,
+Q0001731,C001290,2025-08-19,Travel,True,Paid Search,,Backpacker,Worldwide,,
+Q0001732,C001291,2025-12-17,Bike,True,Affiliate,,,,1.0,4600.0
+Q0001733,C001292,2025-06-03,Bike,True,Affiliate,,,,3.0,2300.0
+Q0001734,C001293,2025-06-12,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001735,C001294,2025-07-20,Bike,True,Organic Search,,,,1.0,900.0
+Q0001736,C001295,2025-07-15,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001737,C001296,2025-06-29,Travel,False,Direct,,Single Trip,Europe,,
+Q0001738,C001297,2025-09-25,Bike,True,Paid Search,,,,1.0,2100.0
+Q0001739,C001298,2025-01-15,Life,True,Referral,100000.0,,,,
+Q0001740,C001299,2025-03-07,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0001741,C001299,2025-01-13,Bike,True,Direct,,,,2.0,6200.0
+Q0001742,C001300,2025-08-22,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001743,C001301,2025-11-02,Life,True,Paid Search,200000.0,,,,
+Q0001744,C001302,2025-04-23,Life,True,Direct,150000.0,,,,
+Q0001745,C001302,2025-09-15,Life,True,Direct,250000.0,,,,
+Q0001746,C001303,2025-01-20,Travel,False,Affiliate,,Backpacker,Worldwide,,
+Q0001747,C001304,2025-09-16,Travel,True,Direct,,Backpacker,Worldwide,,
+Q0001748,C001304,2025-10-08,Bike,True,Direct,,,,2.0,3700.0
+Q0001749,C001305,2025-10-25,Travel,True,Paid Search,,Backpacker,Europe,,
+Q0001750,C001305,2025-12-29,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001751,C001306,2025-09-01,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001752,C001307,2025-02-11,Bike,True,Affiliate,,,,1.0,4900.0
+Q0001753,C001308,2025-02-07,Life,True,Affiliate,250000.0,,,,
+Q0001754,C001309,2025-08-24,Life,False,Organic Search,150000.0,,,,
+Q0001755,C001310,2025-12-15,Life,True,Affiliate,150000.0,,,,
+Q0001756,C001311,2025-09-18,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001757,C001312,2025-10-12,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001758,C001312,2025-03-31,Life,True,Organic Search,250000.0,,,,
+Q0001759,C001312,2025-05-14,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001760,C001313,2025-07-26,Life,True,Direct,200000.0,,,,
+Q0001761,C001314,2025-05-27,Bike,True,Affiliate,,,,1.0,4000.0
+Q0001762,C001314,2025-03-26,Bike,True,Affiliate,,,,2.0,4100.0
+Q0001763,C001315,2025-02-12,Travel,True,Direct,,Single Trip,Europe,,
+Q0001764,C001316,2025-04-11,Life,True,Affiliate,150000.0,,,,
+Q0001765,C001317,2025-08-18,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0001766,C001318,2025-07-01,Bike,True,Organic Search,,,,3.0,3100.0
+Q0001767,C001319,2025-04-15,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001768,C001320,2025-09-15,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001769,C001321,2025-04-18,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0001770,C001322,2025-04-12,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0001771,C001322,2025-05-13,Bike,True,Affiliate,,,,1.0,4100.0
+Q0001772,C001322,2025-07-24,Life,True,Affiliate,150000.0,,,,
+Q0001773,C001323,2025-06-27,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001774,C001324,2025-03-18,Life,True,Organic Search,300000.0,,,,
+Q0001775,C001325,2025-04-19,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001776,C001326,2025-07-08,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001777,C001327,2025-04-11,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001778,C001328,2025-05-16,Life,True,Organic Search,300000.0,,,,
+Q0001779,C001329,2025-11-20,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0001780,C001329,2025-03-07,Bike,True,Direct,,,,1.0,3900.0
+Q0001781,C001330,2025-01-09,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001782,C001331,2025-07-14,Travel,True,Direct,,Single Trip,Europe,,
+Q0001783,C001331,2025-06-12,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001784,C001332,2025-08-23,Bike,True,Paid Search,,,,1.0,6600.0
+Q0001785,C001332,2025-11-27,Life,True,Paid Search,150000.0,,,,
+Q0001786,C001333,2025-06-06,Life,True,Paid Search,200000.0,,,,
+Q0001787,C001334,2025-04-05,Life,True,Direct,100000.0,,,,
+Q0001788,C001334,2025-12-28,Life,False,Direct,100000.0,,,,
+Q0001789,C001335,2025-05-25,Life,True,Direct,150000.0,,,,
+Q0001790,C001335,2025-02-24,Life,True,Direct,200000.0,,,,
+Q0001791,C001336,2025-11-29,Life,True,Organic Search,200000.0,,,,
+Q0001792,C001337,2025-05-30,Life,True,Referral,250000.0,,,,
+Q0001793,C001338,2025-01-29,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001794,C001339,2025-05-21,Bike,True,Paid Search,,,,1.0,1100.0
+Q0001795,C001340,2025-08-28,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001796,C001340,2025-06-21,Life,True,Organic Search,100000.0,,,,
+Q0001797,C001341,2025-05-26,Bike,False,Paid Search,,,,3.0,5900.0
+Q0001798,C001342,2025-01-05,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001799,C001343,2025-09-30,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001800,C001344,2025-09-23,Life,True,Direct,250000.0,,,,
+Q0001801,C001345,2025-01-07,Bike,True,Paid Search,,,,1.0,3000.0
+Q0001802,C001346,2025-02-17,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0001803,C001347,2025-11-20,Life,True,Email,250000.0,,,,
+Q0001804,C001348,2025-07-07,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001805,C001348,2025-04-19,Travel,True,Organic Search,,Backpacker,Europe,,
+Q0001806,C001349,2025-10-04,Bike,True,Organic Search,,,,3.0,2200.0
+Q0001807,C001350,2025-10-24,Life,True,Affiliate,250000.0,,,,
+Q0001808,C001351,2025-07-17,Travel,True,Email,,Single Trip,Worldwide,,
+Q0001809,C001351,2025-05-28,Life,True,Email,50000.0,,,,
+Q0001810,C001351,2025-01-24,Travel,False,Email,,Backpacker,Worldwide,,
+Q0001811,C001352,2025-06-17,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0001812,C001353,2025-06-08,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001813,C001354,2025-01-21,Bike,True,Organic Search,,,,1.0,1100.0
+Q0001814,C001354,2025-05-04,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001815,C001355,2025-11-01,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001816,C001356,2025-11-27,Bike,True,Affiliate,,,,1.0,800.0
+Q0001817,C001357,2025-03-15,Life,False,Direct,100000.0,,,,
+Q0001818,C001357,2025-11-12,Life,True,Direct,250000.0,,,,
+Q0001819,C001358,2025-11-25,Life,True,Paid Search,50000.0,,,,
+Q0001820,C001359,2025-09-06,Life,False,Direct,150000.0,,,,
+Q0001821,C001360,2025-05-09,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001822,C001360,2025-04-10,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001823,C001361,2025-06-13,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0001824,C001362,2025-04-15,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001825,C001363,2025-11-27,Travel,True,Direct,,Backpacker,Worldwide,,
+Q0001826,C001364,2025-03-24,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0001827,C001365,2025-09-05,Travel,False,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001828,C001366,2025-03-11,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001829,C001366,2025-07-01,Bike,True,Paid Search,,,,3.0,5400.0
+Q0001830,C001367,2025-10-30,Bike,True,Affiliate,,,,1.0,2300.0
+Q0001831,C001368,2025-03-18,Life,True,Affiliate,150000.0,,,,
+Q0001832,C001369,2025-12-05,Bike,True,Organic Search,,,,1.0,4400.0
+Q0001833,C001370,2025-05-03,Bike,True,Organic Search,,,,2.0,700.0
+Q0001834,C001370,2025-04-07,Bike,True,Organic Search,,,,4.0,2200.0
+Q0001835,C001370,2025-12-11,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001836,C001371,2025-09-02,Travel,True,Direct,,Single Trip,Europe,,
+Q0001837,C001371,2025-07-31,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0001838,C001372,2025-02-03,Bike,True,Paid Search,,,,1.0,5300.0
+Q0001839,C001373,2025-08-19,Bike,True,Organic Search,,,,1.0,500.0
+Q0001840,C001374,2025-04-19,Bike,True,Organic Search,,,,2.0,700.0
+Q0001841,C001375,2025-11-17,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001842,C001375,2025-05-02,Life,True,Organic Search,250000.0,,,,
+Q0001843,C001376,2025-09-27,Bike,True,Paid Search,,,,1.0,2200.0
+Q0001844,C001377,2025-07-17,Life,True,Direct,300000.0,,,,
+Q0001845,C001378,2025-06-22,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001846,C001378,2025-07-02,Life,True,Organic Search,50000.0,,,,
+Q0001847,C001379,2025-05-13,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001848,C001380,2025-01-10,Life,False,Paid Search,250000.0,,,,
+Q0001849,C001381,2025-01-04,Life,True,Paid Search,100000.0,,,,
+Q0001850,C001381,2025-01-24,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001851,C001382,2025-04-27,Life,True,Organic Search,150000.0,,,,
+Q0001852,C001383,2025-06-01,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0001853,C001384,2025-02-06,Travel,True,Email,,Annual Multi-trip,Europe,,
+Q0001854,C001385,2025-04-25,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001855,C001385,2025-11-24,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001856,C001386,2025-08-08,Life,True,Organic Search,250000.0,,,,
+Q0001857,C001387,2025-10-15,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001858,C001388,2025-07-17,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0001859,C001388,2025-02-16,Travel,True,Organic Search,,Backpacker,Europe,,
+Q0001860,C001388,2025-04-08,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001861,C001389,2025-02-20,Bike,True,Affiliate,,,,2.0,6400.0
+Q0001862,C001390,2025-11-14,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001863,C001391,2025-10-24,Bike,True,Email,,,,1.0,1300.0
+Q0001864,C001392,2025-10-17,Life,True,Direct,300000.0,,,,
+Q0001865,C001393,2025-12-19,Travel,True,Paid Search,,Backpacker,Worldwide,,
+Q0001866,C001394,2025-03-27,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0001867,C001395,2025-11-08,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001868,C001395,2025-01-06,Life,True,Organic Search,300000.0,,,,
+Q0001869,C001396,2025-10-08,Life,True,Affiliate,150000.0,,,,
+Q0001870,C001396,2025-07-09,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001871,C001397,2025-05-27,Travel,True,Organic Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0001872,C001398,2025-07-15,Bike,True,Affiliate,,,,3.0,4500.0
+Q0001873,C001399,2025-08-30,Bike,True,Direct,,,,1.0,1000.0
+Q0001874,C001399,2025-06-10,Travel,True,Direct,,Backpacker,Worldwide,,
+Q0001875,C001400,2025-03-26,Life,True,Organic Search,250000.0,,,,
+Q0001876,C001401,2025-02-02,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0001877,C001402,2025-05-10,Life,True,Organic Search,300000.0,,,,
+Q0001878,C001402,2025-06-18,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001879,C001402,2025-08-11,Travel,True,Organic Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0001880,C001403,2025-07-21,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001881,C001404,2025-08-16,Life,True,Affiliate,200000.0,,,,
+Q0001882,C001404,2025-02-14,Life,False,Affiliate,50000.0,,,,
+Q0001883,C001405,2025-06-30,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0001884,C001406,2025-09-30,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0001885,C001407,2025-09-28,Bike,True,Direct,,,,1.0,3900.0
+Q0001886,C001407,2025-07-04,Bike,False,Direct,,,,1.0,5000.0
+Q0001887,C001408,2025-09-02,Bike,True,Direct,,,,1.0,3200.0
+Q0001888,C001409,2025-12-06,Travel,True,Paid Search,,Backpacker,Worldwide,,
+Q0001889,C001410,2025-10-26,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001890,C001411,2025-05-24,Travel,True,Email,,Backpacker,Worldwide excluding USA/Canada,,
+Q0001891,C001412,2025-09-12,Bike,True,Organic Search,,,,2.0,6000.0
+Q0001892,C001413,2025-12-16,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0001893,C001413,2025-10-31,Life,True,Direct,100000.0,,,,
+Q0001894,C001414,2025-03-23,Travel,False,Organic Search,,Annual Multi-trip,Europe,,
+Q0001895,C001415,2025-06-03,Life,True,Organic Search,100000.0,,,,
+Q0001896,C001416,2025-12-27,Travel,True,Direct,,Backpacker,Worldwide,,
+Q0001897,C001417,2025-11-22,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0001898,C001418,2025-11-03,Travel,True,Affiliate,,Backpacker,Worldwide excluding USA/Canada,,
+Q0001899,C001419,2025-10-22,Bike,True,Referral,,,,1.0,4200.0
+Q0001900,C001420,2025-07-20,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0001901,C001421,2025-10-04,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0001902,C001422,2025-10-02,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001903,C001423,2025-10-18,Life,True,Affiliate,150000.0,,,,
+Q0001904,C001424,2025-04-07,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001905,C001425,2025-07-09,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001906,C001426,2025-10-09,Life,True,Organic Search,150000.0,,,,
+Q0001907,C001426,2025-12-08,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001908,C001427,2025-06-07,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001909,C001428,2025-08-21,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0001910,C001428,2025-08-13,Bike,True,Affiliate,,,,2.0,2400.0
+Q0001911,C001429,2025-09-04,Travel,True,Referral,,Single Trip,Worldwide,,
+Q0001912,C001430,2025-12-16,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001913,C001431,2025-09-09,Travel,False,Email,,Single Trip,Worldwide,,
+Q0001914,C001432,2025-03-08,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001915,C001432,2025-06-29,Life,True,Organic Search,150000.0,,,,
+Q0001916,C001432,2025-03-04,Life,True,Organic Search,300000.0,,,,
+Q0001917,C001433,2025-10-13,Life,True,Paid Search,50000.0,,,,
+Q0001918,C001434,2025-11-23,Life,True,Organic Search,100000.0,,,,
+Q0001919,C001435,2025-05-05,Travel,False,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001920,C001436,2025-03-22,Travel,True,Direct,,Backpacker,Worldwide,,
+Q0001921,C001437,2025-11-20,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001922,C001438,2025-11-29,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0001923,C001438,2025-03-22,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0001924,C001439,2025-12-29,Life,True,Direct,250000.0,,,,
+Q0001925,C001440,2025-01-14,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001926,C001441,2025-02-04,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0001927,C001442,2025-01-31,Bike,False,Direct,,,,1.0,5800.0
+Q0001928,C001443,2025-12-28,Travel,False,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001929,C001443,2025-06-18,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001930,C001444,2025-11-16,Life,True,Affiliate,100000.0,,,,
+Q0001931,C001445,2025-07-26,Bike,True,Organic Search,,,,2.0,2500.0
+Q0001932,C001445,2025-07-01,Bike,True,Organic Search,,,,3.0,900.0
+Q0001933,C001446,2025-12-08,Life,True,Organic Search,250000.0,,,,
+Q0001934,C001447,2025-08-17,Life,True,Organic Search,250000.0,,,,
+Q0001935,C001447,2025-02-28,Travel,True,Organic Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0001936,C001448,2025-06-20,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001937,C001448,2025-04-27,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0001938,C001448,2025-02-05,Bike,True,Direct,,,,1.0,2900.0
+Q0001939,C001449,2025-04-10,Bike,True,Paid Search,,,,1.0,4500.0
+Q0001940,C001450,2025-10-27,Bike,False,Direct,,,,1.0,4000.0
+Q0001941,C001451,2025-01-18,Travel,True,Paid Search,,Backpacker,Europe,,
+Q0001942,C001452,2025-03-21,Bike,True,Paid Search,,,,2.0,6100.0
+Q0001943,C001453,2025-08-09,Life,True,Paid Search,300000.0,,,,
+Q0001944,C001454,2025-03-23,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001945,C001455,2025-04-20,Bike,True,Paid Search,,,,1.0,1500.0
+Q0001946,C001456,2025-09-18,Life,True,Direct,150000.0,,,,
+Q0001947,C001457,2025-03-21,Bike,True,Direct,,,,2.0,1100.0
+Q0001948,C001458,2025-11-12,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001949,C001459,2025-12-09,Bike,True,Direct,,,,1.0,2000.0
+Q0001950,C001460,2025-11-13,Life,True,Paid Search,50000.0,,,,
+Q0001951,C001461,2025-09-08,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0001952,C001461,2025-10-28,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001953,C001461,2025-05-19,Bike,True,Organic Search,,,,1.0,5600.0
+Q0001954,C001462,2025-11-08,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001955,C001462,2025-11-14,Bike,True,Organic Search,,,,1.0,1500.0
+Q0001956,C001463,2025-07-10,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001957,C001463,2025-02-06,Bike,True,Paid Search,,,,2.0,1200.0
+Q0001958,C001464,2025-07-28,Life,True,Paid Search,150000.0,,,,
+Q0001959,C001465,2025-10-09,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0001960,C001466,2025-01-31,Life,True,Organic Search,100000.0,,,,
+Q0001961,C001466,2025-07-25,Life,True,Organic Search,50000.0,,,,
+Q0001962,C001467,2025-05-28,Life,True,Affiliate,50000.0,,,,
+Q0001963,C001468,2025-09-19,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001964,C001469,2025-11-05,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0001965,C001470,2025-03-21,Life,True,Affiliate,150000.0,,,,
+Q0001966,C001470,2025-10-26,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0001967,C001471,2025-07-21,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001968,C001472,2025-05-18,Bike,True,Organic Search,,,,1.0,800.0
+Q0001969,C001472,2025-08-27,Life,True,Organic Search,200000.0,,,,
+Q0001970,C001473,2025-04-04,Life,True,Direct,250000.0,,,,
+Q0001971,C001474,2025-03-10,Travel,True,Email,,Annual Multi-trip,Europe,,
+Q0001972,C001474,2025-08-17,Life,True,Email,250000.0,,,,
+Q0001973,C001475,2025-08-31,Travel,False,Email,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001974,C001475,2025-02-13,Life,True,Email,100000.0,,,,
+Q0001975,C001476,2025-02-26,Life,True,Organic Search,250000.0,,,,
+Q0001976,C001477,2025-06-19,Bike,True,Affiliate,,,,1.0,3000.0
+Q0001977,C001478,2025-04-20,Life,False,Paid Search,150000.0,,,,
+Q0001978,C001479,2025-10-18,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0001979,C001480,2025-05-02,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0001980,C001481,2025-10-04,Bike,True,Paid Search,,,,1.0,3100.0
+Q0001981,C001482,2025-01-27,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0001982,C001483,2025-03-31,Life,True,Affiliate,150000.0,,,,
+Q0001983,C001484,2025-07-06,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001984,C001484,2025-10-12,Bike,True,Paid Search,,,,2.0,1700.0
+Q0001985,C001485,2025-10-21,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0001986,C001486,2025-11-18,Bike,True,Paid Search,,,,1.0,5200.0
+Q0001987,C001486,2025-08-19,Travel,False,Paid Search,,Single Trip,Europe,,
+Q0001988,C001486,2025-12-10,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001989,C001487,2025-08-17,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0001990,C001488,2025-07-30,Life,True,Paid Search,150000.0,,,,
+Q0001991,C001489,2025-09-18,Travel,True,Email,,Single Trip,Worldwide excluding USA/Canada,,
+Q0001992,C001490,2025-10-05,Life,True,Paid Search,100000.0,,,,
+Q0001993,C001491,2025-06-29,Bike,True,Organic Search,,,,3.0,600.0
+Q0001994,C001492,2025-04-14,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0001995,C001493,2025-10-25,Bike,True,Email,,,,4.0,4400.0
+Q0001996,C001493,2025-08-04,Travel,True,Email,,Single Trip,Worldwide,,
+Q0001997,C001493,2025-03-23,Life,True,Email,100000.0,,,,
+Q0001998,C001494,2025-01-26,Life,True,Referral,250000.0,,,,
+Q0001999,C001495,2025-07-28,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0002000,C001496,2025-04-16,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0002001,C001496,2025-12-14,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002002,C001497,2025-02-24,Bike,True,Direct,,,,3.0,2500.0
+Q0002003,C001497,2025-12-14,Life,True,Direct,150000.0,,,,
+Q0002004,C001498,2025-05-28,Life,True,Affiliate,250000.0,,,,
+Q0002005,C001499,2025-02-18,Life,True,Referral,300000.0,,,,
+Q0002006,C001499,2025-07-25,Bike,True,Referral,,,,2.0,1900.0
+Q0002007,C001500,2025-09-06,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0002008,C001501,2025-08-15,Travel,False,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002009,C001502,2025-07-20,Life,True,Organic Search,200000.0,,,,
+Q0002010,C001503,2025-10-28,Bike,True,Direct,,,,1.0,2600.0
+Q0002011,C001504,2025-02-02,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002012,C001505,2025-08-02,Life,True,Organic Search,250000.0,,,,
+Q0002013,C001506,2025-04-15,Travel,False,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002014,C001507,2025-02-10,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0002015,C001508,2025-09-03,Life,True,Referral,300000.0,,,,
+Q0002016,C001509,2025-11-03,Life,True,Affiliate,250000.0,,,,
+Q0002017,C001510,2025-08-26,Bike,True,Referral,,,,1.0,5800.0
+Q0002018,C001511,2025-12-28,Life,True,Affiliate,300000.0,,,,
+Q0002019,C001512,2025-10-20,Life,True,Affiliate,200000.0,,,,
+Q0002020,C001512,2025-01-12,Life,True,Affiliate,50000.0,,,,
+Q0002021,C001513,2025-09-26,Life,True,Organic Search,150000.0,,,,
+Q0002022,C001514,2025-05-30,Bike,True,Direct,,,,2.0,6900.0
+Q0002023,C001515,2025-12-15,Life,True,Organic Search,50000.0,,,,
+Q0002024,C001516,2025-09-23,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0002025,C001517,2025-02-23,Travel,True,Organic Search,,Backpacker,Europe,,
+Q0002026,C001518,2025-10-23,Bike,True,Affiliate,,,,2.0,3500.0
+Q0002027,C001519,2025-10-08,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002028,C001520,2025-02-06,Bike,False,Email,,,,1.0,2200.0
+Q0002029,C001520,2025-12-13,Life,True,Email,150000.0,,,,
+Q0002030,C001521,2025-12-28,Bike,True,Email,,,,1.0,3000.0
+Q0002031,C001522,2025-08-01,Travel,True,Referral,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002032,C001523,2025-10-13,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002033,C001524,2025-01-27,Travel,True,Referral,,Single Trip,Europe,,
+Q0002034,C001525,2025-11-29,Bike,True,Affiliate,,,,4.0,1300.0
+Q0002035,C001525,2025-11-22,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0002036,C001525,2025-12-23,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0002037,C001526,2025-08-04,Bike,True,Referral,,,,1.0,1700.0
+Q0002038,C001527,2025-10-16,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0002039,C001528,2025-09-15,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002040,C001529,2025-05-02,Life,True,Referral,300000.0,,,,
+Q0002041,C001530,2025-05-20,Life,True,Organic Search,150000.0,,,,
+Q0002042,C001531,2025-05-20,Life,True,Paid Search,100000.0,,,,
+Q0002043,C001532,2025-09-18,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002044,C001533,2025-10-20,Life,True,Organic Search,300000.0,,,,
+Q0002045,C001534,2025-08-11,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0002046,C001535,2025-09-03,Bike,True,Email,,,,2.0,5700.0
+Q0002047,C001536,2025-11-02,Travel,True,Referral,,Annual Multi-trip,Worldwide,,
+Q0002048,C001536,2025-04-15,Bike,True,Referral,,,,1.0,3200.0
+Q0002049,C001537,2025-08-04,Life,True,Referral,250000.0,,,,
+Q0002050,C001538,2025-11-19,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0002051,C001538,2025-11-07,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0002052,C001539,2025-04-17,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002053,C001539,2025-09-08,Life,True,Organic Search,100000.0,,,,
+Q0002054,C001540,2025-11-25,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0002055,C001541,2025-08-15,Travel,False,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002056,C001542,2025-08-27,Bike,True,Organic Search,,,,1.0,3900.0
+Q0002057,C001543,2025-07-11,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0002058,C001543,2025-08-25,Life,True,Affiliate,100000.0,,,,
+Q0002059,C001544,2025-03-22,Bike,True,Email,,,,1.0,6800.0
+Q0002060,C001545,2025-09-19,Travel,True,Direct,,Backpacker,Worldwide,,
+Q0002061,C001545,2025-12-30,Bike,True,Direct,,,,1.0,4400.0
+Q0002062,C001545,2025-04-02,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002063,C001546,2025-05-21,Life,True,Paid Search,50000.0,,,,
+Q0002064,C001547,2025-01-25,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002065,C001547,2025-03-29,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0002066,C001548,2025-04-24,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0002067,C001548,2025-06-11,Bike,False,Organic Search,,,,1.0,5200.0
+Q0002068,C001549,2025-01-13,Life,True,Organic Search,300000.0,,,,
+Q0002069,C001549,2025-01-11,Life,True,Organic Search,300000.0,,,,
+Q0002070,C001550,2025-04-29,Bike,True,Paid Search,,,,1.0,6700.0
+Q0002071,C001551,2025-06-05,Bike,True,Paid Search,,,,2.0,5800.0
+Q0002072,C001551,2025-12-30,Life,True,Paid Search,250000.0,,,,
+Q0002073,C001551,2025-01-23,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0002074,C001552,2025-12-02,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002075,C001553,2025-12-30,Life,True,Affiliate,150000.0,,,,
+Q0002076,C001553,2025-01-28,Bike,True,Affiliate,,,,1.0,500.0
+Q0002077,C001554,2025-06-21,Life,True,Organic Search,100000.0,,,,
+Q0002078,C001554,2025-01-22,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0002079,C001555,2025-10-26,Life,True,Organic Search,150000.0,,,,
+Q0002080,C001556,2025-06-11,Life,True,Organic Search,150000.0,,,,
+Q0002081,C001557,2025-07-19,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0002082,C001558,2025-09-01,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002083,C001558,2025-09-05,Travel,True,Direct,,Single Trip,Europe,,
+Q0002084,C001559,2025-06-09,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0002085,C001560,2025-09-29,Travel,True,Referral,,Backpacker,Worldwide excluding USA/Canada,,
+Q0002086,C001561,2025-09-27,Bike,False,Direct,,,,2.0,2200.0
+Q0002087,C001562,2025-04-30,Bike,True,Paid Search,,,,1.0,4000.0
+Q0002088,C001563,2025-06-13,Life,True,Organic Search,200000.0,,,,
+Q0002089,C001563,2025-08-03,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0002090,C001564,2025-10-23,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002091,C001565,2025-03-14,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0002092,C001566,2025-08-19,Life,True,Referral,150000.0,,,,
+Q0002093,C001566,2025-09-16,Travel,True,Referral,,Annual Multi-trip,Europe,,
+Q0002094,C001566,2025-05-01,Travel,True,Referral,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002095,C001567,2025-06-01,Life,True,Paid Search,50000.0,,,,
+Q0002096,C001568,2025-10-21,Bike,True,Organic Search,,,,1.0,3700.0
+Q0002097,C001568,2025-07-09,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0002098,C001569,2025-09-18,Bike,True,Paid Search,,,,2.0,3100.0
+Q0002099,C001570,2025-02-01,Life,True,Organic Search,50000.0,,,,
+Q0002100,C001571,2025-05-10,Bike,True,Referral,,,,1.0,1600.0
+Q0002101,C001572,2025-06-09,Bike,True,Organic Search,,,,1.0,6900.0
+Q0002102,C001572,2025-08-14,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002103,C001573,2025-10-23,Travel,True,Organic Search,,Backpacker,Worldwide,,
+Q0002104,C001573,2025-11-13,Travel,False,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002105,C001573,2025-09-21,Life,True,Organic Search,250000.0,,,,
+Q0002106,C001574,2025-01-03,Life,True,Organic Search,150000.0,,,,
+Q0002107,C001575,2025-08-14,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0002108,C001576,2025-12-05,Travel,True,Direct,,Single Trip,Europe,,
+Q0002109,C001577,2025-01-18,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0002110,C001578,2025-12-16,Life,True,Paid Search,100000.0,,,,
+Q0002111,C001579,2025-11-12,Bike,True,Organic Search,,,,1.0,2000.0
+Q0002112,C001579,2025-11-08,Bike,False,Organic Search,,,,2.0,6000.0
+Q0002113,C001580,2025-12-26,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002114,C001581,2025-06-29,Life,True,Organic Search,250000.0,,,,
+Q0002115,C001582,2025-05-07,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002116,C001582,2025-05-22,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002117,C001583,2025-08-13,Bike,True,Direct,,,,4.0,6100.0
+Q0002118,C001584,2025-07-16,Life,True,Organic Search,250000.0,,,,
+Q0002119,C001585,2025-10-17,Bike,True,Organic Search,,,,1.0,5100.0
+Q0002120,C001586,2025-10-03,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0002121,C001587,2025-11-14,Life,True,Paid Search,150000.0,,,,
+Q0002122,C001588,2025-12-26,Life,True,Organic Search,50000.0,,,,
+Q0002123,C001589,2025-01-29,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0002124,C001589,2025-09-18,Bike,True,Paid Search,,,,1.0,2400.0
+Q0002125,C001590,2025-01-01,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002126,C001591,2025-01-07,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002127,C001591,2025-10-27,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002128,C001591,2025-11-13,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002129,C001592,2025-12-16,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0002130,C001593,2025-04-11,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002131,C001593,2025-03-16,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002132,C001594,2025-01-23,Travel,True,Direct,,Single Trip,Europe,,
+Q0002133,C001595,2025-08-10,Life,True,Email,300000.0,,,,
+Q0002134,C001596,2025-02-04,Bike,True,Paid Search,,,,2.0,4400.0
+Q0002135,C001596,2025-12-27,Life,True,Paid Search,150000.0,,,,
+Q0002136,C001597,2025-09-27,Travel,False,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0002137,C001598,2025-05-20,Travel,True,Direct,,Single Trip,Europe,,
+Q0002138,C001599,2025-06-04,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0002139,C001599,2025-08-29,Bike,True,Direct,,,,1.0,700.0
+Q0002140,C001600,2025-04-10,Life,True,Organic Search,50000.0,,,,
+Q0002141,C001601,2025-11-03,Life,True,Direct,300000.0,,,,
+Q0002142,C001601,2025-08-15,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0002143,C001601,2025-07-15,Life,True,Direct,50000.0,,,,
+Q0002144,C001602,2025-01-31,Bike,True,Organic Search,,,,1.0,6800.0
+Q0002145,C001603,2025-03-05,Bike,True,Affiliate,,,,4.0,5700.0
+Q0002146,C001604,2025-03-21,Life,True,Affiliate,100000.0,,,,
+Q0002147,C001605,2025-01-25,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002148,C001606,2025-01-26,Travel,True,Email,,Annual Multi-trip,Europe,,
+Q0002149,C001607,2025-08-29,Life,True,Email,100000.0,,,,
+Q0002150,C001607,2025-12-08,Travel,True,Email,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002151,C001608,2025-05-08,Bike,True,Organic Search,,,,1.0,6300.0
+Q0002152,C001609,2025-05-26,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002153,C001610,2025-12-22,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002154,C001611,2025-08-21,Bike,True,Organic Search,,,,1.0,3200.0
+Q0002155,C001612,2025-05-30,Life,True,Paid Search,250000.0,,,,
+Q0002156,C001613,2025-05-30,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0002157,C001614,2025-03-16,Life,True,Email,200000.0,,,,
+Q0002158,C001614,2025-10-03,Travel,True,Email,,Annual Multi-trip,Europe,,
+Q0002159,C001615,2025-08-23,Bike,True,Paid Search,,,,1.0,5000.0
+Q0002160,C001615,2025-07-01,Life,True,Paid Search,50000.0,,,,
+Q0002161,C001615,2025-09-25,Life,True,Paid Search,300000.0,,,,
+Q0002162,C001616,2025-05-13,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002163,C001617,2025-10-18,Life,True,Paid Search,50000.0,,,,
+Q0002164,C001617,2025-05-28,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0002165,C001618,2025-10-25,Life,True,Organic Search,200000.0,,,,
+Q0002166,C001619,2025-04-07,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002167,C001619,2025-10-18,Life,True,Referral,300000.0,,,,
+Q0002168,C001620,2025-09-09,Life,True,Organic Search,100000.0,,,,
+Q0002169,C001621,2025-03-27,Travel,False,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0002170,C001621,2025-11-21,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002171,C001622,2025-03-07,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0002172,C001623,2025-11-20,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0002173,C001624,2025-06-01,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0002174,C001625,2025-05-29,Bike,True,Organic Search,,,,2.0,3200.0
+Q0002175,C001626,2025-10-12,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0002176,C001627,2025-12-03,Life,True,Organic Search,300000.0,,,,
+Q0002177,C001628,2025-09-05,Travel,False,Organic Search,,Single Trip,Europe,,
+Q0002178,C001628,2025-05-18,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002179,C001628,2025-10-16,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0002180,C001629,2025-03-24,Life,False,Direct,100000.0,,,,
+Q0002181,C001630,2025-11-19,Bike,True,Organic Search,,,,2.0,2000.0
+Q0002182,C001631,2025-02-19,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0002183,C001632,2025-09-09,Travel,False,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002184,C001633,2025-10-07,Life,True,Affiliate,100000.0,,,,
+Q0002185,C001634,2025-01-16,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002186,C001635,2025-03-21,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0002187,C001636,2025-12-28,Travel,False,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0002188,C001636,2025-11-22,Bike,True,Organic Search,,,,2.0,5800.0
+Q0002189,C001637,2025-05-18,Bike,True,Email,,,,1.0,4100.0
+Q0002190,C001638,2025-06-25,Life,True,Organic Search,250000.0,,,,
+Q0002191,C001638,2025-11-06,Life,False,Organic Search,100000.0,,,,
+Q0002192,C001639,2025-02-05,Bike,True,Organic Search,,,,1.0,5300.0
+Q0002193,C001640,2025-12-16,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002194,C001641,2025-04-06,Life,True,Organic Search,50000.0,,,,
+Q0002195,C001642,2025-04-18,Life,True,Organic Search,200000.0,,,,
+Q0002196,C001643,2025-05-10,Bike,True,Organic Search,,,,3.0,6300.0
+Q0002197,C001644,2025-09-25,Life,True,Direct,200000.0,,,,
+Q0002198,C001644,2025-04-07,Life,True,Direct,150000.0,,,,
+Q0002199,C001645,2025-04-26,Life,True,Direct,100000.0,,,,
+Q0002200,C001646,2025-01-23,Bike,True,Direct,,,,1.0,2200.0
+Q0002201,C001647,2025-12-16,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0002202,C001648,2025-03-08,Life,True,Paid Search,50000.0,,,,
+Q0002203,C001649,2025-09-22,Life,True,Referral,300000.0,,,,
+Q0002204,C001650,2025-04-15,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002205,C001650,2025-08-24,Life,True,Affiliate,100000.0,,,,
+Q0002206,C001651,2025-05-13,Travel,True,Affiliate,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002207,C001652,2025-09-04,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002208,C001652,2025-05-05,Bike,True,Affiliate,,,,2.0,3000.0
+Q0002209,C001652,2025-04-06,Bike,True,Affiliate,,,,3.0,6500.0
+Q0002210,C001653,2025-11-30,Life,True,Paid Search,100000.0,,,,
+Q0002211,C001653,2025-02-17,Life,True,Paid Search,250000.0,,,,
+Q0002212,C001654,2025-01-11,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0002213,C001655,2025-11-05,Life,True,Paid Search,300000.0,,,,
+Q0002214,C001655,2025-11-10,Life,True,Paid Search,50000.0,,,,
+Q0002215,C001656,2025-02-11,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0002216,C001657,2025-04-04,Life,True,Paid Search,200000.0,,,,
+Q0002217,C001658,2025-02-10,Bike,True,Organic Search,,,,2.0,5600.0
+Q0002218,C001659,2025-07-14,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0002219,C001660,2025-10-12,Life,True,Email,100000.0,,,,
+Q0002220,C001661,2025-08-03,Bike,True,Affiliate,,,,1.0,4600.0
+Q0002221,C001661,2025-06-28,Travel,True,Affiliate,,Single Trip,Worldwide,,
+Q0002222,C001662,2025-02-08,Travel,False,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002223,C001663,2025-11-28,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002224,C001663,2025-12-27,Life,True,Paid Search,300000.0,,,,
+Q0002225,C001664,2025-04-22,Life,True,Direct,50000.0,,,,
+Q0002226,C001664,2025-05-09,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0002227,C001665,2025-11-24,Travel,True,Referral,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002228,C001665,2025-07-09,Life,True,Referral,150000.0,,,,
+Q0002229,C001666,2025-12-05,Travel,True,Direct,,Single Trip,Europe,,
+Q0002230,C001666,2025-06-04,Travel,True,Direct,,Backpacker,Worldwide,,
+Q0002231,C001666,2025-02-14,Travel,True,Direct,,Single Trip,Europe,,
+Q0002232,C001667,2025-11-30,Bike,True,Direct,,,,1.0,6600.0
+Q0002233,C001668,2025-09-22,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0002234,C001668,2025-10-09,Bike,True,Paid Search,,,,2.0,4900.0
+Q0002235,C001669,2025-07-13,Life,True,Paid Search,150000.0,,,,
+Q0002236,C001670,2025-08-04,Travel,True,Affiliate,,Backpacker,Europe,,
+Q0002237,C001671,2025-07-18,Life,True,Email,100000.0,,,,
+Q0002238,C001672,2025-10-01,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0002239,C001672,2025-04-28,Life,True,Paid Search,250000.0,,,,
+Q0002240,C001673,2025-06-04,Travel,False,Paid Search,,Single Trip,Worldwide,,
+Q0002241,C001673,2025-01-19,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0002242,C001674,2025-01-17,Travel,True,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0002243,C001675,2025-02-28,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0002244,C001675,2025-10-19,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0002245,C001675,2025-04-04,Bike,True,Paid Search,,,,1.0,2600.0
+Q0002246,C001676,2025-12-28,Travel,True,Email,,Annual Multi-trip,Europe,,
+Q0002247,C001677,2025-11-26,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0002248,C001678,2025-06-14,Life,True,Paid Search,200000.0,,,,
+Q0002249,C001679,2025-07-07,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0002250,C001680,2025-06-01,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0002251,C001680,2025-06-16,Bike,True,Paid Search,,,,4.0,2700.0
+Q0002252,C001681,2025-10-12,Life,True,Organic Search,50000.0,,,,
+Q0002253,C001681,2025-06-02,Bike,False,Organic Search,,,,1.0,2800.0
+Q0002254,C001682,2025-05-26,Life,True,Direct,300000.0,,,,
+Q0002255,C001683,2025-06-26,Bike,True,Affiliate,,,,2.0,6900.0
+Q0002256,C001684,2025-04-01,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002257,C001685,2025-01-11,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002258,C001686,2025-03-03,Life,True,Affiliate,100000.0,,,,
+Q0002259,C001686,2025-07-16,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0002260,C001687,2025-03-31,Life,True,Affiliate,50000.0,,,,
+Q0002261,C001687,2025-09-22,Life,True,Affiliate,300000.0,,,,
+Q0002262,C001688,2025-11-26,Bike,True,Organic Search,,,,1.0,4400.0
+Q0002263,C001689,2025-05-23,Bike,True,Direct,,,,1.0,5800.0
+Q0002264,C001690,2025-01-30,Travel,True,Direct,,Annual Multi-trip,Worldwide,,
+Q0002265,C001690,2025-02-08,Bike,True,Direct,,,,1.0,1200.0
+Q0002266,C001691,2025-09-29,Travel,True,Affiliate,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002267,C001691,2025-07-13,Bike,True,Affiliate,,,,1.0,3000.0
+Q0002268,C001692,2025-08-31,Life,True,Organic Search,200000.0,,,,
+Q0002269,C001693,2025-08-04,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0002270,C001694,2025-07-11,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0002271,C001695,2025-07-09,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002272,C001696,2025-09-19,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002273,C001697,2025-10-12,Life,True,Affiliate,200000.0,,,,
+Q0002274,C001698,2025-12-21,Life,False,Organic Search,50000.0,,,,
+Q0002275,C001699,2025-03-29,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0002276,C001700,2025-01-16,Travel,True,Email,,Annual Multi-trip,Europe,,
+Q0002277,C001701,2025-06-26,Life,False,Paid Search,200000.0,,,,
+Q0002278,C001701,2025-06-18,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002279,C001702,2025-11-27,Life,True,Paid Search,300000.0,,,,
+Q0002280,C001703,2025-07-01,Travel,True,Direct,,Single Trip,Europe,,
+Q0002281,C001704,2025-08-11,Life,True,Organic Search,150000.0,,,,
+Q0002282,C001705,2025-09-26,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002283,C001706,2025-11-21,Life,True,Direct,300000.0,,,,
+Q0002284,C001707,2025-10-19,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0002285,C001708,2025-03-26,Life,True,Paid Search,50000.0,,,,
+Q0002286,C001709,2025-06-30,Bike,True,Organic Search,,,,1.0,3800.0
+Q0002287,C001709,2025-06-20,Bike,True,Organic Search,,,,1.0,3200.0
+Q0002288,C001710,2025-04-13,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0002289,C001710,2025-08-02,Travel,True,Affiliate,,Annual Multi-trip,Europe,,
+Q0002290,C001711,2025-11-02,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002291,C001711,2025-01-28,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0002292,C001712,2025-11-10,Life,True,Affiliate,50000.0,,,,
+Q0002293,C001712,2025-04-22,Travel,False,Affiliate,,Annual Multi-trip,Europe,,
+Q0002294,C001713,2025-01-07,Bike,True,Paid Search,,,,1.0,1200.0
+Q0002295,C001714,2025-12-11,Travel,True,Direct,,Annual Multi-trip,Europe,,
+Q0002296,C001715,2025-04-23,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0002297,C001716,2025-10-11,Life,True,Organic Search,200000.0,,,,
+Q0002298,C001717,2025-11-20,Life,True,Direct,200000.0,,,,
+Q0002299,C001717,2025-10-27,Life,True,Direct,250000.0,,,,
+Q0002300,C001718,2025-05-26,Life,True,Affiliate,250000.0,,,,
+Q0002301,C001719,2025-06-24,Life,True,Organic Search,250000.0,,,,
+Q0002302,C001720,2025-09-29,Life,True,Paid Search,250000.0,,,,
+Q0002303,C001720,2025-10-22,Life,True,Paid Search,50000.0,,,,
+Q0002304,C001721,2025-10-10,Life,True,Paid Search,50000.0,,,,
+Q0002305,C001722,2025-10-08,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002306,C001723,2025-04-14,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0002307,C001724,2025-02-21,Bike,True,Organic Search,,,,1.0,6000.0
+Q0002308,C001724,2025-12-15,Bike,True,Organic Search,,,,1.0,3700.0
+Q0002309,C001725,2025-09-22,Travel,True,Paid Search,,Backpacker,Worldwide,,
+Q0002310,C001726,2025-05-23,Travel,True,Organic Search,,Backpacker,Europe,,
+Q0002311,C001726,2025-02-09,Life,True,Organic Search,200000.0,,,,
+Q0002312,C001727,2025-05-21,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002313,C001728,2025-03-11,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002314,C001729,2025-07-11,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0002315,C001730,2025-10-29,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002316,C001731,2025-06-07,Bike,True,Referral,,,,1.0,6200.0
+Q0002317,C001732,2025-05-06,Life,True,Paid Search,300000.0,,,,
+Q0002318,C001733,2025-04-19,Bike,True,Affiliate,,,,2.0,1000.0
+Q0002319,C001733,2025-04-28,Life,True,Affiliate,200000.0,,,,
+Q0002320,C001734,2025-09-11,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002321,C001734,2025-05-16,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002322,C001735,2025-03-03,Life,True,Paid Search,100000.0,,,,
+Q0002323,C001736,2025-12-03,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002324,C001737,2025-01-30,Travel,True,Paid Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0002325,C001738,2025-05-17,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0002326,C001739,2025-05-01,Bike,True,Affiliate,,,,1.0,2100.0
+Q0002327,C001740,2025-06-09,Travel,True,Direct,,Single Trip,Europe,,
+Q0002328,C001740,2025-02-07,Bike,True,Direct,,,,2.0,1700.0
+Q0002329,C001741,2025-11-08,Life,True,Direct,250000.0,,,,
+Q0002330,C001742,2025-04-19,Life,True,Organic Search,200000.0,,,,
+Q0002331,C001743,2025-02-25,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0002332,C001743,2025-12-23,Life,True,Organic Search,250000.0,,,,
+Q0002333,C001744,2025-07-17,Life,True,Affiliate,50000.0,,,,
+Q0002334,C001745,2025-11-08,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0002335,C001745,2025-05-03,Travel,True,Organic Search,,Annual Multi-trip,Europe,,
+Q0002336,C001746,2025-05-12,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002337,C001746,2025-08-26,Bike,True,Organic Search,,,,1.0,1200.0
+Q0002338,C001747,2025-10-11,Travel,False,Email,,Single Trip,Worldwide,,
+Q0002339,C001747,2025-11-23,Bike,True,Email,,,,1.0,1000.0
+Q0002340,C001748,2025-01-10,Bike,True,Email,,,,1.0,3900.0
+Q0002341,C001749,2025-02-01,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002342,C001750,2025-08-14,Bike,True,Paid Search,,,,1.0,6300.0
+Q0002343,C001750,2025-08-18,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0002344,C001750,2025-10-24,Bike,False,Paid Search,,,,2.0,6200.0
+Q0002345,C001751,2025-07-08,Life,False,Affiliate,250000.0,,,,
+Q0002346,C001752,2025-03-21,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002347,C001753,2025-01-21,Life,True,Paid Search,150000.0,,,,
+Q0002348,C001754,2025-03-08,Travel,True,Paid Search,,Backpacker,Worldwide,,
+Q0002349,C001754,2025-11-18,Travel,False,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0002350,C001755,2025-08-18,Life,True,Referral,50000.0,,,,
+Q0002351,C001755,2025-09-20,Travel,True,Referral,,Single Trip,Europe,,
+Q0002352,C001756,2025-11-15,Bike,True,Referral,,,,1.0,4700.0
+Q0002353,C001756,2025-11-10,Travel,True,Referral,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002354,C001757,2025-07-23,Travel,False,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002355,C001758,2025-11-22,Life,False,Organic Search,200000.0,,,,
+Q0002356,C001759,2025-01-24,Travel,True,Paid Search,,Single Trip,Europe,,
+Q0002357,C001760,2025-03-18,Life,True,Organic Search,50000.0,,,,
+Q0002358,C001760,2025-12-22,Bike,True,Organic Search,,,,3.0,2400.0
+Q0002359,C001761,2025-09-10,Life,True,Referral,50000.0,,,,
+Q0002360,C001762,2025-06-09,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002361,C001763,2025-06-26,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002362,C001764,2025-03-09,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0002363,C001764,2025-03-24,Bike,True,Affiliate,,,,3.0,2200.0
+Q0002364,C001764,2025-04-13,Bike,True,Affiliate,,,,1.0,4300.0
+Q0002365,C001765,2025-04-05,Life,True,Paid Search,250000.0,,,,
+Q0002366,C001765,2025-07-06,Bike,True,Paid Search,,,,1.0,2100.0
+Q0002367,C001765,2025-06-25,Bike,True,Paid Search,,,,2.0,4700.0
+Q0002368,C001766,2025-06-21,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0002369,C001767,2025-09-26,Life,True,Organic Search,250000.0,,,,
+Q0002370,C001768,2025-12-07,Bike,True,Affiliate,,,,1.0,5000.0
+Q0002371,C001769,2025-03-27,Travel,True,Organic Search,,Backpacker,Europe,,
+Q0002372,C001770,2025-08-29,Travel,True,Organic Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002373,C001771,2025-12-23,Travel,True,Paid Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002374,C001772,2025-02-16,Travel,False,Organic Search,,Annual Multi-trip,Europe,,
+Q0002375,C001773,2025-06-25,Bike,False,Direct,,,,1.0,3300.0
+Q0002376,C001774,2025-03-20,Bike,True,Organic Search,,,,2.0,5300.0
+Q0002377,C001774,2025-07-14,Travel,True,Organic Search,,Backpacker,Worldwide,,
+Q0002378,C001775,2025-03-08,Travel,True,Organic Search,,Single Trip,Europe,,
+Q0002379,C001776,2025-05-29,Life,True,Affiliate,250000.0,,,,
+Q0002380,C001776,2025-06-18,Travel,True,Affiliate,,Single Trip,Europe,,
+Q0002381,C001777,2025-08-18,Travel,True,Organic Search,,Annual Multi-trip,Worldwide,,
+Q0002382,C001778,2025-08-08,Bike,True,Direct,,,,1.0,5300.0
+Q0002383,C001778,2025-02-13,Travel,True,Direct,,Single Trip,Worldwide,,
+Q0002384,C001779,2025-02-10,Bike,True,Affiliate,,,,2.0,3900.0
+Q0002385,C001780,2025-08-24,Life,True,Organic Search,100000.0,,,,
+Q0002386,C001781,2025-08-04,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0002387,C001782,2025-01-08,Travel,True,Organic Search,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002388,C001783,2025-04-20,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0002389,C001783,2025-09-10,Travel,True,Paid Search,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002390,C001783,2025-03-22,Life,True,Paid Search,200000.0,,,,
+Q0002391,C001784,2025-11-01,Life,True,Organic Search,300000.0,,,,
+Q0002392,C001785,2025-05-07,Bike,True,Affiliate,,,,2.0,4500.0
+Q0002393,C001785,2025-10-20,Life,True,Affiliate,100000.0,,,,
+Q0002394,C001786,2025-03-07,Life,False,Direct,50000.0,,,,
+Q0002395,C001786,2025-06-09,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002396,C001787,2025-10-26,Travel,True,Paid Search,,Single Trip,Worldwide,,
+Q0002397,C001787,2025-10-08,Travel,True,Paid Search,,Annual Multi-trip,Europe,,
+Q0002398,C001788,2025-10-31,Travel,True,Email,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002399,C001789,2025-04-18,Travel,False,Paid Search,,Annual Multi-trip,Worldwide,,
+Q0002400,C001790,2025-08-29,Travel,True,Referral,,Single Trip,Europe,,
+Q0002401,C001791,2025-02-16,Bike,True,Affiliate,,,,2.0,5300.0
+Q0002402,C001792,2025-08-31,Travel,True,Referral,,Annual Multi-trip,Worldwide,,
+Q0002403,C001793,2025-06-04,Bike,True,Referral,,,,1.0,2700.0
+Q0002404,C001794,2025-04-19,Bike,False,Email,,,,1.0,4500.0
+Q0002405,C001795,2025-05-20,Travel,True,Organic Search,,Single Trip,Worldwide,,
+Q0002406,C001795,2025-10-04,Travel,True,Organic Search,,Backpacker,Worldwide excluding USA/Canada,,
+Q0002407,C001796,2025-01-26,Travel,True,Affiliate,,Annual Multi-trip,Worldwide,,
+Q0002408,C001797,2025-10-11,Bike,True,Affiliate,,,,1.0,2500.0
+Q0002409,C001798,2025-11-05,Travel,True,Direct,,Single Trip,Worldwide excluding USA/Canada,,
+Q0002410,C001798,2025-09-15,Travel,True,Direct,,Annual Multi-trip,Worldwide excluding USA/Canada,,
+Q0002411,C001798,2025-09-27,Life,True,Direct,250000.0,,,,
+Q0002412,C001799,2025-12-17,Travel,False,Organic Search,,Annual Multi-trip,Europe,,
+Q0002413,C001800,2025-01-16,Travel,False,Email,,Annual Multi-trip,Europe,,
